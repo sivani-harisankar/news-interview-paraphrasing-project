@@ -8,11 +8,11 @@ This repository replicates part of
 
 and extends it in three ways:
 
-1. **Replication** of the DeBERTa-v3-large token classifiers (ALL and AGGREGATED) on the authors' test set, and of GPT-4 in-context learning. [Replication of GPT-4 ICL: describe in one line.]
+1. **Replication** of the DeBERTa-v3-large token classifiers (ALL and AGGREGATED) on the authors' test set, and of GPT-4 in-context learning. 
 2. **New data**: an existing podcast transcript (Joe Rogan with Elon Musk) and a transcript I constructed (Barack Obama on *Late Night with Conan O'Brien*), both annotated by me.
 3. **LLM-as-judge** evaluation of the classifier's predictions on the new data.
 
-The report is at [link or "submitted separately"].
+The report is submitted separately.
 
 ## Repository layout
 
@@ -37,7 +37,7 @@ outputs/
 I ran everything on Windows, CPU only, with Python 3.11.9 in a virtual environment.
 
 1. Download the authors' repository (not included here) from
-   https://github.com/nlpsoc/Paraphrases-in-News-Interviews [downloaded on DATE as a ZIP] and unzip it.
+   https://github.com/nlpsoc/Paraphrases-in-News-Interviews and unzip it.
 2. Create and activate a virtual environment, then install PyTorch 2.2.1 (CPU build) first. The authors' `requirements.txt` pins `torch~=2.2.1+cpu`, which pip could not resolve, so comment that line out and install torch separately:
    ```
    python -m venv venv
@@ -168,11 +168,9 @@ Files in `outputs/judge/` were renamed after the runs. Scripts write the default
 ## Notes and limitations
 
 - I am the only annotator, so there is no agreement between humans. The Rogan sample is stratified (20 model-flagged and 20 unflagged pairs).
-- [After reviewing the judge's reasoning I changed N labels; the results above use my original labels.]
 - The change log lists the 460 automatic fixes to the Rogan transcript. Four more fixes were made by hand and are listed in `MANUAL_FIXES` in `clean_transcript.py`.
-- The authors' dataset (research-only licence) and code are not redistributed here; download them from the links above. The two transcripts are included for use in this assessment, from [source URLs].
-- [Optional: AI use statement, e.g. "I used Claude for help with scripts and drafting; I checked and ran all code and take responsibility for the outputs."]
+- The authors' dataset (research-only licence) and code are not redistributed here; download them from the links above. The two transcripts are included for use in this assessment, from https://www.kaggle.com/datasets/christianlillelund/joe-rogan-experience-1169-elon-musk and https://www.youtube.com/watch?v=3dZ2sYvpjCg.
 
 ## Author
 
-[Your name], [university], COMP8240, 2026 Session 2.
+Sivani Harisankar, Macquarie University, COMP8240, 2026 Session 2.
