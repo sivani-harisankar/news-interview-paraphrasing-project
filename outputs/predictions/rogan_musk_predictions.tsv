@@ -1,0 +1,881 @@
+﻿pair_id	time	guest_text	host_text	model_paraphrase	guest_highlight	host_highlight	max_prob_guest	max_prob_host	human_label
+0	[00:00:09]	You're welcome.	It's very good to meet you.	0			0.123	0.222	
+1	[00:00:11]	Nice to meet you too.	And thanks for not lighting this place on fire.	0			0.107	0.292	
+2	[00:00:13]	You're welcome. That's coming later.	How does one, just in the middle of doing all the things you do, create cars, rockets, all the stuff you're doing,constantly innovating, decide to just make a flamethrower? Where do you have the time for that?	0			0.093	0.121	
+3	[00:00:30]	Well, the flame, we didn't put a lot of time into the flamethrower. This was an off-the-cuff thing. It's sort of a hobby company called the Boring Company, which started out as a joke, and we decided to make a real, and dig a tunnel under LA. And then, other people asked us to dig tunnels. And so, we said yes in a few cases.	Now, who-	0			0.045	0.143	
+4	[00:01:02]	"And then, we have a merchandise section that only has one piece of merchandise at a time. And we started off with a cap. And there was only one thing on, which is BoringCompany.com/hat. That's it. And then, we sold the hats,limited edition. It just said, ""The Boring Company."" And then, I'm a big fan of Spaceballs, the movie. And in Spaceballs, Yogurt goes through the merchandising section, and they have a flamethrower in the merchandising section of Spaceballs. And, like, the kids love that one.That's the line when he pulls up the flamethrower. It's like, ""We should do a flamethrower."" So, we-"	"Does anybody tell you no? Does anybody go, ""Elon, maybe for yourself, but selling a flamethrower, the liabilities, all the people you're selling this device to, what kind of unhinged people are going to be buying a flamethrower in the first place? Do we really want to connect ourselves to all these potential arsonists? https://sonix.ai/"	0			0.465	0.183	
+5	[00:02:11]	"Yeah, it's a terrible idea. It's terrible. Don't buy one. I said, ""Don't buy this flamethrower. Don't buy it. Don't buy it.""That's what I said, but, still, people bought it."	Yeah.	0	what I said,		0.598	0.048	
+6	[00:02:23]	There's nothing I can do to stop them. I did not stop them.	You build it, they will come.	1	nothing I can do stop them.	they will come.	0.608	0.604	
+7	[00:02:25]	"I said, ""Don't buy it. It's a bad idea."""	How many did you make?	0			0.128	0.104	
+8	[00:02:30]	It's dangerous. It's wrong. Don't buy it. And, still, people bought it. I just couldn't stop them.	How many did you make?	0			0.16	0.112	
+9	[00:02:40]	20,000.00	And they're all gone?	0			0.151	0.277	
+10	[00:02:44]	In three -- I think, four days. They sold out in four days.	Are you going to do another run?	0			0.475	0.087	
+11	[00:02:53]	No.	No, that's it?	0			0.336	0.432	
+12	[00:02:54]	Yes.	Oh, I see.	0			0.118	0.265	
+13	[00:02:55]	"I said we're doing 20. We did 50,000. 50,000 hats, and that was a million dollars. I thought, ""Okay. Well, we'll sell something for 10 million,"" and that was 20,000 flamethrowers at $500 each. They went fast."	Yeah. How do you have the time? How do you have the time to do that though? I mean, I understand that it's not abig deal in terms of all the other things you do, but how do you have time to do anything? I just -- I don'tunderstand your time management skills.	0			0.05	0.204	
+14	[00:03:31]	I mean, I didn't spend much time on this flamethrower. I mean, to be totally frank, it's actually just a roofing torch with an air rifle cover. It's not a real flamethrower.	"Which is why it says, ""Not a flamethrower."""	1	It's not a real flamethrower.	"it says, ""Not a flamethrower."""	0.904	0.919	
+15	[00:03:45]	"That's why we were very clear, this is not actually a flamethrower. And, also, we are told that various countries would ban shipping of it, that they would ban flamethrowers. So, we're very -- To solve this problem for all of the customs agencies, we labeled it, ""Not a flamethrower."""	Did it work? Was it effective?	0	"this is not actually a flamethrower. ""Not a flamethrower."""		0.732	0.141	
+16	[00:04:06]	I don't know. I think so. Yes.	So far.	0			0.197	0.249	
+17	[00:04:07]	Yes.	Now, but you do-	0			0.188	0.247	
+18	[00:04:09]	Because they said you cannot ship a flamethrower.	But you do so many different things. Forget about the flamethrower. Like, how do you do all that other shit? Like,how does one decide to fix LA traffic by drilling holes in the ground? And who do you even approach with that? Like,when you have this idea, who do you talk to about that?	0			0.394	0.278	
+19	[00:04:27]	I mean, I'm not saying it's going to be successful or something, you know. It's not like asserting that it's going to be successful. But so far, I've lived in LA for 16 years, and the traffic has always been terrible. And so, I don't see any other, like, ideas for improving the traffic. So, in desperation, we're going to dig a tunnel. And maybe that tunnel will be successful and maybe it won't.	I'm listening.	0			0.21	0.133	
+20	[00:05:01]	Yeah. I'm not trying to convince you it's going to work.	And are the people that you-	0			0.1	0.114	
+21	[00:05:05]	I mean, or anyone.	But you are starting this though. This is actually a project you're starting to implement, right.	0		to	0.08	0.551	
+22	[00:05:11]	Yeah, yeah, no. We've dug about a mile. It's quite long. It takes a long time to walk it.	Yeah. Now, when you're doing this, what is the ultimate plan? The ultimate plan is to have these in major cities,and anywhere there's mass congestion, and just try it out in LA first?	0			0.07	0.123	
+23	[00:05:26]	"Yeah. It's in LA because I mostly live in LA. That's the reason. It's a terrible place to dig tunnels. This is one of the worst places to dig tunnels mostly because of the paperwork. You all think it's like, ""What about seismic?"" It's like,actually, both tunnels are very safe in earthquakes."	Why is that?	0			0.132	0.144	
+24	[00:05:46]	Earthquakes are essentially a surface phenomenon. It's like waves on the ocean. So, if there's a storm, you want tobe in a submarine. So, being in a tunnel is like being in a submarine. Now, the way the tunnel is constructed, it'sconstructed out of these interlocking segments, kind of like a snake. It's sort of like a snake exoskeleton with double seals. And so, even when the ground moves, the tunnel actually is able to shift along with the ground like an underground snake, and it doesn't crack or break. And it's extremely unlikely that both seals would be broken. And it's capable of taking five atmospheres of pressure. It's waterproof, methane-proof, well, gas-proof of any kind, and meets all California seismic requirements.	So, when you have this idea, who do you bring this to?	0			0.099	0.137	
+25	[00:06:50]	I'm not sure what you mean by that.	Well, you're implementing it. So, you're digging holes in the ground.	0			0.283	0.358	
+26	[00:06:54]	Yes.	Like, you have to bring it to someone that lets you do it.	0			0.066	0.218	
+27	[00:06:58]	"Yes. There are some engineers from SpaceX who thought it would be cool to do this. And the guy who runs it, like,day-to-day is Steve Davis. He's a longtime SpaceX engineer. He is great. So, Steve was like, ""I'd like to help make this happen."" I was like, ""Cool."" So, we started off with digging a hole in the ground. It's got like a permit for a pit,like pit, and just dug a big pit."	"And you have to tell them what the pit's for, or you just said, ""Hey, we just want to dig a hole."""	1	just dug a big pit.	"pit's ""Hey, we just want to dig a hole."""	0.628	0.739	
+28	[00:07:38]	I just filled up this form.	That's it?	0			0.341	0.42	
+29	[00:07:43]	Yeah, it was a pit in our parking lot.	But do you have to give them some sort of a blueprint for your ultimate idea? And do they have to approve it? Like,how does that work?	0			0.157	0.136	
+30	[00:07:51]	Now. We just started off with a pit.	Okay.	0			0.124	0.038	
+31	[00:07:52]	"A big pit. And, you know, it's not really -- You know, they don't really care about the existential nature of a pit. You just say like, ""I want a pit."""	Right.	0			0.447	0.033	
+32	[00:08:04]	"Yeah. And it's a hole in the ground. So then, we got the permit for the pit, and we dug the pit, and we dug it in, like,I don't know, three days, two to three days. Actually, I think two, 48 hours, something like that because Eric Carr said he was coming by for the Hype. He's going to attend the Hyperloop Competition. which is like a student competition we have for who can make the fastest part in the Hyperloop. And he was coming. The finals are going to be on Sunday afternoon. And so, Eric is coming by on Sunday afternoon. He's like, ""You know, we should dig this pit, and then like show Eric."" So, this was like Friday morning. And then, yeah. So, it'sabout a little over 48 hours later, we dug the pit. There was like wind 24/7. Oh, 24. 48 straight hours, something like that. And dug this big pit, and we're like, ""Show Eric the pit."" It's like, obviously, it's just a pit. But, hey, a hole in the ground is better than no hole in the ground."	And what did you tell him about this pit? I mean, you just said this is the beginning of this idea.	0			0.248	0.313	
+33	[00:09:13]	Yes.	We're going to build tunnels under LA to help funnel traffic better.	0			0.052	0.241	
+34	[00:09:17]	Yes.	"And they just go, ""Okay."" But we've joked around about this in the podcast before to like what if a person can go to the people that run the city and go, ""Hey, I want to dig some holes on the ground and put some tunnels in there,""and they go ""Oh, yeah, okay."""	0			0.124	0.2	
+35	[00:09:31]	Not the only one with a hole in the ground.	But it's a-	0			0.324	0.238	
+36	[00:09:33]	People dig holes in the ground all time.	But my question is, like, I know how much time you must be spending on your Tesla factory. I know how much time you must be spending on SpaceX. And yet, you still have time to dig holes under the ground in LA, and come up with these ideas, and then implement them. Like-	0	in		0.518	0.474	
+37	[00:09:49]	I have a million ideas.	I'm sure you do.	1	I have a million ideas.	sure you do.	0.606	0.63	
+38	[00:09:51]	There's no shortage of that. Yeah.	I just don't know how you manage your time. I don't understand it. It doesn't seem -- It doesn't even seem humanly possible.	0		It doesn't even seem humanly possible.	0.07	0.71	
+39	[00:10:00]	You know, I do, basically -- I think, people, like, don't totally understand what I do with my time. They think, like, I'ma business guy or something like that. Like my Wikipedia page says business magnate.	What would you call yourself?	0	guy business magnate.		0.621	0.148	
+40	[00:10:15]	A business magnet. Can someone please change my Wikipedia page to magnet?	They'll change it for you.	1	someone please change my Wikipedia page to magnet?	They'll change it for you.	0.695	0.654	
+41	[00:10:21]	Please change.	Right now, it's probably already changed.	0			0.41	0.451	
+42	[00:10:23]	It's locked. So, somebody has to be able to unlock it and change it to magnet.	Someone will get that.	1	somebody be able to	Someone will get that.	0.545	0.542	
+43	[00:10:26]	I want to be a magnet. No, I do engineering, you know, and manufacturing, and that kind of thing. That's like 80%or more of my time.	Ideas, and then the implementation of those ideas.	0			0.255	0.362	
+44	[00:10:40]	Those are like hardcore engineering, like-	Yeah.	0			0.154	0.052	
+45	[00:10:42]	... designing things, you know.	Right.	0			0.168	0.055	
+46	[00:10:45]	It's structural, mechanical, electrical, software, user interface, engineering, aerospace engineering.	But you must understand there's not a whole lot of human beings like you. You know that, right? You're an oddity-	0			0.047	0.435	
+47	[00:11:02]	Yes.	... to chimps like me.	0			0.126	0.219	
+48	[00:11:05]	We're all chimps.	Yeah, we are.	1	We're all chimps.	we are.	0.796	0.798	
+49	[00:11:06]	We're one notch. One notch above a chimp.	"Some of us are a little more confused. When I watch you doing all these things, I'm like, ""How does this motherfucker have all this time, and all this energy, and all these ideas, and then people just let him do these things?"""	0			0.182	0.131	
+50	[00:11:20]	Because I'm an alien.	That's what I've speculated.	0			0.208	0.208	
+51	[00:11:23]	Yes.	Then, I'm on record saying this in the past. I wonder.	0			0.083	0.196	
+52	[00:11:27]	It's true.	"I mean, if there was one? I was like, ""If there was, like, maybe an intelligent being that we created, you know, like some AI creature that's superior to people, maybe it's just hanging around with us for a little while like you've been doing, and then fix a bunch of shit."" I mean, that's the way."	0			0.129	0.142	
+53	[00:11:44]	I might have some mutation or something like that.	You might. Do you think you do?	1	I might have some mutation or	You might.	0.908	0.846	
+54	[00:11:47]	Probably.	"Do you wonder? Like, around normal people, you're like, ""Hmm."" Think, ""What's up with these boring dumb motherfuckers?"" ever?"	0			0.081	0.195	
+55	[00:11:56]	Not bad for a human, but, I think, I will not be able to hold a candle to AI.	You scared the shit out of me when you talk about AI between you and Sam Harris.	0	AI.		0.543	0.443	
+56	[00:12:09]	Oh sure.	I didn't consider it until I had a podcast with Sam once.	0			0.045	0.076	
+57	[00:12:12]	That's great.	"And he made me shit my pants. Talking about AI, I realized, like, ""Oh, this is a genie that once it's out of the bottle,you're never getting it back in."""	0			0.079	0.149	
+58	[00:12:22]	That's true.	There was a video that you tweeted about one of those Boston dynamic robots.	0			0.08	0.109	
+59	[00:12:29]	Yeah.	"And you're like, ""In the future, it will be moving so fast, you can't see it without a strobe light."""	0			0.051	0.17	
+60	[00:12:34]	Yeah. You can probably do that right now.	And no one's really paying attention too much other than people like you, or people that are really obsessed with technology, all these things are happening. And these robots are -- Do you see the one where PETA put out a statement that you shouldn't kick robots?	0			0.147	0.176	
+61	[00:12:52]	It's probably not wise.	For retribution.	0			0.243	0.264	
+62	[00:12:56]	Their memory is very good.	I bet it's really good.	1	memory is very good.	it's really good.	0.697	0.68	
+63	[00:12:59]	It's really good.	I bet it is.	1	really good.	it	0.546	0.55	
+64	[00:13:00]	Yes.	And getting better every day.	0			0.079	0.254	
+65	[00:13:02]	It's really good.	Are you honestly legitimately concerned about this? Are you -- Is, like, AI one of your main worries in regards to the future?	0			0.073	0.241	
+66	[00:13:16]	Yes. It's less of a worry than it used to be, mostly due to taking more of a fatalistic attitude.	"So, you used to have more hope, and you gave up some of it. And, now, you don't worry as much about AI. You'relike, ""This is just what it is."""	1	less of a worry than it used to be, taking more of a fatalistic attitude.	you used to have more hope, gave up some you don't worry as much	0.734	0.733	
+67	[00:13:39]	Pretty much. Yes, yes, yes.	Was that not? Yes but no.	0			0.191	0.187	
+68	[00:13:41]	It's not necessarily bad. It's just it's definitely going to be outside of human control.	Not necessarily bad, right?	1	It's not necessarily bad.	Not necessarily bad,	0.777	0.769	
+69	[00:13:53]	Yes. It's not necessarily bad. It's just outside of human control. Now, the thing that's going to be tricky here is thatit's going to be very tempting to use AI as a weapon. It's going to be very tempting. In fact, it will be used as a weapon. So, the on ramp to serious AI, the danger is going to be more humans using it against each other, I think,most likely. That will be the danger. Yeah.	How far do you think we are from something that can make its own mind up whether or not something's ethically or morally correct, or whether or not it wants to do something, or whether or not it wants to improve itself, or whether or not it wants to protect itself from people or from other AI? How far away are we from something that's really truly sentient?	0			0.091	0.255	
+70	[00:14:52]	Well, I mean, you could argue that any group of people, like a company is essentially a cybernetic collective of people and machines. That's what a company is. And then, there are different levels of complexity in the way these companies are formed. And then, there's a sort of like a collective AI in the Google, sort of, Search, Google Search,you know, where we're all sort of plugged in as like nodes on the network, like leaves on a big tree. And we're all feeding this network with our questions and answers. We're all collectively programming the AI. And Google Plus, all the humans that connect to it, are one giant cybernetic collective. This is also true of Facebook, and Twitter, and Instagram, and all the social networks. They're giant cybernetic collectives.	Humans and electronics all interfacing, and constantly now, constantly connected.	0		Humans and electronics all interfacing,	0.377	0.643	
+71	[00:16:11]	Yes, constantly.	One of the things that I've been thinking about a lot over the last few years is that one of the things that drives alot of people crazy is how many people are obsessed with materialism and getting the latest greatest thing. And I wonder how much of that is -- Well, a lot of it is most certainly fueling technology and innovation. And it almost seems like it's built into us. It's like what we like and what we want that we're fueling this thing that's constantly around us all the time. And it doesn't seem possible that people are going to pump the brakes. It doesn't seem possible at this stage where we're constantly expecting the newest cellphone, the latest Tesla update, the newest MacBook Pro.Everything has to be newer and better. And that's going to lead to some incredible point. And it seems like it's built into us. It almost seems like it's an instinct that we're working towards this, that we like it. Our job, just like the ants build the anthill, our job is to somehow know how fuel this.	0			0.094	0.274	
+72	[00:17:18]	Yes. I mean, I made this comment some years ago, but it feels like we are the biological boot loader for AI.Effectively, we are building it. And then, we're building progressively greater intelligence. And the percentage of intelligence that is not human is increasing. And, eventually, we will represent a very small percentage of intelligence. But the AI is informed strangely by the human limbic system. It is, in large part, our id writ large.	How so?	0			0.433	0.066	
+73	[00:18:05]	We mentioned all those things, the sort of primal drives. There's all of the things that we like, and hate, and fear.They're all there on the internet. They're a projection of our limbic system. That's true.	No, it makes sense. And the thinking of it as a -- I mean, thinking of corporations, and just thinking of just human beings communicating online through these social media networks in some sort of an organism that's a -- It's a cyborg. It's a combination. It's a combination of electronics and biology.	0			0.137	0.353	
+74	[00:18:53]	Yeah. This is -- In some measure, like, it's to the success of these online systems. It's sort of a function of how much limbic resonance they're able to achieve with people. The more limbic resonance, the more engagement.	Whereas, like one of the reasons why probably Instagram is more enticing than Twitter.	0			0.36	0.366	
+75	[00:19:21]	Limbic resonance.	Yeah. You get more images, more video.	0			0.369	0.267	
+76	[00:19:25]	Yes.	It's tweaking your system more.	0			0.077	0.256	
+77	[00:19:27]	Yes.	Do you worry or wonder, in fact, of what the next step is? I mean, a lot of you didn't see Twitter coming. You know,communicate with 140 characters or 280 now would be a thing that people would be interested in. Like it's going to excel. It's going to become more connected to us, right?	0			0.038	0.179	
+78	[00:19:49]	Yes. Things are getting more and more connected. They're, at this point, constrained by bandwidth. Our input/output is slow, particularly output. Output got worse with thumbs. You know, we used to have input with 10 fingers. Now, we have thumbs. But images are just, also, other way of communicating at high bandwidth. You take pictures and you send pictures to people. What sends, that communicates far more information than you can communicate with your thumb.	So, what happened with you where you decided, or you took on a more fatalistic attitude? Like, was there any specific thing, or was it just the inevitability of our future?	0			0.081	0.162	
+79	[00:20:38]	I try to convince people to slow down. Slow down AI to regulate AI. That's what's futile. I tried for years, and nobody listened.	This seems like a scene in a movie-	0			0.355	0.087	
+80	[00:20:52]	Nobody listened.	... where the the robots are going to fucking takeover. You're freaking me out. Nobody listened?	1	Nobody listened.	Nobody listened?	0.708	0.568	
+81	[00:20:57]	Nobody listened.	No one. Are people more inclined to listen today? It seems like an issue that's brought up more often over the last few years than it was maybe 5-10 years ago. It seemed like science fiction.	0	Nobody listened.		0.774	0.489	
+82	[00:21:10]	Maybe they will. So far, they haven't. I think, people don't -- Like, normally, the way that regulations work is very slow. it's very slow indeed. So, usually, it will be something, some new technology. It will cause damage or death.There will be an outcry. There will be an investigation. Years will pass. There will be some sort of insights committee. There will be rule making. Then, there will be oversight, absolutely, of regulations. This all takes many years. This is the normal course of things. If you look at, say, automotive regulations, how long did it take for seatbelts to be implemented, to be required?You know, the auto industry fought seatbelts, I think, for more than a decade. It successfully fought any regulations on seatbelts even though the numbers were extremely obvious. If you had seatbelts on, you would be far less likely to die or be seriously injured. It was unequivocal. And the industry fought this for years successfully. Eventually,after many, many people died, regulators insisted on seatbelts. This is a -- This time frame is not relevant to AI. Youcan't take 10 years from a point of which it's dangerous. It's too late.	And you feel like this is decades away or years away from being too late. If you have this fatalistic attitude, and you feel like it's going -- We're in an almost like a doomsday countdown.	1	It's too late.	is from too late.	0.577	0.608	
+83	[00:23:07]	It's not necessarily a doomsday countdown. It's a-	Out of control countdown?	1	It's not necessarily a doomsday countdown.	control	0.645	0.564	
+84	[00:23:12]	Out of control, yeah. People quote the singularity, and that's probably a good way to think about it. It's a singularity. It's hard to predict like a black hole, what happens past the event horizon.	Right. So, once it's implemented, it's very difficult because it would be able to-	1	hard to predict	very difficult	0.64	0.573	
+85	[00:23:26]	Once the genie is out of the bottle, what's going to happen?	Right. And it will be able to improve itself.	0	going		0.503	0.427	
+86	[00:23:32]	Yes.	That's where it gets spooky, right? The idea that it can do thousands of years of innovation very, very quickly.	0			0.048	0.226	
+87	[00:23:40]	Yeah.	And, then, it will be just ridiculous.	0			0.111	0.285	
+88	[00:23:44]	Ridiculous.	"We will be like this ridiculous biological shitting, pissing thing trying to stop the gods. ""No, stop. We're like living with a finite lifespan, and watching, you know, Norman Rockwell paintings."""	0			0.15	0.262	
+89	[00:23:59]	It could be terrible, and it could be great. It's not clear.	Right.	0			0.198	0.048	
+90	[00:24:04]	But one thing is for sure, we will not control it.	Do you think that it's likely that we will merge somehow or another with this sort of technology, and it'll augment what we are now, or do you think it will replace us?	0			0.2	0.214	
+91	[00:24:23]	Well, that's the scenario. The merge scenario with AI is the one that seems like probably the best. Like if-	For us?	0			0.225	0.155	
+92	[00:24:33]	Yes. Like if you can't beat it, join it. That's-	Yes, yeah.	0			0.196	0.094	
+93	[00:24:41]	You know. So, from a long-term existential standpoint, that's like the purpose of Neuralink is to create a high bandwidth interface to the brain such that we can be symbiotic with AI because we have a bandwidth problem. You just can't communicate through fingers. It's too slow.	And where's Neuralink at right now?	0			0.427	0.368	
+94	[00:25:13]	I think. we'll have something interesting to announce in a few months. That's, at least, an order of magnitude better than anything else. I think better than, probably, anyone thinks is possible.	How much can you talk about that right now?	0			0.111	0.16	
+95	[00:25:25]	I don't want to jump the gun on that.	But what's like the ultimate? What's the idea behind that? Like, what are you trying to accomplish with it? What would you like best case scenario? I think, best case scenario, we effectively merge with AI where AI serves as a tertiary cognition layer, where we'vegot the limbic system. Kind of the, you know, primitive brain essentially. You got the cortex. So, you're currently in a symbiotic relationship. Your cortex and limbic system are in a symbiotic relationship. And, generally, people like their cortex, and they like their limbic system. I haven't met anyone who wants to delete their limbic system or delete their cortex. Everybody seems to like both.	0			0.113	0.191	
+96	[00:26:12]	"And the cortex is mostly in service to the limbic system. People may think that the thinking part of themselves is in charge, but it's mostly their limbic system that's in charge. And the cortex is trying to make the limbic system happy. That's what most of that computing power is. It's launched towards, ""How can I make the limbic system happy?"" That's what it's trying to do. Now, if we do have a third layer, which is the AI extension of yourself, that is also symbiotic. And there's enough bandwidth between the cortex and the AI extension of yourself, such that the AI doesn't de facto separate. Then,that could be a good outcome. That could be quite a positive outcome for the future."	So, instead of replacing us, it will radically change our capabilities?	0			0.425	0.483	
+97	[00:27:08]	Yes. It will enable anyone who wants to have super human cognition, anyone who wants. This is not a matter of earning power because your earning power would be vastly greater after you do it. So, it's just like anyone who wants can just do it in theory. That's the theory. And if that's the case then, and let's say billions of people do it,then the outcome for humanity will be the sum of human will, the sum of billions of people's desire for the future.	That billions of people with enhanced cognitive ability?	1	have super human cognition,	That billions of people with enhanced cognitive ability?	0.675	0.816	
+98	[00:27:59]	Yes.	Radically enhanced?	0			0.115	0.308	
+99	[00:28:00]	Yes.	And which would be -- It -- But how much different than people today? Like if you had to explain it to a person whodidn't really understand what you're saying, like how much different are you talking about? When you say radically improved, like, what do you mean? You mean mind reading?	0			0.081	0.187	
+100	[00:28:19]	It will be difficult to really appreciate the difference. It's kind of like how much smarter are you with a phone or computer than without? You're vastly smarter actually. You know, you can answer any question. If you connect to the internet, you can answer any question pretty much instantly, any calculation, that your phone's memory is essentially perfect. You can remember flawlessly. Your phone can remember videos, pictures, everything perfectly.That's the- Your phone is already an extension of you. You're already a cyborg. You don't even -- What most people don'trealize, they are already a cyborg. That phone is an extension of yourself. It's just that the data rate, the rate at which -- The communication rate between you and the cybernetic extension of yourself, that is your phone and computer, is slow. It's very slow. And that is like a tiny straw of information flow between your biological self and your digital self. And we need to make that tiny straw like a giant river. A huge high band with the interface. It's an interface problem, data rate problem. It's all the data rate problem that I think we can hang on to human machine symbiosis through the long term. And then, people may decide that they want to retain their biological self or not. I think they'll probably choose to retain the biological self.	Versus some sort of Ray Kurzweil scenario where they download themselves into a computer?	0			0.453	0.297	
+101	[00:30:12]	You will be essentially snapshot ted into a computer at any time. If your biological self dies, you could probably just upload it to a new unit literally.	Pass that whiskey. We're getting crazy over here. This is getting ridiculous.	0			0.133	0.185	
+102	[00:30:27]	Down the rabbit hole.	Grab that sucker. Give me some of that. This is too freaky. See, if I was just talking-	0			0.305	0.083	
+103	[00:30:34]	I've been thinking about this for a long time, by the way.	I believe you. If I was talking to one -- Cheers, by the way.	0			0.215	0.196	
+104	[00:30:39]	Cheers. It is a great whiskey.	Thank you. I don't know where this came. Who brought this to us?	0			0.066	0.215	
+105	[00:30:47]	It's good.	... thanks.	0			0.151	0.078	
+106	[00:30:52]	It's good.	"Yeah, it is good. This is just inevitable. Again, going back to when you decided to have this fatalistic viewpoint. So,you weren't -- You tried to warn people. You talked about this pretty extensively. I've read several interviews where you talked about this. And then, you just sort of just said, ""Okay, it just is. Let's just-"" And, in a way, by communicating the potential for -- I mean, for sure, you're getting the warning out to some people."	0		is	0.494	0.507	
+107	[00:31:15]	"Yeah. Yeah. I mean, I was really going on the warning quite a lot. I was warning everyone I could. Yeah, I've met with Obama and just for one reason, like, ""Better watch out."""	Just talk about AI.	0			0.147	0.18	
+108	[00:31:33]	Yes.	And what did he say? So, what about Hillary? Worry about her first. Shh, everybody, quiet.	0			0.063	0.176	
+109	[00:31:39]	He listened. He certainly listened. I met with Congress. I met with -- I was at a meeting of all 50 governors and talked about just the AI danger. And I talked to everyone I could. No one seemed to realize where this was going.	Is it that, or do they just assume that someone smarter than them is already taking care of it? Because when people hear about something like AI, it's almost abstract. It's almost like it's so hard to wrap your head around it.	0			0.278	0.269	
+110	[00:32:18]	It is.	By the time it happens, it will be too late?	0			0.154	0.273	
+111	[00:32:22]	Yeah. I think, they didn't quite understand it, or didn't think it was near term, or not sure what to do about it. And I said, like, you know, an obvious thing to do is to just establish a committee, government committee, to gain insight. You know, before you oversight, before you do make regulations, you should like try to understand what'sgoing on. And then, you have an insight committee. Then, once they learn what's going on, you get up to speed.Then, they can make maybe some rules or proposed some rules. And that would be probably a safer way to go about things.	It seems -- I mean, I know that it's probably something that the government's supposed to handle, but it seems like I wouldn't want the -- I don't want the government to handle this.	0			0.302	0.169	
+112	[00:33:15]	Who do you want to handle this?	I want you to handle this.	1	Who do you want to handle this?	I want you to handle this.	0.707	0.721	
+113	[00:33:17]	Oh geez.	"Yeah. I feel like you're the one who could bring the bell better because if Mike Pence starts talking about AI, I'mlike, ""Shut up, bitch. You don't know anything about AI. Come on, man. He doesn't know what he's talking about.""That's just games."	0			0.048	0.162	
+114	[00:33:28]	I don't have the power to regulate other companies. I don't if I'm supposed to, but you know.	"Right, but maybe companies could agree. Maybe there could be some sort of a -- What I mean is we have agreements where you're not supposed to dump toxic waste into the ocean, you're not supposed to do certain things that could be terribly damaging, even though they would be profitable. Maybe this is one of those things. Maybe we should realize that you can't hit the switch on something that's going to be able to think for itself and make up its own mind as to whether or not it wants to survive or not, and whether or not it thinks you're a threat, or whether or not it thinks you're useless. Like, ""Why do I keep this dumb finite life form alive? Why? Why keep this thing around? It's just stupid. It just keeps polluting everything. It's shitting everywhere it goes, lighting everything on fire, and shooting at each other. Why would I keep this stupid thing alive? Because, sometimes, it makes good music, you know. Sometimes it makes great movies. Sometimes it makes beautiful art, and sometimes -- you know.Sometimes it's cool to hang out with. Like with my-"	0			0.138	0.304	
+115	[00:34:24]	Yes, for all those reasons.	Yeah. For us, those are great reasons.	1	for all those reasons.	those are great reasons.	0.755	0.7	
+116	[00:34:27]	Yes.	"But for anything objective standing outside that go, ""This is definitely a flawed system."" This is like if you went to the jungle and you watch these chimps engage in warfare and beat each other with wooden sticks."	0			0.048	0.132	
+117	[00:34:36]	Chimps are really mean.	They're fucking real mean.	1	Chimps are really mean.	They're fucking real mean.	0.884	0.828	
+118	[00:34:36]	They're fucking mean.	They're real mean.	1	They're fucking mean.	They're real mean.	0.85	0.866	
+119	[00:34:38]	I saw a movie, Chimpanzee. I thought it was going to be like some Disney thing. Like, holy cow.	What movie was that?	0			0.276	0.366	
+120	[00:34:43]	It's called Chimpanzee.	Is it a documentary?	0			0.222	0.185	
+121	[00:34:46]	"Yeah, yeah. It's kind of like a documentary. I was like, ""Damn, these chimps are mean."""	They're mean.	1	"these chimps are mean."""	They're mean.	0.85	0.886	
+122	[00:34:51]	Yeah.	Yeah.	0			0.448	0.346	
+123	[00:34:52]	They're cruel.	Yeah. They're calculated. Yeah.	1	They're cruel.	They're calculated.	0.788	0.799	
+124	[00:34:55]	Yeah.	They sneak up on each other and-	0			0.084	0.246	
+125	[00:34:58]	Like, I didn't realize chimps did calculated cruelty.	Yeah.	0			0.135	0.038	
+126	[00:35:02]	"I was pretty -- I left that meeting kinda like, ""This is dark."""	"Right. Well, we know better because we've advanced. But if we hadn't, we'd be like, ""Man, I don't want to fucking live in a house. I like the chimp ways, bro. Chimp ways to go. This is it, man, chimp life. You know, we got-"	0			0.172	0.369	
+127	[00:35:19]	Simple chimp life.	"Chimp life right now. But we, in a way, to the AI, might be like those chimps and like, ""These stupid fucks launching missiles out of drones, and shooting each other underwater."" Like we're crazy. We got torpedoes, and submarines,and fucking airplanes that drop nuclear bombs indiscriminately on cities. We're assholes."	1	life.	Chimp	0.565	0.574	
+128	[00:35:43]	Yeah.	"They might go, ""Why are they doing this?"" It might, like, look at our politics, look at what we do in terms of our food system, what kind of food we force down each other's throats. And they might go, ""These people are crazy. Theydon't even look after themselves."""	0			0.061	0.142	
+129	[00:35:59]	I don't know. I mean, how much do we think about chimps? Not much.	Very little.	1	Not much.	Very little.	0.769	0.794	
+130	[00:36:03]	It's like-	It's true.	0			0.478	0.48	
+131	[00:36:04]	... these chimps are at war. This like look -- It's like groups of chimps just attack each other, and they kill each other. They torture each other. That's pretty bad. They hunt monkeys. They're -- Like this is probably the most,but, you know. I mean, when was the last time you watched chimps?	Me?	0	war. chimps		0.542	0.04	
+132	[00:36:27]	Yeah.	All the time.	0			0.14	0.426	
+133	[00:36:28]	You do.	You're talking to the wrong guy.	0			0.229	0.354	
+134	[00:36:30]	Okay. Well, unfortunately, yeah.	This fucking podcast, dude, we're talking about chimps every episode.	0			0.039	0.218	
+135	[00:36:33]	It's chimp city? Okay.	People are laughing right now. Yeah, constantly. I'm obsessed.	0			0.214	0.171	
+136	[00:36:38]	Okay.	I saw that David Attenborough documentary on chimps where they were eating those colobus monkeys and ripping them apart.	0			0.038	0.186	
+137	[00:36:43]	Yes, this was rough.	I saw that many, many years ago.	0			0.191	0.147	
+138	[00:36:45]	It's gruesome.	It just changed how-	0			0.33	0.229	
+139	[00:36:46]	Gruesome.	"I go, ""Oh, this is why people are so crazy. We came from that thing."""	0			0.291	0.267	
+140	[00:36:50]	Yeah, exactly.	Yeah.	0			0.269	0.24	
+141	[00:36:52]	It is the colobus.	Yeah.	0			0.314	0.069	
+142	[00:36:54]	They got, like, better philosophy.	Yeah, they're like swingers.	1	They got, like, better philosophy.	they're like swingers.	0.793	0.826	
+143	[00:36:57]	Yeah.	Yeah, they really are. They seem to be way more -- Even than us, way more civilized.	0		be way way civilized.	0.121	0.57	
+144	[00:37:05]	They just seem to resolve everything with sex.	Yeah. The only rules they have is the mom won't bang the son. That's it.	0			0.374	0.331	
+145	[00:37:11]	Okay.	That's it. Mom won't bang her sons. They're good women.	0			0.079	0.198	
+146	[00:37:15]	Yeah.	Good women in the bonobo community. Everybody else is banging it out.	0			0.057	0.187	
+147	[00:37:19]	Yeah. I haven't seen the Bonobo Movie.	Well, they're disturbing just at a zoo of bonobos at the zoo.	0		bonobos	0.267	0.536	
+148	[00:37:27]	They're just constantly going.	Constantly fucking, yeah. It's all they do.	1	They're just constantly going.	Constantly fucking, It's all they do.	0.849	0.802	
+149	[00:37:30]	It's just one stuff.	Yeah. And they don't care, gay, straight, whatever. Let's just fuck. What's with these labels?	0			0.247	0.194	
+150	[00:37:38]	I haven't seen bonobos at a zoo. I just probably like-	I don't think I have either.	1	haven't seen	think I have either.	0.611	0.635	
+151	[00:37:41]	And not on the PJ section.	Yeah, I don't think they have them at many zoos. We've looked at it before too, didn't we?	0			0.37	0.359	
+152	[00:37:46]	It's probably pretty awkward.	Yeah. I think that's the thing. They don't like to keep regular chimps at zoos because bonobos are just always jacking off and-	0			0.139	0.144	
+153	[00:37:52]	Yeah.	Fucking it.	0			0.125	0.223	
+154	[00:37:58]	Yeah.	Probably separate them. Yeah.	0			0.21	0.342	
+155	[00:37:59]	I mean, how many are there in a cage, you know? I was like-	Right.	0			0.079	0.06	
+156	[00:38:01]	"... ""It's going to be pretty intense."""	Yeah, yeah. Yeah, we're a weird thing, you know. And I've often wondered whether or not we're -- you know, our ultimate goal is to give birth to some new thing. And that's why we're so obsessed with technology because it's not like this technology is really -- I mean, it's certainly enhancing our lives too in a certain way, but, I mean,ultimately, is it making people happier right now? Most technology I would say no. In fact, you and I were talking about social media before this about just not having Instagram on your phone, and not dealing, and you feel better.	0			0.119	0.124	
+157	[00:38:35]	Yes. I think, one of the issues with social media, it's been pointed out by many people, is that, I think, maybe particularly Instagram people look like they have a much better life than they really do.	Right.	0			0.07	0.053	
+158	[00:38:53]	So-	By design.	0			0.052	0.134	
+159	[00:38:55]	Yeah. People are posting pictures of when they're really happy. They're modifying those pictures to be better looking. Even if they're not modifying the pictures, they're, at least, selecting the pictures for the best lighting, the best angle. So, people basically seem they are way better looking than they basically really are.	Right.	0			0.223	0.062	
+160	[00:39:17]	"And they're way happier seeming than they really are. So, if you look at everyone on Instagram, you might think,""Man, there are all these happy beautiful people, and I'm not that good looking, and I am not happy. So, I must suck,"" you know. And that's going to make you feel sad; when, in fact, those people you think are super happy,actually, not that happy. Some of them are really depressed. They're very sad. Some of the happiest-seemingpeople are actually some of the saddest people in reality. And nobody looks good all the time. It doesn't matter who you are."	No. It's not even something you should want.	0			0.191	0.312	
+161	[00:40:00]	Yeah.	Why do you want to look great all the time?	0			0.057	0.17	
+162	[00:40:02]	"Yeah, exactly. So, I think things like that can make people quite sad just by comparison because you're sort of --People generally think of themselves relative to others. It's like we are constantly re-baselining our expectations.And you can see to say if you watch some show like Naked and Afraid, or, you know, if you just go and try living in the woods by yourself for a while, and you're like, ""The land that civilization is quite great."" People want to comeback to civilization pretty fast on Naked or Afraid."	"Wasn't there a Theodore quote, that ""Comparison is the thief of joy."""	0			0.342	0.471	
+163	[00:40:45]	Yeah. Happiness is reality minus expectations.	That's great too, but the comparison is the thief of joy really holds true to people. Is it?	0			0.497	0.485	
+164	[00:41:41]	A lot of emojies, smoggy emojies.	Yeah.	0			0.234	0.04	
+165	[00:41:43]	A lot of emojies.	My concern is not so much what Instagram is. It's that I didn't think that people had the need for this or the expectation for some sort of technology that allows them to constantly get love and adulation from strangers, and comments, and this ability to project this sort of distorted version of who you really are. But I worry about where it goes. Like what's the next one? What's the next one? Like, where's is it? Is it going to be augmented to some sort of a weird augmented or virtual sort of Instagram type situation where you're not going to want to live in this real world, you're going to want to interface with this sort of world that you've created through your social media page and some next level thing.	0			0.105	0.138	
+166	[00:42:25]	Yeah. Go live in the simulation.	Yeah, man.	0			0.286	0.13	
+167	[00:42:28]	In the simulation.	Some ready player one type shit that's real. That seems -- we have that HTC vibe here. I've only done it a couple times quite honestly because it kind of freaks me out.	0			0.175	0.228	
+168	[00:42:38]	Sure.	"My kids fucking love it, man. They love it. They love playing these weirdo games and walking around that headset on. But part of me watching them do it goes, ""Wow, I wonder if this is like the precursor."" Just sort of like if you look at that phone that Gordon Gekko had on the beach and you compare that-"	0			0.054	0.136	
+169	[00:42:56]	Yes, the big cell phone.	Yeah, you pair that to like a Galaxy Note 9.	0			0.304	0.319	
+170	[00:43:00]	Sure.	"Like how the fuck did that become that, right? And I wonder when I see this HTC Vibe, I'm like, ""What is that thing going to be 10 years from now when we're making fun of what it is now?"" I mean, how ingrained, and how connected and interconnected is this technology going to be in our life?"	0			0.054	0.263	
+171	[00:43:21]	It will be, at some point, indistinguishable from reality.	We will lose this. We'll lose this. Like you and I are just looking at each other through our eyes.	1	be, some indistinguishable	We will lose this. lose	0.581	0.755	
+172	[00:43:31]	Are we?	I see you. You see me, I think, I hope.	0			0.184	0.368	
+173	[00:43:33]	You think so?	I think you probably have regular eyes.	0			0.272	0.312	
+174	[00:43:36]	This could be some simulation.	It could. Do you entertain that?	1	This could be	It could.	0.691	0.688	
+175	[00:43:42]	Well, the argument for the simulation, I think, is quite strong because if you assume any improvements at all overtime, any improvement, 1%, 0.1%, just extend the time frame, make it a thousand years, a million years. The universe is 13.8 billion years old. Civilization, if you count it, if you're very generous, civilization is maybe 7000 or8000 years old if you count it from the first writing. This is nothing. This is nothing. So, if you assume any rate of improvement at all, then games will be indistinguishable from reality, or civilization will end. One of those two things will occur. Therefore, we are most likely in a simulation.	Or we're on our way to one, right?	1	we are most likely in a simulation.	we're way	0.619	0.518	
+176	[00:44:42]	Because we exist.	Well, not just because we exist.	1	Because we exist.	not just because we exist.	0.869	0.746	
+177	[00:44:42]	Pretty exactly.	We could most certainly be on the road. We could be on the road to that, right. it doesn't mean that it has to have already happened.	0		be the We could be on the road to	0.032	0.616	
+178	[00:44:50]	It could be in base reality. It could be in base reality.	We could be here now on our way to the road or on our way to the destination where this can never happen again,where we are completely ingrained in some sort of an artificial technology or some sort of a symbiotic relationship with the internet or the next level of sharing information. But, right now, we're not there yet. That's possible too,right? It's possible that a simulation is, one day, going to be inevitable, that we're going to have something that'sindistinguishable from regular reality, but maybe we're not there yet. That's also possible. Yes, it is.	0			0.356	0.388	
+179	[00:45:24]	Though we're not quite there yet. This is real. You want to touch that wood? It feel very real.	Maybe that's why everybody is like into like mason jars and shit.	0			0.158	0.213	
+180	[00:45:32]	Mason jars.	Suede shoes. People that like craft restaurants, and they want raw wood. Everyone wants the metal people. It seems like people are like longing toward some weird log cabin type nostalgia.	0			0.153	0.233	
+181	[00:45:44]	Sure, reality.	Yeah, like holding on. Like clinging.	0		holding on. clinging.	0.102	0.712	
+182	[00:45:48]	Sure.	"Dragging their nails through the man like, ""Don't take me yet."""	0			0.071	0.162	
+183	[00:45:52]	Yes.	"""I want to-"""	0			0.105	0.156	
+184	[00:45:53]	But then, people go get a mason jar with a wine stem or a handle. That's dark.	It makes me-	0			0.086	0.122	
+185	[00:46:00]	It makes me lose faith in humanity.	Mason jar, wine stem and a handle, they have those?	0			0.142	0.218	
+186	[00:46:03]	Yes.	The sturdy people. That's just assholes. That's like people make pet rocks.	0			0.067	0.27	
+187	[00:46:07]	Rough.	Right. Some people are just assholes. They take advantage of our generous nature.	0			0.199	0.22	
+188	[00:46:13]	It was made with the wine stem. Made with handle.	They made it that way?	1	It was made with the wine stem. Made with handle.	They made it that way?	0.772	0.723	
+189	[00:46:18]	Yes. They're manufactured like that.	So, the one way, they welded it on to the mason jar. You fuck.	1	manufactured like	welded it on	0.599	0.599	
+190	[00:46:19]	But that would be fine if there was like glued it on or something.	Right. There would be like-	1	there was like glued it on	There would be like-	0.714	0.717	
+191	[00:46:26]	But it was made that way.	Like trash shit. Oh, this is disgusting. Look at this. It is right there.	0			0.328	0.371	
+192	[00:46:30]	Yes, it's pretty harsh. Yup.	This is terrible. Yeah. That's like fake breasts that are designed to be hard. Like fake breasts from the '60s. It's like if you really long for the ones with ripples, here we go. Yeah. That's almost what that is.	0			0.261	0.238	
+193	[00:46:51]	Yeah.	What are you going to do, man? There's nothing, you know. There's nothing you can do to stop certain terrible ideas from propagating.	0			0.04	0.309	
+194	[00:46:59]	Yeah. Anyway, I don't want to sound like things are too dark because I think like you kind of have to be optimistic about the future. There's no point in being pessimistic. It's just too negative because it is-	It doesn't help.	0			0.278	0.36	
+195	[00:47:17]	It doesn't help, you know. I think you want to be -- I mean, my theory is like you'd rather be optimistic. I think, I'drather be optimistic and wrong than pessimistic and right.	Right.	0			0.193	0.081	
+196	[00:47:29]	At least, we're on that side.	Right, yeah.	0			0.097	0.086	
+197	[00:47:31]	Because if you're pessimistic, it's going to be miserable.	"Yeah. Yeah, nobody wants to be around you anyway if it's the end of the world. You're like, ""I fucking told you, bro."""	0			0.367	0.448	
+198	[00:47:41]	Yeah, exactly.	The world is ending. Yeah. It is way -- it is for all.	0		is	0.096	0.512	
+199	[00:47:45]	I did my part.	I mean-	0			0.196	0.083	
+200	[00:47:47]	Enjoy the journey.	Right. If you really want to get morose, I mean, it is what it is for all of us anyway. We're all going to go, unless something changes.	0			0.212	0.298	
+201	[00:47:56]	Yeah.	I mean, ultimately, you know, even if we just sort of existed as humans forever, we'd still eventually would be like the heat death of the universe-	0			0.043	0.161	
+202	[00:48:06]	Gazillion years from now.	Right, even if we get it past the sun.	0			0.427	0.291	
+203	[00:48:09]	Yeah.	If we figure out a way past the sun running out of juice.	0			0.047	0.155	
+204	[00:48:13]	Eventually, it's going to end. It's just a question of when.	Right.	0			0.197	0.053	
+205	[00:48:17]	So, it really is all about the journey.	Or transcendence from whatever we are now into something that doesn't worry about death.	0			0.198	0.321	
+206	[00:48:27]	The universe, as we know it, will dissipate into a fine mist of cold nothingness eventually.	And then, someone's going to bottle it and put a fragrance to it, sell it to French people in another dimension.	0			0.277	0.191	
+207	[00:48:42]	It's just a very long time.	Yeah.	0			0.237	0.049	
+208	[00:48:44]	So, I think it's really just about, how can we make it last longer?	Are you a proponent of the multi-universe's theory? Do you believe that there are many, many universes, and that even if this one fades out that there's other ones that are starting fresh right now, and there's an infinite number of them, and they're just constantly in a never-ending cycle of birth and death?	0			0.127	0.168	
+209	[00:49:08]	I think most likely. This is just about probability. There are many, many simulations. These simulations, we might as well call them reality, or we could call them the multiverse.	These simulations you believe are created like someone has manufactured-	1	are many, many simulations.	These simulations you believe are created	0.579	0.713	
+210	[00:49:23]	They're running on the substrate.	So-	0			0.269	0.019	
+211	[00:49:27]	That substrate is probably boring.	Boring?	1	substrate is probably boring.	Boring?	0.847	0.728	
+212	[00:49:30]	Mmhmm.	How so?	0			0.074	0.117	
+213	[00:49:30]	Well, when we create a simulation like a game or a movie, it's the distillation of what's interesting about life. You know, it takes a year to shoot an action movie. And then, that's all to slow down into two or three hours. So, let me tell you, if you've seen an action movie being filmed, it's freaking -- It's boring. It's super boring. It takes -- There'slike lots of takes. Everything's in a green screen. It looks pretty goofy. It doesn't look cool. But once you had the CGI, and have great editing, it's amazing. So, I think, most likely, if we're a simulation, it's really boring outside the simulation because why would you make simulation as boring? You'd make simulation way more interesting than base reality.	That is if this right now is a simulation.	0		is a simulation.	0.358	0.626	
+214	[00:50:29]	Yes.	And, ultimately, inevitably, as long as we don't die or get hit by a meteor, we're going to create some sort of simulation if we continue on the same technological path we're on right now.	0			0.04	0.191	
+215	[00:50:42]	Yes.	But we might not be there yet. So, it might not be a simulation here. But it most likely is you feel other places.	0			0.049	0.244	
+216	[00:50:52]	This notion of a place or where is-	Flawed?	0			0.201	0.119	
+217	[00:50:56]	Yes.	Flawed perception.	0			0.145	0.31	
+218	[00:50:58]	Like that if you have that, sort of, that vibe you have, which is for the -- that's was made by valve, and it's really valve that made it. HTC did the hardware, but it's really a valve thing.	Makers of Half-life.	0		Makers of Half-life.	0.31	0.567	
+219	[00:51:16]	Yes. Great company.	Great company.	1	Great company.	Great company.	0.579	0.603	
+220	[00:51:26]	When you're in that virtual reality, which is only going to get better, where are you? Where are you really?	Right.	0			0.233	0.048	
+221	[00:51:37]	You aren't anywhere.	Well, whereas-	0	anywhere.		0.524	0.102	
+222	[00:51:39]	You're in the computer.	You know, what defines where you are?	0			0.447	0.408	
+223	[00:51:42]	Exactly.	Right.	0			0.37	0.355	
+224	[00:51:43]	It's your perception.	Is it your perceptions or is it, you know, a scale that we have under your butt. You're right here. I've measured you.You're the same weight as you were when you left. But meanwhile, your experience is probably different-	1	your perception.	your perceptions	0.725	0.621	
+225	[00:51:53]	Why do you think you're where you are right now? You might not be.	I'll buck up a joint if you keep talking. Your man is just going to come in here. We might have to lock the door.	0			0.186	0.172	
+226	[00:52:02]	Right now, you think you're in a studio in LA.	That's what I heard.	0			0.1	0.232	
+227	[00:52:04]	You might be in a computer.	Man, I think about this all the time. Yeah, I mean, it's unquestionable that one day that will be the case, as long aswe keep going, as long as nothing interrupts us, and if we start from scratch, and, you know, we're single-celledorganisms all over again. And then, millions and millions of years later, we become the next thing that is us with creativity and the ability to change this environment. It's going to keep monkeying with things until it figures out away to change reality. To change -- I mean, almost like punch a hole through what is this thing into what what it wants it to be and create new things. And then, those new things will intersect with other people's new things, and there will be this ultimate pathway of infinite ideas and expression all through technology.	0			0.3	0.091	
+228	[00:52:56]	Yeah.	"And then, we're going to wonder like, ""Why are we here? What are we doing?"""	0			0.045	0.186	
+229	[00:53:03]	Let's find out.	Well-	0			0.252	0.025	
+230	[00:53:06]	I mean, I think we should take the actions, the set of actions that are most likely to make the future better.	Yes, right.	0			0.135	0.073	
+231	[00:53:15]	Yeah.	Right. Right. And then, we evaluate those actions to make sure that it's true.	0			0.087	0.265	
+232	[00:53:21]	Well, I think there's a movement to that. I mean, in terms of like a social movement. I think some of it's misguided,and some of it's exaggerated, and there's a lot of people that are fighting for their side out there. But it seems like the general trend of, like, social awareness seems to be much more heightened now than has ever been in any other time in history because of our ability to express ourselves instantaneously to each other through Facebook,or Twitter, or what have you. And that the trend is to abandon preconceived notions, abandon prejudice, abandon discrimination, and promote kindness and happiness as much as possible. Looking at this knife? Somebody gave itto me. Sorry. Yeah. What is it?	Fuck you. My friend, Donnie, brought this with him, and it just stayed here. I have a real samurai sword, if you want to play with that. I know you're into weapons. That's from the 1500s. Samurai's something on the table.	0			0.177	0.305	
+233	[00:54:15]	Good.	Yeah.	0			0.168	0.141	
+234	[00:54:17]	That's cool.	I'll grab it. Hold on. Yeah, that's legit samurai sword from an actual samurai from the 1500s. If you pull out that blade, that blade was made the old way where a master craftsman-	0			0.084	0.172	
+235	[00:54:39]	Folded metal?	Folded that metal and hammered it down over and over again over a long period of time, and honed that blade into what it is now. What's crazy is that more than 500 years later, that thing is still pristine. I mean, whoever took care of that and passed it down to the next person who took care of it, and you know until it got to the podcast room, it'spretty fucking crazy.	0			0.498	0.36	
+236	[00:55:03]	Yeah.	One day, someone's going to be looking at a Tesla like that. How many of these fucking backdoor they pop off sideways like a Lamborghini?	0			0.039	0.085	
+237	[00:55:17]	They should see what the Tesla can do. He didn't -- You should -- I'll show you how to once.	Well, I've driven one. I love them.	0			0.447	0.173	
+238	[00:55:24]	Yeah, but most people don't know what it can do.	In terms like ludicrous mode? In terms of like driving super fast and irresponsibly on public roads, is that whatyou're saying?	0			0.269	0.386	
+239	[00:55:32]	Any car can do that.	Yeah. What can it do that I need to know about?	0			0.435	0.32	
+240	[00:55:39]	I mean, the Model X can do this like ballet thing to the Trans-Siberian Orchestra. It's pretty cool.	Wait, it dances?	1	X can do this like ballet thing	it dances?	0.868	0.775	
+241	[00:55:45]	Yes.	Legitimate, like it goes around?	0			0.111	0.212	
+242	[00:55:46]	Yes.	Why would you program that into a car?	0			0.056	0.182	
+243	[00:55:54]	It seemed like fun.	"That's what I get about you. That's what's weird. Like when you showed up here, you were all smiles, and you pullout a fucking blowtorch and not a blowtorch, but I'm like, ""Look at this-"""	0			0.259	0.062	
+244	[00:56:04]	Not a flamethrower.	"Not a flamethrower. Like, ""He's having fun."""	1	Not a flamethrower.	Not a flamethrower.	0.845	0.823	
+245	[00:56:07]	I want to be clear, it's definitely not a flamethrower.	But you're having fun. Like this thing, you know, you program a car to do a ballet dance, you're having fun.	0			0.124	0.249	
+246	[00:56:18]	It's great.	But how do you have the time to do that? I don't understand why you're digging holes under the earth, and sending rockets into space, and powering people in Australia. Like how the fuck do you have time to make the car dance ballet?	0			0.051	0.186	
+247	[00:56:31]	"Well, I mean, in that case there were some engineers at Tesla that said, ""You know, what if we make this car dance and play music?"" I'm like, ""That sounds great. Please do it. Let's try to get it done in time for Christmas."" We did."	Is there a concern about someone just losing their mind and making it do that on the highway?	0			0.267	0.262	
+248	[00:56:55]	No, it won't do that.	What if it's in bumper-to-bumper traffic?	0			0.198	0.298	
+249	[00:56:58]	Nope.	No, it won't do it?	0		won't do	0.494	0.647	
+250	[00:57:00]	No. Actually, you have to sneeze drag.	Oh, sneeze drag.	1	you have to sneeze drag.	sneeze drag.	0.924	0.899	
+251	[00:57:02]	Yeah, that's why people don't know about it. But if you have the car-	Well-	0			0.246	0.035	
+252	[00:57:08]	It's like it could do lots of things, lots of things.	Once Reddit gets a hold of it, everyone's going to know already.	0			0.196	0.178	
+253	[00:57:13]	You just have to -- Everyone, if you search for it on the internet, you will find out.	They will find.	1	search you will find out.	They will find.	0.757	0.779	
+254	[00:57:17]	But people don't know that they should even search for it.	Well, they do now.	1	know	now.	0.545	0.564	
+255	[00:57:22]	Yes.	Yes.	0			0.306	0.234	
+256	[00:57:23]	"There's so many things about the Model X, and the Model S, and the Model 3 that people don't know about. We should probably do a video or something to explain it because I have close friends of mine and I say, ""Do you know the car can do this?"" and they're like, ""Nope."""	Do you want to do a video of that? Do you like the fact that some people don't know?	0		people don't know?	0.499	0.574	
+257	[00:57:46]	No, I think it's probably not. We should tell people.	Yeah, probably.	1	probably not.	Yeah, probably.	0.565	0.579	
+258	[00:57:50]	Yes.	That would help your product. I mean, it's not like you don't sell enough of them. You sell almost too many of them,right.	0			0.055	0.3	
+259	[00:58:00]	I mean, I think, a Tesla is the most fun thing you could possibly buy ever. That's what it's meant to be. Well, our goal is to make -- It's not exactly a car. It's actually a thing to maximize enjoyment, make as maximum fun.	Okay. Electronic, like big screen, laptop, ridiculous speed, handling, all that stuff.	0			0.386	0.255	
+260	[00:58:33]	Yeah.	Do you have a-	0			0.062	0.069	
+261	[00:58:34]	And we're going to put video games in it.	You are?	1	we're going to	You are?	0.721	0.706	
+262	[00:58:37]	Yeah.	Is that wise?	0			0.063	0.105	
+263	[00:58:39]	Well-	What kind of video games? Candy Crush?	0			0.021	0.194	
+264	[00:58:40]	You won't be able to drive while you're playing the video game. But, like, for example, we're just putting the Atari emulator, RAM emulator in it. So, we'll play a Missile Command, and Lunar Lander, and a bunch of other things.Yeah.	That sounds cool.	0			0.058	0.177	
+265	[00:58:54]	It's pretty fun.	I like that.	0			0.287	0.202	
+266	[00:58:55]	Yeah. I mean, probe the interface for Missile Command because it's too hard with the old trackball. So, there's a touch screen version of Missile Command. So, you have a chance.	Do you -- You have an old car, don't you? Don't you have like an old Jaguar?	0			0.123	0.173	
+267	[00:59:11]	Yeah. How did you know that? Let's pause for that. I have a '61 series 1 E-type Jaguar.	I love cars.	0			0.177	0.188	
+268	[00:59:18]	It's great.	Yeah, I love old cars.	0			0.255	0.264	
+269	[00:59:19]	The only-	That's one of the things-	0			0.266	0.319	
+270	[00:59:21]	Yeah, the only two gassing cars I have are that and an old -- like a Ford Model T that a friend of mine gave me.Those are my only two gasoline cars.	Is the Ford Model T all stock? Oh, there's your car. Look at that.	1	the only two gassing cars I have are a Ford Model T are my only two gasoline cars.	Ford Model T	0.888	0.554	
+271	[00:59:37]	I have the convertible.	That is a gorgeous car.	0			0.309	0.34	
+272	[00:59:42]	It's a soft car.	God, that's a good looking car.	0			0.363	0.407	
+273	[00:59:44]	Yes.	Is that yours?	0			0.087	0.112	
+274	[00:59:46]	That is -- It's not mine. It's extremely close to mine, but I don't have a front license plate on mine.	It's a beautiful car. They nailed it. That new type-	0			0.107	0.182	
+275	[00:59:55]	Mine looks like that.	God, they nailed that.	0			0.366	0.296	
+276	[00:59:57]	That's what mine looks like. Maybe it is mine.	There's certain iconic shapes.	0			0.399	0.31	
+277	[01:00:04]	Yes.	And there's something about those cars too. They're not as capable, not nearly as capable as like a Tesla, butthere's something really satisfying about the mechanical aspect of like feeling the steering, and the-	0			0.043	0.072	
+278	[01:00:16]	Yeah.	... grinding of the gears and the shifting. Something about those that's extremely satisfying even though they're not that competent. Like I have a 1993 Porsche 964. It's like lightweight. It's an RS America. It's not very fast. It's not like in comparison to a Tesla or anything like that. But the thing about it is like it's mechanical, you feel it.Everything's like-	0			0.073	0.206	
+279	[01:00:43]	Sure.	It's like it gives you this weird thrill, like you're on this clunky ride, and there's all this feedback. There's something to that.	0			0.069	0.109	
+280	[01:00:52]	Yeah. Yeah, absolutely. I mean, yeah. My E Type is like basically no electronics.	Yeah.	0			0.083	0.111	
+281	[01:01:00]	It's-	And so, you like that, but you also like electronics.	0			0.079	0.304	
+282	[01:01:03]	Yes.	Like Tesla Sup, it's like the far end of electronics.	0			0.108	0.302	
+283	[01:01:09]	Yes.	It drives itself.	0		It drives itself.	0.082	0.657	
+284	[01:01:12]	It's driving itself better every day.	Yeah.	0			0.144	0.053	
+285	[01:01:15]	We're about to release the software that will enable you to just turn it on, and it'll drive from highway on ramp, to highway exit, do lane changes, overtake other cars-	Jesus.	0			0.067	0.05	
+286	[01:01:25]	To go from one interchange to the next. If you get on, say, the 405, get off 300 miles later, and go through several highway interchanges, and just overtake other cars, and hook into the nav system, and then-.	And you're just meditating, om.	0			0.191	0.307	
+287	[01:01:44]	Yeah.	While your car is just traveling.	0			0.085	0.223	
+288	[01:01:45]	It's kind of eerie. It's kind of eerie.	What did you think when you saw that video of that dude fallen asleep behind the wheel? I'm sure you've seen it,the one in San Francisco. It's like right outside of San Jose. It's out cold, like this. And the cars an inch bumper-to-bumper in traffic moving along.	0			0.201	0.178	
+289	[01:02:01]	Yeah.	You've seen it, right?	0			0.071	0.175	
+290	[01:02:03]	Yeah, yeah. We just changed the software. Changed the software. That's, I think, an old video. We changed software. If you don't touch the wheel, it will gradually slow down, and put the emergency lights on, and wake you up.	Oh, that's hilarious.	0			0.235	0.13	
+291	[01:02:16]	Yeah.	That's hilarious.	0			0.115	0.198	
+292	[01:02:18]	Yeah.	Can you choose what voice wakes you up?	0			0.041	0.248	
+293	[01:02:21]	Well, it's sort of more of a -- It sort of honks.	It honks.	1	It sort of honks.	It honks.	0.868	0.784	
+294	[01:02:25]	Yeah.	"There should be like, ""Wake up, fuck face. You're endangering your fellow humans."""	0			0.04	0.123	
+295	[01:02:29]	We could gently wake you up with a sultry voice.	"That would be good like something with a southern accent. ""Hey, wake up."""	0	gently wake you up		0.598	0.371	
+296	[01:02:36]	Wake up, sunshine.	Hey, sweetie.	0			0.397	0.25	
+297	[01:02:38]	Exactly.	Why don't you wake up?	0			0.056	0.157	
+298	[01:02:39]	You could pick your-	Right, like-	0			0.308	0.143	
+299	[01:02:43]	Like whatever you want. Yes.	Yeah, I choose the Australian girl for Siri.	0			0.315	0.238	
+300	[01:02:45]	Yeah.	I like her voice.	0			0.069	0.201	
+301	[01:02:47]	Do you want it seductive?	It's my favorite. I like Australian.	0			0.245	0.222	
+302	[01:02:49]	What flavor? Do what you want it to be angry. It could be anything.	You want those Australian prison lady genes. Now, when you program something like that in, is this in response toa concern, or is it your own?	0			0.266	0.284	
+303	[01:03:01]	Yeah.	"Do look at it and go, ""Hey, they shouldn't just be able to fall asleep. Let's wake them up."""	0			0.053	0.152	
+304	[01:03:08]	Yeah, yeah. It's like -- You know, we're like -- Yeah, people are falling asleep. We've got to do something about that.	"Right. But when you first released it, you didn't consider it, right? You're just like, ""Well, no one's going to just sleep."""	0			0.365	0.271	
+305	[01:03:22]	People fall asleep in their cars all the time.	All the time.	1	People fall all the time.	All the time.	0.853	0.83	
+306	[01:03:25]	They crash.	Yeah, it's horrible.	0			0.356	0.424	
+307	[01:03:26]	At least, our car doesn't crash. That's better.	Yeah.	0			0.116	0.039	
+308	[01:03:28]	It's better not to crash.	Yeah.	0			0.194	0.056	
+309	[01:03:30]	Imagine if that guy had fallen asleep in a gasoline car, they do all the time.	For sure, yeah.	0			0.088	0.098	
+310	[01:03:35]	They would crash into somebody.	Yeah.	0			0.227	0.048	
+311	[01:03:37]	"And, in fact, the thing that really, you know, got me to -- It's like, ""Man, we better get a autopilot going and get it out."" A guy was in an early Tesla driving down the highway, and he fell asleep, and he ran over a cyclist, and killed him. I was like, ""Man, if we had autopilot, he might have fallen asleep, but, at least, he wouldn't run over that cyclist."""	So, how did you implement it? Like did you just use cameras and-	0			0.207	0.161	
+312	[01:04:08]	Yeah.	... programmed with the system, so that if it sees images, it slows down? And how much time do you get? And like-	0			0.054	0.188	
+313	[01:04:17]	Yeah.	Is the person who's in control of it allow the program to how fast it goes?	0			0.037	0.175	
+314	[01:04:22]	Yes. Yeah, you can program it to be more or less, like more conservative or like more aggressive driver. And you can say what speed you want it to -- What speed is okay.	I know you have ludicrous mode. Do you have douche bag mode?	0			0.345	0.308	
+315	[01:04:41]	Well, in-	It just cuts people off.	0			0.044	0.335	
+316	[01:04:43]	Well, for lane changes, it's tricky because if you're in like LA, like unless you're pretty aggressive, right, it's hard to change lanes sometimes.	You can't. It's hard to be Satnam. It's hard to be Namaste here in LA.	1	it's hard to lanes sometimes.	You can't. here	0.666	0.598	
+317	[01:04:57]	Yeah.	If you want to hit that Santa Monica Boulevard off in-	0			0.049	0.111	
+318	[01:05:01]	I mean, you've got to be a little pushy.	You've got to be a little pushy, yeah.	1	you've got to be a little pushy.	You've got to be a little pushy,	0.922	0.922	
+319	[01:05:04]	On the freeway.	Especially if you were angry.	0			0.217	0.191	
+320	[01:05:06]	Yes.	If you're a little angry, they don't want you, and they speed up.	0			0.057	0.134	
+321	[01:05:08]	Sometimes, yeah, I think, people like overall are pretty nice on the highway, even in LA, but sometimes they're not.	Do you think the Neuralink will help that quick?	0			0.031	0.154	
+322	[01:05:16]	Probably.	Everybody will be locked in together, this hive mind.	0			0.102	0.371	
+323	[01:05:20]	Tunnels will help it. We wouldn't have traffic.	That will help a lot.	1	Tunnels will	That will help a lot.	0.563	0.71	
+324	[01:05:24]	Yes.	How many of those can you put in there?	0			0.037	0.188	
+325	[01:05:27]	Nice thing about tunnels-	Are you thinking about for everybody?	0			0.093	0.119	
+326	[01:05:28]	Nice thing about tunnels is you can go 3D.	Oh right.	0			0.201	0.072	
+327	[01:05:31]	So, you can go many levels.	Right.	0			0.371	0.06	
+328	[01:05:33]	So-	Until you hit.	0			0.052	0.261	
+329	[01:05:34]	Yeah, but you go -- You can have 100 levels of with bombs.	Jesus Christ. I don't want to be on 99. That would be a negative 99 floors.	0			0.441	0.279	
+330	[01:05:46]	This is one of the fundamental things people don't appreciate about tunnels is that it's not like roads. The fundamental issue with roads is that you have a 2D transport system and a 3D living and workspace environment.So, you've got all these tall buildings or concentrated work environments. And then, you want to go into those like2D transport system with-	Hugely inefficient.	0	you have a 2D transport system and a 3D living and workspace environment.So, you've got all these tall buildings or concentrated work environments. like2D transport system		0.72	0.133	
+331	[01:06:09]	... pretty low density because cars are spaced out pretty far. And so, that, obviously, is not going to work. You'regoing to have traffic guaranteed. But if you can go 3D on your transport system, then you can solve all traffic. And you can either go 3D up with a flying car, or you can go 3D down with tunnels. You can have as many tunnel levels as you want, and you can arbitrarily relieve any amount of traffic. You can go further down with tunnels than you can go up with buildings. You're 10,000 feet down if you want. I wouldn't recommended it, but-.	What was that movie with -- What's his face? Bradley -- Not Bradley Cooper, Christian? No. What the fuck is his name? Batman. Who is Batman?	0			0.09	0.223	
+332	[01:07:04]	I don't think that was Batman.	Yeah, it was. Yeah, it was.	1	was	it was. it was.	0.509	0.609	
+333	[01:07:06]	Batman fought dragons? I don't-	No, it wasn't Batman but it's Christian Bale.	0		it wasn't	0.489	0.558	
+334	[01:07:10]	Okay.	Never saw that?	0			0.06	0.157	
+335	[01:07:12]	No.	Terrible. Terrible but good. I would look at it some time.	0			0.177	0.424	
+336	[01:07:16]	I wouldn't recommend drilling super far down but the earth is a big-	Yeah, but you can't drill deep. It gets hot, right?	1	wouldn't recommend drilling super far down	but you can't drill deep.	0.766	0.789	
+337	[01:07:21]	... molten	Yeah.	0			0.214	0.063	
+338	[01:07:22]	The earth is a giant ball of lava with a thin crust on the top, which we think of as like the surface, this thin crust.And it's mostly just a big bowl of lava. That's earth, but 10,000 feet is not a big deal.	Have you given any consideration whatsoever to the flat earth movement?	0	The earth is a giant ball of lava it's mostly just a big bowl of lava.		0.83	0.077	
+339	[01:07:46]	That's a troll situation.	Oh, it's not. No, it's not. You would like to think that-	0			0.337	0.397	
+340	[01:07:54]	Okay.	... because you're super genius. But I, as a normal person, I know these people are way dumber than me. And they really, really believe. They watch YouTube videos, which go on uninterrupted, and spew out a bunch of fucking fake facts very eloquently and articulately. And they really believe. These people really believe.	0		These	0.067	0.512	
+341	[01:08:15]	I mean, if it works for them, sure. Fine.	It's weird though, right, that in this age where, you know, there's ludicrous mode in your car, goes 1.9 seconds,060.	0			0.079	0.129	
+342	[01:08:28]	That's 2.2.	2.2. Which one's 1.9? The Coaster.	1	That's 2.2.	2.2.	0.689	0.596	
+343	[01:08:32]	The Next Generation Roadster.	Okay.	0			0.261	0.055	
+344	[01:08:36]	Standard edition.	Yeah, I'm on top of this shit.	0			0.235	0.22	
+345	[01:08:39]	That's just without-	Standard edition.	0			0.115	0.172	
+346	[01:08:41]	Yeah. So, it's not the performance package.	What performance package?	1	not the performance package.	What performance package?	0.759	0.682	
+347	[01:08:45]	Yes.	What the fuck do you need?	0			0.056	0.09	
+348	[01:08:47]	We put a rocket thruster in it.	For real?	0			0.262	0.174	
+349	[01:08:50]	Yes.	What are they going to burn?	0			0.043	0.126	
+350	[01:08:52]	Nothing. Ultrahigh pressure compressed air.	Whoa. Just air?	1	Nothing. Ultrahigh compressed air.	Just air?	0.614	0.772	
+351	[01:08:57]	Just called gas thrusters.	Then, do you have the air tanks or the-	0			0.222	0.169	
+352	[01:09:00]	Yeah.	Sucking air, okay.	0			0.136	0.433	
+353	[01:09:02]	Yeah. It has an electric pump.	Whoa.	0			0.244	0.06	
+354	[01:09:04]	Pump it up like 10,000 PSI.	And how fast are we talking? Zero to 60.	0			0.333	0.228	
+355	[01:09:08]	How fast you want to go?	I want to go-	1	fast want to go?	I	0.579	0.573	
+356	[01:09:10]	We could make this thing fly.	I want to go back in time.	0			0.207	0.198	
+357	[01:09:13]	I can make it fly.	You make it fly?	1	I can make it fly.	You make it fly?	0.934	0.941	
+358	[01:09:15]	Sure.	Do you anticipate that as being -- I mean, you're talking about the tunnels and then flying cars. Do you really thinkthat's going to be real?	0			0.064	0.225	
+359	[01:09:21]	Too noisy, and there's too much airflow. So, the final issue with flying cars, I mean, if you get like one of those like toy drones, think of how loud those are and how much air they blow. Now, imagine if that's like a thousand times heavier. This is not going to make your neighbors happy. Your neighbors are not going to be happy if you land a flying car in your backyard.	It will be very helicopter-like.	0			0.193	0.332	
+360	[01:09:46]	"Or on your roof. It's just really going to be like, ""What the hell. That was annoying."""	Yeah.	0			0.114	0.048	
+361	[01:09:53]	You can't even -- Like, if you want a flying car, just put some wheels on a helicopter.	Is there a way around that? Like what if they figure out some sort of magnetic technology, like all those Bob Lazar type characters who were thinking that was a part of the UFO technology they were doing at Area 51? Remember,didn't they have some thoughts about magnetics? Nope. No? Bullshit?	0			0.161	0.195	
+362	[01:10:17]	Yes.	Really?	0			0.161	0.19	
+363	[01:10:17]	Yeah. There's a fundamental momentum exchange with the air. So, you must accelerate. There's like this -- There'sa sudden -- You have a mass, and you have gravitational acceleration. And mass times -- Your mass times gravity must equal the mass of airflow times acceleration of that airflow to have a neutral force. MG=MA	So, it's impossible to go around-	1	must equal MG=MA	it's	0.593	0.511	
+364	[01:10:43]	And then you won't move.	Okay.	0			0.271	0.058	
+365	[01:10:45]	If MG is greater than MA, you will go down. And if MA is greater than MG, you will go up. That's how it works.	There's just no way around that?	0		no way	0.427	0.536	
+366	[01:10:54]	There is definitely no way around it.	There's no way to create some sort of a magnetic something or another that allows you to float?	0			0.418	0.36	
+367	[01:11:03]	Technically, yes. You could have a strong enough magnet, but that magnet would be so strong that you would create a lot of trouble.	It would just suck cars up into your car? Just pick up axles and do that?	0			0.436	0.464	
+368	[01:11:20]	I mean, it should have to repel off of either material on the ground or in a really nutty situation off of Earth'sgravitational field, and somehow make that incredibly light, but that magnet would cause so much destruction.You'd be better off with a helicopter.	So, if there was some sort of magnet road, like you have two magnets, and they repel each other, if you had some sort of a magnet road that was below you, and you could travel on that magnet road, that would work?	0			0.355	0.26	
+369	[01:11:57]	Yes. Yes, you can have a magnet road.	A magnet road. Is that too ridiculous?	1	you can have a magnet road.	A magnet road.	0.898	0.884	
+370	[01:12:05]	No, it will work. So, you could do that.	That's ridiculous too, right?	0			0.275	0.203	
+371	[01:12:08]	I would not recommend it.	There's a lot of things you don't recommend.	1	I would not recommend it.	things you don't recommend.	0.767	0.813	
+372	[01:12:11]	I would super not recommend that. Not good. Not wise, I think.	No?	0			0.461	0.09	
+373	[01:12:16]	No.	Magnet roads?	0			0.082	0.168	
+374	[01:12:16]	No. No. No, definitely not. Definitely not. Yeah, it would cause a lot of trouble.	So, you put some time and consideration into this other than -- You know, instead like my foolishly rendered thoughts. So, you think that tunnels are the way to do it?	0			0.234	0.216	
+375	[01:12:34]	Oh, it will work, for sure.	That'll work?	1	it will work, for sure.	That'll work?	0.897	0.856	
+376	[01:12:36]	Yes.	And these tunnels that you're building right now, these are basically just like test versions of this ultimate idea that you have?	0			0.045	0.216	
+377	[01:12:46]	You know, it's just a hole in the ground.	Right. We played videos of it where your ideas-	0			0.364	0.173	
+378	[01:12:51]	It's just a hole in the ground.	... that you drop that hole in the ground. There's a sled on it, and the sled goes very fast, like 100 miles an hour plus.	1	It's just a hole in the ground.	drop that hole in the ground.	0.699	0.664	
+379	[01:12:58]	Yeah, it can go real fast. You can go as fast as you want. And then, if you want to go long distances, you can just draw the air out of the tunnel, make sure it's real straight.	Draw the air out of the tunnel?	1	you can just draw the air out of the tunnel,	Draw the air out of the tunnel?	0.904	0.907	
+380	[01:13:09]	Yeah, it's sort of vacuum tunnel because the -- And then, depending on how fast you want to go, you're going to take these wheels, or you could use air bearings depending upon the ambient pressure in the tunnel, or you could mag lev it if you want to go super fast.	So, magnet road?	1	you could mag lev it if	magnet road?	0.825	0.841	
+381	[01:13:29]	Yes, underground magnet roads.	Underground magnet roads?	1	underground magnet roads.	Underground magnet roads?	0.898	0.886	
+382	[01:13:32]	Yeah. Otherwise, you're going to really create a lot of trouble because of those metal things.	Oh. So, magnet road is the way to go, just underground.	0			0.492	0.472	
+383	[01:13:39]	If you want to go really fast underground, you would be mag lev in a vacuum tunnel.	Mag in a vacuum tunnel.	1	you would be mag lev in a vacuum tunnel.	Mag in a vacuum tunnel.	0.921	0.937	
+384	[01:13:48]	Magnetic levitation in a vacuum tunnel launchers. Fun?	With rocket launchers?	1	tunnel	rocket	0.527	0.55	
+385	[01:13:52]	No, I would not recommend putting any-	Come on.	0			0.153	0.116	
+386	[01:13:55]	... exhaust gas in the tunnel.	Oh, okay. I see what you're saying because then the air will be gone.	0			0.381	0.342	
+387	[01:13:59]	Because, then, the air will pump it out.	Right. You have to pump it out, and you probably have limited amount of air in the first place. Like how much can you breathe? Do you have to pump oxygen into these cubicles, these tubes?	1	the air will pump it out.	You have to pump it out,	0.877	0.802	
+388	[01:14:08]	No. We have a pressurized pod. It'd be like a little tiny underground spaceship basically.	Like an airplane because you have air on airplanes. It's not getting new air in.	0			0.301	0.41	
+389	[01:14:16]	It is.	It is?	1	It is.	It is?	0.823	0.801	
+390	[01:14:17]	Yes.	You have like a little hole?	0			0.08	0.203	
+391	[01:14:20]	Yeah, they have a pump.	Really?	0			0.252	0.08	
+392	[01:14:21]	Yeah.	So, it gets it from the outside?	0			0.075	0.395	
+393	[01:14:22]	Yes.	Wow, I didn't know that.	0			0.08	0.295	
+394	[01:14:23]	It's like the air's -- Airplanes have it easy because, essentially, you can -- they're pretty leaky, but-	Jesus.	0			0.073	0.046	
+395	[01:14:32]	Yeah, but as long as the air pump is working at a distance. I mean, they have backup pumps, sort of like, you know,three pumps, or four pumps, or something. And then, there's like -- It exhausts through the outflow valve and through whatever seals are not sealing quite right. Usually, the door doesn't seal quite right on the plane. So,there's a bit of leakage around the door. But the pumps exceed the outflow rate. And then, that sets the pressure in the cabin.	"Now, have you ever looked at planes and gone, ""I can fix this."""	0			0.19	0.136	
+396	[01:15:11]	Yeah.	"""I just don't have the time."""	0			0.106	0.257	
+397	[01:15:13]	I have a design for a plane.	You do?	1	I have a design	You do?	0.779	0.804	
+398	[01:15:17]	Yes.	A better design?	0			0.092	0.227	
+399	[01:15:19]	I mean, probably. I think it is, yes.	Who have you talked to about this?	0			0.146	0.126	
+400	[01:15:25]	I've talked to friends.	Friends?	1	talked to friends.	Friends?	0.758	0.71	
+401	[01:15:29]	Friends and-	I'm your friend.	0		your	0.323	0.51	
+402	[01:15:30]	Girlfriends and-	You can tell me. What you got? What's going on?	0			0.078	0.117	
+403	[01:15:36]	Well, I mean, the exciting thing to do would be some sort of electric vertical takeoff and landing, supersonic jet of some kind.	Vertical takeoff and landing meaning no need for a runway. Just shoot up straight in the air.	1	some sort of electric vertical takeoff and landing,	Vertical takeoff and landing meaning	0.881	0.895	
+404	[01:15:50]	Yeah.	How would you do that? I mean, they do that in some military aircraft, correct?	0			0.045	0.151	
+405	[01:15:56]	Yes. The trick is that you have to transition to level flight. And then, the thing that you would use for vertical takeoff and landing is not suitable for high-speed flight.	So, you have two different systems? Vertical takeoff is one system?	1	the thing that you would use for vertical takeoff and landing is not suitable for high-speed flight.	you have two different systems? Vertical takeoff is one system?	0.861	0.801	
+406	[01:16:15]	I've thought about this quite a lot. I've thought about this quite a lot.	Okay.	0	thought about this quite a I've thought about this quite a lot.		0.65	0.075	
+407	[01:16:19]	I guess, thinking about an electric plane is that you want to go as high as possible, but you need a certain energy density in the battery pack because you have to overcome gravitational potential energy. Once you've overcome gravitational potential energy, and you're out at a high altitude, the energy use in cruise is very low. And then, you can recapture a large part of the gravitational potential energy on the way down. So, you really don't need any kind of reserve fuel, if you will, because you have the energy of height, gravitational potential energy. This is a lot of energy. So, once you can get high, like the way to think about a plane is it's a force balance. So, the force balance -- So, a plane that is not accelerating is a neutral force balance. You have the force of gravity, you have the lift force, you have the wings. Then, you've got the force of the whatever thrusting device, so the propeller, or turbine, or whatever it is. And you've got the resistance force of the air. Now, the higher you go, the lower the air resistance is. Air density drops exponentially, but drag increases with the square, and exponential beats the square. The higher you go, the faster you will go for the same amount of energy.And at a certain altitude, you can go supersonic with less energy per mile, quite a lot less energy per mile than an aircraft at 35,000 feet because it's just a force balance.	I'm too stupid for this conversation.	0	it's a force balance. is a neutral force balance.		0.652	0.045	
+408	[01:18:04]	It makes sense though.	No, I'm sure it does. Now, when you think about this new idea of of design, when you have this idea about improving planes, are you going to bring this to somebody and check this one out?	0			0.402	0.385	
+409	[01:18:21]	Well, I have a lot on my plate.	"Right. That's what I'm saying. I don't know how you do what you do now, but if you keep coming up with these. Butit's got to be hard to pawn this off on someone else either, like, ""Hey, go do a good job with this vertical takeoff and landing system that I want to implement to regular planes.""."	0			0.222	0.115	
+410	[01:18:41]	The airplane, electric airplane isn't necessarily right now. Electric cars are important. We need-	We need some sort of-	0			0.25	0.336	
+411	[01:18:48]	Solar energy is important. Stationary storage of energy is important. These things are much more important than creating electric supersonic futile. Also, the plane's naturally -- You really want that gravitational energy density for an aircraft, and this improving over time. So, you know, it's important that we accelerate the transition to sustainable energy. That's why electric cars, it matters whether electric cars happen sooner or later. You know,we're really playing a crazy game here with the atmosphere or the oceans.	Yeah.	0			0.242	0.044	
+412	[01:19:23]	We're taking vast amounts of carbon from deep underground and putting this in the atmosphere. It's just crazy. We should not do this. It's very dangerous. So, we should accelerate the transition to sustainable energy. I mean, the bizarre thing is that, obviously, we're going to run out of oil in the long term. You know, we're going to -- There'sonly so much oil we can mine and burn. It's totally logical. We must have a sustainable energy transport and energy infrastructure in the long term. So, we know that's the endpoint. We know that. So, why run this crazy experiment where we take trillions of tons of carbon from underground and put it in the atmosphere and oceans? This is an insane experiment. It's the dumbest experiment in human history. Why are we doing this? It's crazy.	Do you think this is a product of momentum that we started off doing this when it was just a few engines, a few hundred million gallons of fuel over the whole world, not that big of a deal? And then, slowly but surely over a century, it got out of control. And now, it's not just our fuel, but it's also, I mean, fossil fuels are involved in so many different electronics, so many different items that people buy. It's just this constant desire for fossil fuels, constant need for oil-	0			0.41	0.07	
+413	[01:21:00]	Yeah.	Without consideration of the sustainability.	0			0.077	0.246	
+414	[01:21:03]	You know, the things like oil, oil, coal, gas, it's easy money.	Right.	0			0.174	0.041	
+415	[01:21:07]	It's easy money. So-	Have you heard about clean coal? The president's been tweeting about it. It's got to be real. CLEAN COAL, all caps.Did you see? He used all caps. Clean coal.	0		clean coal? CLEAN COAL, all caps.Did He used all caps. Clean coal.	0.03	0.724	
+416	[01:21:20]	Well, you know, it's very difficult to put that CO2 back in the ground. It doesn't like being in solid form.	Have you thought about something like that?	0			0.122	0.15	
+417	[01:21:29]	It takes a lot of energy.	Like some sort of a filter, giant building-sized filter sucks carbon out in the atmosphere? Is that possible?	0			0.24	0.339	
+418	[01:21:37]	No, no, it doesn't. It's not possible.	No?	0			0.455	0.303	
+419	[01:21:39]	No.	No?	0	No.		0.512	0.437	
+420	[01:21:41]	Nope, definitely not.	So, we're fucked?	0		fucked?	0.413	0.503	
+421	[01:21:43]	No, we're not fucked. I mean, this is quite a complex question.	Right.	0			0.139	0.05	
+422	[01:21:53]	You know, we're really just -- When we -- The more carbon we take out of the ground and add to the atmosphere,and a lot of it gets permeated into the oceans, the more dangerous it is. Like I don't think right -- I think we're okay right now. We can probably even add some more but the momentum towards sustainable energy is too slow. Like there's a vast base of industry, vast transportation system. Like there's Two and a half billion cars and trucks in the world. And the new car and truck production, if it was a 100% electric, that's only about 100 million per year.So, it would take -- If you could snap your fingers and instantly turn all cars and trucks electric, it would still take 25years to change the transport base to electric. It makes sense because how long does a car and truck last before it goes into the junkyard and gets crushed? About 20 to 25 years.	Is there a way to accelerate that process, like some sort of subsidies or some encouragement from the government financially?	0			0.498	0.169	
+423	[01:23:08]	Well, the thing that is going on right now is that there is an inherent subsidy in any oil-burning device. Any powerplant or car is fundamentally consuming the carbon capacity of the oceans and atmosphere, or just the atmosphere for short. So, like, you can say, okay, there's a certain probability of something bad happening past a certain carbon concentration in the atmosphere. And so, there's some uncertain number where if we put too much carbon into the atmosphere, things overheat,oceans warm up, ice caps melt, ocean real estate becomes a lot less valuable, you know, if something'sunderwater, but it's not clear what that number is. But, definitely, scientists, it's really quite -- The scientific consensus is overwhelming. Overwhelming. I mean, I don't know any serious scientist, actually zero, literally zero who don't think, you know, that we have quite a serious climate risk that we're facing. And so, that's fundamentally a subsidy occurring with every fossil fuel burning thing, power plants, aircraft, car frankly even rockets. I mean, rockets use up -- you know, they burn. They burn fuel. But there's just -- you know, with rockets, there's just no other way to get to orbit unfortunately. So, it'sthe only way. But with cars, there's definitely a better way with electric cars. And to generate the energy, do so with photovoltaics because we've got a giant nuclear reactor in the sky called the sun. It's great. It sort of shows up every day, very reliable. So, if you can generate energy from solar panels, store up with batteries, you can have energy 24 hours a day. And then, you know, you can send to the polls or in the air to the north with, you know, high voltage lines. Most of the northern parts of the world tend to have a lot of hydropower as well. But, anyway, all fossil fuel-powered things have an inherent subsidy, which is their consumption of the carbon capacity of the atmosphere and oceans. So, people tend to think like why should electric vehicles have a subsidy, but they're not taking into account that all fossil fuel-burning vehicles fundamentally are subsidized by the cost, the environmental cost to earth, but nobody'spaying for it. We are going to pay for it, obviously. In the future, we'll pay for it. It's just not paid for now.	And what is the bottleneck in regards to electric cars, and trucks, and things like that? Is it battery capacity?	0			0.341	0.324	
+424	[01:26:25]	Yeah. You got to scale up production. You got to make the car compelling, make it better than gasoline or diesel cars.	Make it more efficient in terms of, like, the distance it can travel? You're going to be fueling-	1	make it better than or	Make it more efficient	0.642	0.736	
+425	[01:26:37]	Yeah, you're going to be able to go far enough, recharge fast.	And your Roadster, you're anticipating 600 miles. Is that correct?	0		anticipating 600 miles.	0.485	0.584	
+426	[01:26:46]	Yeah, yeah.	What is it? What is that?	0			0.052	0.161	
+427	[01:26:48]	Yeah, 600 miles.	Is that right now? Like have you driven one 600 miles now?	0			0.432	0.361	
+428	[01:26:51]	No. We could totally make one right now that would do 600 miles, but the thing is too expensive. So, like the car'sgot to-	How much more so?	0			0.285	0.147	
+429	[01:27:00]	Well, you know, just have a chartered kilowatt hour battery pack, and you can go 600 miles as long as you're-	Right, versus what do you have now?	0			0.165	0.155	
+430	[01:27:08]	330-mile range. That's plenty for most people.	330-mile range. And what is that mean in terms of kilowatts?	1	330-mile range.	330-mile range.	0.866	0.863	
+431	[01:27:15]	Well, that would be for Model S, 100-kilowatt hour pack will do about 330 miles. Maybe 335 because some people have hyper mild it to 500 miles per mile.	Hyper mild it. What does that mean?	1	people have hyper mild it to 500 miles	Hyper mild it.	0.9	0.856	
+432	[01:27:27]	Yeah, just like go on-	45 miles an hour or something?	0			0.149	0.235	
+433	[01:27:31]	Yeah, like 30 miles an hour or so. It's like on level ground with -- You pump the tires up really well, and go on a smooth surface, and you can go for a long time. But, you know, like definitely comfortably do 300 miles.	Is there any-	0			0.362	0.058	
+434	[01:27:44]	This is fine for most people. Usually, 200 or 250 miles is fine. 300 miles is -- You don't even think about it really.	Is there any possibility that you could use solar power, solar-powered one day, especially in Los Angeles? I mean,as you said about that giant nuclear reactor, a million times bigger than Earth just floating in the sky. Is it possible that one day, you'll be able to just power all these cars just on solar power? I mean, we don't ever have cloudy days if we do just three of them.	0			0.153	0.206	
+435	[01:28:15]	Well, the surface area of a car is without making the car look really blocky or having some-	Like a G wagon.	0			0.167	0.242	
+436	[01:28:24]	Yeah, and just like if it looked a lot of surface area, or like maybe like solar panels fold out, or something-	Like your E class. That's what it needed.	0			0.247	0.294	
+437	[01:28:33]	That E type?	Yeah, the Jaguar E type with a giant long hood, that could be a giant solar panel.	1	That type?	Jaguar E type	0.566	0.647	
+438	[01:28:40]	Well, at the beginning of Tesla, I did want to have this like unfolding solar panel thing. They'd press a button, and it would just like unfold these solar panels, and like charge/recharge your car in the parking lot. Yeah, we could do that, but I think it's probably better to just put that on your roof.	Right, yeah.	0			0.09	0.102	
+439	[01:28:56]	And then, it's going to -- It should be facing the sun all the time because like-	What car have that on the roof?	0			0.213	0.088	
+440	[01:29:00]	Otherwise, your car could be in the shade. You know, it could be in the shade, it could be in a garage, or something like that.	Right.	0			0.133	0.046	
+441	[01:29:04]	Yeah.	Didn't the Fisker have that on the roof? The Fisker Karma New Generation for -- I believe, it was only for the radio.Is that correct?	0			0.041	0.225	
+442	[01:29:14]	Yeah, I mean, but I think it could like recharge like two miles a day or something.	Did you laugh when they started blowing up when they get hit with water? Do you remember what happened?	0			0.145	0.123	
+443	[01:29:22]	They got what?	Yeah, they had a dealership or-	1	got	had a	0.544	0.553	
+444	[01:29:27]	Oh yeah.	The Fisker Karmas were parked-	0			0.061	0.276	
+445	[01:29:29]	Is that like that with a flood in Jersey?	Yes, yes.	0			0.081	0.081	
+446	[01:29:32]	Yeah.	When the hurricane came in, they got overwhelmed with water, and they all started exploding. There's a fucking great video of it. Did you watch the video?	0			0.047	0.106	
+447	[01:29:39]	I didn't watch the video, but I did see -- It's like some picture of the aftermath.	If I was you, I'd be naked, lubed up, watch that video, laugh my ass off. They all blow up. They got wet, and they blew up. That's not good.	0			0.171	0.381	
+448	[01:29:52]	Yeah, we made our battery waterproof, so that doesn't happen. Actually-	Smart move.	0			0.131	0.182	
+449	[01:29:56]	Yeah, there was a guy in Kazakhstan that -- I think it was Kazakhstan that he just boated through a tunnel, an underwater tunnel, like a flooded tunnel, and just turned the wheels to steer, and pressed the accelerator, and it just floated through the tunnel.	Wow.	0			0.057	0.067	
+450	[01:30:14]	And he steered around the other cars. I mean, like-	That's amazing.	0			0.118	0.198	
+451	[01:30:17]	It's on the internet.	What happens if your car gets a little sideways, like if you're driving in snow? Like what if you're driving, if you'reautopilot is on, and you're in like Denver, and it snows out, and your car gets a little sideways, does it correct itself?Does that-	0			0.032	0.298	
+452	[01:30:34]	Oh yeah. It's got great traction control.	But does it know how to like correct? You know how, like, when your Ascend-	0			0.27	0.166	
+453	[01:30:39]	Oh yeah, sure.	... kicks, you know how to counter steer?	0			0.077	0.149	
+454	[01:30:42]	Oh, yeah. No, it's really good.	It knows how to do it?	0			0.417	0.366	
+455	[01:30:44]	Yeah.	Whoa.	0			0.114	0.101	
+456	[01:30:45]	It's pretty crazy.	That's pretty crazy.	1	It's pretty crazy.	That's pretty crazy.	0.757	0.785	
+457	[01:30:47]	Yeah.	So, like if you're going sideways, it knows how to correct itself?	0			0.055	0.213	
+458	[01:30:53]	It generally won't go sideways.	It won't?	1	It generally won't go sideways.	It won't?	0.878	0.832	
+459	[01:30:55]	No.	Why not?	0			0.33	0.283	
+460	[01:30:56]	It will correct itself before it goes sideways.	Even in black eyes?	0			0.147	0.247	
+461	[01:31:01]	Yeah. There's videos where you could see the car, the traction-	Not alone.	0			0.103	0.17	
+462	[01:31:06]	Traction control system is very good. It makes you feel like Superman. It's great. You like feel like you can -- Likeit's -- It will make you feel like this incredible driver.	I believe it.	0	will make you feel like this incredible driver.		0.657	0.158	
+463	[01:31:20]	Yeah.	Now, how do you program that?	0			0.049	0.096	
+464	[01:31:21]	We do have testing on like an ice lake in Sweden.	Oh really?	0			0.101	0.096	
+465	[01:31:25]	Yeah. And like Norway, and Canada, and a few other places.	Porsche does a lot of that too? They do-	0			0.169	0.33	
+466	[01:31:30]	They did it as well?	They do a lot of their -- They do some of their driver training school on these frozen surfaces. So, you're just -- The car is going sideways whether you like it or not. And you have to learn how to slide into corners, and how do we test.	0			0.266	0.338	
+467	[01:31:45]	Yeah. Electric cars have really great traction control because the reaction time is so fast.	Right.	0			0.248	0.055	
+468	[01:31:50]	Sort of like where you're gassing a car, you've got a lot of latency. It takes a while for the engine to react, but for electric motors, incredibly precise. That's why you're like -- You imagine like if you had like a printer or something,you wouldn't have a gasoline engine printer. That would be pretty weird or like a surgical device. It's going to be an electric motor on the surgical device on the printer. Gasoline engine's going to be just chugging away. It's not going to have the reaction time. But to an electric motor, it's operating at the most second level. So, it can turn on and off traction within, like,inches of getting on the onus. Like, let's say, you're driving on a patch of ice, it will turn traction off, and then turn iton a couple inches right after the ice, like a little patch of ice because in the frame of the electric motor, you'removing incredibly slowly. You're like a -- You're a snail. You're just moving so slowly because it can see at a thousand frames a second. And so, it's like, say, one Mississippi. It just thought about it things a thousand times.	So, it's to realize that your wheels are not getting traction. It understands there's some slippery surface that you'redriving on.	1	incredibly You're a snail.	your wheels are not getting traction.	0.577	0.614	
+469	[01:33:18]	Yes.	And it makes adjustments in real time.	0			0.06	0.396	
+470	[01:33:21]	Yes, in milliseconds.	That would be so much safer than a regular car.	0			0.168	0.182	
+471	[01:33:26]	Yes, it is.	Just that alone, for loved ones, you'd want them to be driving your car.	0			0.157	0.163	
+472	[01:33:32]	Yes. The-	Or on board. Fuck motors. Dude, fuck regular motors.	0		Fuck motors. fuck regular motors.	0.039	0.799	
+473	[01:33:37]	That S, X, and 3 have the lowest probability of injury of any cars ever tested by the US government.	Whoa.	0			0.117	0.047	
+474	[01:33:47]	So, this -- Yeah, but it's pretty fun. It's pretty crazy. Like we -- You know, people still sue us like they'll have like some accident at 60 miles an hour where they'd like twisted an ankle, and they slipped. Like they will be dead in another car, they still sue us.	But that's to be expected, isn't it?	0			0.141	0.178	
+475	[01:34:05]	It is to be expected.	"Do you take that into account with like the same sort of fatalistic, you know, undertones to sort of just go, ""You'vegot to just let it go. This is what people do."""	0			0.326	0.239	
+476	[01:34:20]	I tell you I've got-	This is what it is.	0			0.155	0.31	
+477	[01:34:21]	... Quite a lot of respect for the justice system. Judges are very smart. And they see -- they've -- as like I haven't. Sofar, I've found judges to be very good at justice because like what -- and juries are good too. Like, they're actually quite good. You know, people -- You know, you read about like occasional errors in the justice system. Let me tell you, most the time, they're very good. And like the other guy mentioned who fell asleep in the car, and he rode over a cyclist. And that was what encouraged me to get autopilot out as soon as possible. That guy sued us.	He sued you for falling asleep?	1	guy fell asleep in car, That guy sued us.	He sued you for falling asleep?	0.755	0.869	
+478	[01:35:05]	Yes. I'm not kidding. He blamed it on the new car smell.	What?	0			0.104	0.055	
+479	[01:35:11]	Yes.	He blamed him falling asleep on your new car smell. Does someone that's a lawyer-	0			0.074	0.158	
+480	[01:35:17]	This is a real thing that happened.	Someone that's a lawyer that thought that through in front of his laptop before he wrote that up.	0			0.267	0.172	
+481	[01:35:23]	"Yes, he got a lawyer, and he sued us, and the judge was like, ""This is crazy. Stop bothering me. No."""	Thank God.	0			0.118	0.103	
+482	[01:35:32]	Yes.	Thank God. Thank God there's a judge out there with a brain.	0			0.074	0.234	
+483	[01:35:35]	I tell you, judges are very good.	Some of them.	0			0.241	0.269	
+484	[01:35:38]	I have a lot of-	What about that judge that sent all these boys up the river in Pennsylvania who was selling those kids out? You know about that story?	0			0.052	0.071	
+485	[01:35:45]	Nope.	Judge was selling young boys to prisons. He was like literally-	0			0.086	0.24	
+486	[01:35:51]	What?	Yeah, literally, under bribes for -- He was-	0			0.095	0.153	
+487	[01:35:54]	Was this an elected judge or-	He was-	0			0.328	0.254	
+488	[01:35:56]	Because sometimes you have a judge that's like actually a politician.	No, he was a elected judge. This is a very famous story.	1	judge politician.	he was elected judge.	0.577	0.657	
+489	[01:36:03]	Okay.	He's in jail right now, I think, for the rest of his life. And he put away -- He would take like a young boy who would do something like steal something from a store, and he would put them in detention for, you know, five years.Something ridiculous egregious. And they investigated his history. And they found out that he was literally being paid off. Was it by private prisons? Is that what the the deal was? There was some sort of -- But, anyway, this judgeis-	0			0.046	0.303	
+490	[01:36:59]	I do think these private prisons thing is-	Someone business.	0			0.254	0.131	
+491	[01:37:02]	... creating a bad incentive.	It's dark.	0			0.19	0.184	
+492	[01:37:03]	Right, yes. But, I mean, that judge is in prison.	Thank God.	0			0.166	0.088	
+493	[01:37:09]	Yes, but for people who think perhaps the justice system consists entirely of judges like that, I want to assure you-	No.	0			0.125	0.081	
+494	[01:37:17]	... this is not the case. The vast majority of judges are very good.	I agree.	0			0.149	0.088	
+495	[01:37:21]	And they care about justice, and they could have made a lot more money if they wanted to be a trial lawyer. And instead, they cared about justice, and they made less money because they care about justice. And that's whythey're judges.	I feel that same way about police officers.	0			0.082	0.255	
+496	[01:37:33]	Yes.	"I feel like there's so many interactions with so many different people with police officers that the very few that stand out that are horrific, we tend to look at that like, ""This is evidence that police are all corrupt."" And I thinkthat's crazy."	0			0.047	0.183	
+497	[01:37:47]	No. Most police are very honest.	Yes.	0			0.162	0.077	
+498	[01:37:51]	And like the military-	Like they have an insanely-	0			0.204	0.197	
+499	[01:37:55]	... personnel that I know-	Yes.	0			0.187	0.071	
+500	[01:37:56]	... are very honorable, ethical people.	Yes.	0			0.27	0.059	
+501	[01:37:58]	And much more honorable and ethical than the average person. That's my impression.	I agree. That's my impression as well.	1	That's my impression.	That's my impression as well.	0.638	0.697	
+502	[01:38:03]	And that's not to suggest that we be complacent and assume everyone is honest and ethical. And, obviously, if somebody is given a trusted place in society, such as being a police officer or a judge, and they are corrupt, then we must be extra vigilant against such situations-	Yes.	0			0.093	0.044	
+503	[01:38:20]	... and take action. But we should not think that this is somehow broadly descriptive of people in that profession.	I couldn't agree more. I think there's also an issue with one of the things that happens with police officers,prosecutors, and anyone that's trying to convict someone or arrest someone is that it becomes a game. And in games, people want to win.	0			0.09	0.109	
+504	[01:38:41]	Yeah.	And sometimes, people cheat.	0			0.071	0.295	
+505	[01:38:42]	"Yes, yes. I mean, you know, if you're a prosecutor, you should not always want to win. There are times when you should like, ""Okay. I just should not want to win this case."" And then, you know, like just pass on that case.Sometimes, people want to win too much. That is true. I think, also, it becomes tough. If you're like a district attorney, you know, you tend to sort of see a lot of criminals.And then, your view of the world can get negatively."	Yes.	0			0.34	0.045	
+506	[01:39:14]	You know, have a negative -- You know, you can have a negative view of the world because, you know, you're just interacting with a lot of criminals. But, actually, most of society is not to consist of criminals.	Right.	0			0.388	0.039	
+507	[01:39:26]	"And I, actually, had this conversation at dinner several years ago with, I guess, it's Tony. I was like, ""Man, it must,sometimes, seem pretty, pretty dark because, you know, man, there's some terrible human beings out there. And he was like, ""Yup."" And he was like dealing with some case, which consisted of a couple of old ladies that would run people over somehow for insurance money. It was rough. Like, ""Wow, that's pretty rough."" It's like hard to maintain faith in humanity if you're a district attorney, but, you know, it's only a few percent of society that are actually bad. And then if you go to the worst, say 0.1% of society are the worst, one in a thousand, one in a million, you know.Like how bad is the millionth worst person in the United States? Pretty damn bad. Like damn evil."	Yeah,	0			0.457	0.113	
+508	[01:40:22]	Like the millionth, well, one in a million of evil is so evil, people cannot even conceive of it. But there's 330 million people in the United States. So, that's 330 people out there somewhere. But by the same token, there's also 330people who are incredible angels and unbelievably good human beings.	Yeah.	0			0.157	0.054	
+509	[01:40:49]	On the other side.	But because of our fear of danger, we tend to -- our thoughts tend to gravitate towards the worst-case scenario.	0			0.113	0.382	
+510	[01:40:57]	Yes.	"And we want to frame that. And that's one of the real problems with prejudice, whether it's prejudice towards different minorities, or prejudice towards police officers, or anything, it's like we want to look at the worst-casescenario and say, ""This is an example of what this is all about."". And you see that even with people, how they frame genders. Some men frame women like that. They get ripped off by a few women, and they said, ""All women are evil."" Some women get fucked over by a few men, ""All men are shit."" And this is very toxic."	0			0.084	0.193	
+511	[01:41:27]	It is.	And it's also -- It's a very unbalanced way of viewing the world, and it's very emotionally-based, and it's based on your own experience, your own anecdotal experience. And it can be very influential to the people around you, andit's just it's a dangerous way. It's a dangerous thought process and pattern to promote.	0			0.283	0.36	
+512	[01:41:47]	It is. It is a very dangerous, but I really think, you know, people should give other people the benefit of the doubt and assume that they are good until proven otherwise. And, I think, really, most people are actually pretty good people. Nobody's perfect.	They have to be.	0			0.358	0.409	
+513	[01:42:05]	Yes.	If you think of vast numbers of us that are just interacting with each other constantly-	0			0.048	0.18	
+514	[01:42:10]	Yeah.	... we have to be better than we think we are.	0			0.063	0.181	
+515	[01:42:12]	Yes. I mean, like-	There's no other way.	0			0.081	0.316	
+516	[01:42:14]	I mean, here are these weapons but how many times, like, nobody's presumably try to murder you and you're-	Nobody yet.	0			0.391	0.486	
+517	[01:42:18]	Yes, nobody. It's like the sword right there.	Not the flamethrower, fake flamethrower here-	0			0.34	0.433	
+518	[01:42:22]	Exactly.	It's not a flamethrower. Now, we've got a real problem, I'm going to put it on that side to him and leave it for the guests.	0			0.103	0.22	
+519	[01:42:27]	Yeah.	"I'm like, ""Look, man, if I say something that fucked up, it's right there."""	0			0.038	0.097	
+520	[01:42:31]	It will liven things up for sure. It's guaranteed to make any party better.	Yeah. Well, that's -- I mean, that's the armed civilization theory, right. An armed community is safe and polite community.	0			0.259	0.342	
+521	[01:42:48]	You know, in Texas, it's kind of true. Yeah. I mean-	People in Texas are super polite. Therefore, they've got a gun.	0			0.395	0.436	
+522	[01:42:55]	Yes. Don't make somebody angry.	Yeah.	0			0.166	0.09	
+523	[01:43:00]	We don't know what's going to happen.	Yeah, it's a good move.	0			0.275	0.226	
+524	[01:43:03]	Yeah.	Piss people off, and everybody are going to have a gun.	0			0.058	0.229	
+525	[01:43:05]	Yeah.	You're off to just let that guy get in your lane.	0			0.057	0.182	
+526	[01:43:08]	Yeah, yeah. You know, we got a big test site in Central Texas near Waco.	Oh yeah? Beautiful.	0			0.131	0.135	
+527	[01:43:16]	Yes, Space X in McGregor. It's about 15 minutes away from Waco.	That's close to where Ted Nugent lives.	0			0.21	0.291	
+528	[01:43:22]	It is?	Shout out to Ted Nugent.	0			0.178	0.096	
+529	[01:43:24]	Okay, cool.	Yeah.	0			0.134	0.086	
+530	[01:43:27]	Yeah, there's -- You know, we have lots of fire, and loud explosions, and things, and people-	I bet.	0			0.13	0.148	
+531	[01:43:31]	... they are cool with it.	They don't give a fuck out there.	0			0.414	0.479	
+532	[01:43:33]	They're very supportive.	Yeah. You can buy fireworks where, you know, your kids go to school.	0			0.156	0.2	
+533	[01:43:38]	Yeah. You know, it's dangerous.	Yeah, but it's free.	0			0.364	0.374	
+534	[01:43:43]	It's free.	There's something about Texas-	0			0.171	0.089	
+535	[01:43:45]	Exactly.	... that's very enticing because of that. It is dangerous, but it's also free.	0			0.088	0.163	
+536	[01:43:49]	Right.	Yeah.	0			0.148	0.151	
+537	[01:43:51]	Yeah. I kind of like Texas actually.	I prefer it over places that are more restrictive but more liberal because you could always be liberal. Like just because things are free and just because you have a certain amount of, you know, right wing type characters, itdoesn't mean you have to be that way, you know.	0			0.178	0.231	
+538	[01:44:09]	No.	And, honestly, there's a lot of those people that are pretty fucking open minded and let you do whatever you want to do.	0			0.06	0.197	
+539	[01:44:14]	Right.	As long as you don't bother them.	0			0.09	0.224	
+540	[01:44:17]	Yeah, exactly.	That's my hope right now with the way we're able to communicate with each other today and how radically different it is than generations past because we all -- Just, the dust settles. We all realize, like what you're saying that most people are good.	0			0.029	0.239	
+541	[01:44:36]	Yes. I think if you give people the benefit of doubt, for sure.	I think you're right. You know who could help with that? Mushrooms.	0			0.214	0.224	
+542	[01:44:44]	Mushrooms.	Don't you think?	0			0.144	0.152	
+543	[01:44:46]	They're delicious.	Yeah, right.	0			0.135	0.093	
+544	[01:44:48]	Yeah.	They're good for you too.	0			0.117	0.293	
+545	[01:44:50]	Yeah.	All of them. All kinds of them. What do you see in terms of, like, when you think about the future of your companies,what do you see is like bottlenecks? Want some more of this?	0			0.075	0.189	
+546	[01:45:03]	Sure. Thank you.	What do you see in terms of like bottlenecks of things that are holding back innovation? Is it regulatory commissions and people that don't understand the technology that are influencing policy? Like what could potentially be holding you guys back right now? Is there anything that you would change?	0			0.039	0.131	
+547	[01:45:29]	Yeah, that's a good question. You know, I wish politicians were better at science. That would help a lot.	That's a problem.	0			0.263	0.373	
+548	[01:45:42]	Yes.	There's no incentive for them to be good at science.	0			0.075	0.165	
+549	[01:45:45]	There isn't. Actually, you know, they're pretty good at science in China, I have to say.	Yeah?	0			0.079	0.058	
+550	[01:45:52]	"Yeah. The mayor of Beijing has, I believe, an environmental engineering degree, and the deputy mayor has a physics degree. I met them, And Mayor says, ""Shanghai is really smart and-""."	You're up on technology. What do you think about this government policy of stopping use of Huawei phones? Andthere's something about the the worry about spying. I mean, from what I understand from real tech people, they think it's horseshit.	0			0.147	0.298	
+551	[01:46:23]	Oh I-.	Like phones.	0			0.052	0.312	
+552	[01:46:24]	I don't know. I don't know.	"Like the government say, ""Don't you buy Huawei phones."" Are you up on that at all? No? Should we just abandon this idea?"	0			0.192	0.098	
+553	[01:46:35]	Well, I think, like, I guess, if you have like top secret stuff, then you want to be pretty careful about what hardware you use. But, you know, like most people do not have top secret stuff.	Right.	0			0.183	0.062	
+554	[01:46:48]	And, like, nobody really cares what porn you watch like, you know.	Right, yeah.	0			0.112	0.092	
+555	[01:46:53]	It's like nobody actually cares, you know. So-.	If they do, that's kind of them.	0			0.393	0.244	
+556	[01:46:59]	Yeah.	It's just like-	0			0.168	0.215	
+557	[01:47:00]	National spy agencies do not give a rat's ass which porn you watch. They do not care. So, like, what secrets does a national spy agency have to learn from the average citizen? Nothing.	Well, that's the argument against the narrative. And the argument by a lot of these tech people is that the real concern is that these companies, like Huawei, are innovating at a radical pace, and they're trying to stop them from integrating into our culture and letting this. Like right now, they're the number two cell phone manufacturer in the world.	0			0.129	0.158	
+558	[01:47:35]	Okay.	Samsung is number one. Huawei is number two. Apple is now number three. They surpassed Apple as number two.And the idea is that this is all taking place without them having any foothold whatsoever in America. There's no carriers that have their phones. You have to buy their phones unlocked through some sort of a third party, and thenput-	0			0.046	0.248	
+559	[01:47:55]	Okay.	And the worry is, you know, that these are somehow another controlled by the Chinese government. The Communist Chinese government is going to distribute these phones. And I don't know if the worry's economic influence or they'll have too much power. I don't know what it is. Are you paying attention on any of this?	0			0.043	0.086	
+560	[01:48:15]	Not really.	No?	0	really.		0.573	0.395	
+561	[01:48:16]	I don't think we should worry too much about Huawei phones, you know. Maybe, you know, a national security agency shouldn't have Huawei phones. Maybe that's a question mark. But I think for the average citizen, thisdoesn't matter. Just like no, they're not. I'm pretty sure the Chinese government does not care about the goings of the average American citizen.	Is there a time where you think that there will be no security, it will be impossible to hold back information that whatever bottleneck we'll let go, we're going to give in? That whatever bottleneck between privacy and ultimate innovation will have to be bridged in order for us to achieve the next level of technological proficiency that we'rejust going to abandon it, and there'll be no security, no privacy?	0			0.055	0.196	
+562	[01:49:10]	Do people want privacy? Because they seem to put everything on the internet. Practically-.	Well, right now, they are confused, but when you're talking about your Neuralink, and this this idea that one day,we're going to be able to share information, and we're going to be some sort of a thing that's symbiotic ally connected?	0			0.135	0.133	
+563	[01:49:26]	Yeah. I think we really worry about security in that situation	And when-	0			0.169	0.081	
+564	[01:49:30]	For sure. That's like security will be paramount.	Sure.	0			0.251	0.299	
+565	[01:49:32]	Yeah.	But, also, what we will be. This will be so much different. Our concerns about money, about status, about where all of these things will seemingly go by the wayside if we really become enlightened, if we really become artificially enlightened by some sort of an AI interface where we have this symbiotic relationship with some new internet type connection to information? But, you know, what happens then? What is important? What is not important? Is privacy important when we're all gods?	0			0.052	0.285	
+566	[01:50:13]	I mean, I think the things that we think are important to keep private right now-	Right.	0			0.122	0.055	
+567	[01:50:18]	... we probably will not think going forward.	Shame, right? Information, right? What are hiding? Emotions? What are we hiding?	0			0.204	0.182	
+568	[01:50:29]	I mean, I think, like, I don't know. Maybe it's like embarrassing stuff.	Right, embarrassing stuff.	1	Maybe it's like embarrassing stuff.	embarrassing stuff.	0.895	0.872	
+569	[01:50:35]	But there's actually -- Like, I think, people, there's like not that much that's kept private that people -- that is actually relevant.	Right.	0			0.056	0.046	
+570	[01:50:44]	That other people would actually care about. When you think other people care about it, but they don't really care about it. And, certainly, governments don't.	Well, some people care about it. But, then, it gets weird when it gets exposed. Like Jennifer Lawrence, when those naked pictures got exposed, like, I think, in some ways, people liked her more.	0		some people care about it.	0.413	0.654	
+571	[01:51:01]	Yeah.	They realized like she's just a person. It's just a girl who likes sex, and is just alive, and has a boyfriend, and sends him messages. And, now, you get to look into it, and you probably shouldn't have, but somebody let it go, and they put it online, and all right.	0			0.075	0.104	
+572	[01:51:16]	She seems to be doing okay.	She's a person. She's just you, and me, and it's the same thing. She's just in some weird place where she's on a 35-foot tall screen with music playing every time she talks.	0			0.329	0.369	
+573	[01:51:30]	Yeah. I mean, I'm sure like not-	No, but she's fine.	0			0.278	0.242	
+574	[01:51:33]	She's not happy about it, but she's-	No.	0			0.077	0.036	
+575	[01:51:35]	But she's clearly doing fine.	But once this interface is fully realized where we really do become something far more powerful in terms of our cognitive ability, our ability to understand irrational thoughts, and mitigate them, and that we're all connected in some sort of an insane way. I mean, what are our thoughts on wealth, our thoughts on social status? Like how many of those just evaporate? And our need for privacy, maybe our need for privacy will be the ultimate bottleneck that we'll have to surpass.	0			0.085	0.095	
+576	[01:52:13]	I think, the things that we think are important now will probably not be important in the future, but there will be things that are important. It's just, like, different things.	What will be more important?	0		be more important?	0.498	0.585	
+577	[01:52:22]	I don't know. There might be some more of ideas potentially. I don't think Darwin's going away.	Right.	0			0.036	0.043	
+578	[01:52:33]	Darwin's going to be there.	That was that, yeah.	0			0.254	0.382	
+579	[01:52:37]	Darwin will be there forever.	Forever, yeah.	1	Darwin will be there forever.	Forever,	0.873	0.778	
+580	[01:52:41]	It would just be a different arena. Different arena.	A digital arena.	1	It would just be a different arena. Different arena.	A digital arena.	0.895	0.826	
+581	[01:52:47]	Different arena. Darwin is not going away.	What keeps you up at night?	0			0.12	0.16	
+582	[01:52:57]	Well, it's quite hard to run companies.	Yeah.	0			0.165	0.06	
+583	[01:52:59]	Especially car companies, I would say. It's quite challenging.	The car business is the hardest one of all the things you do? Yes, because it's a consumer-oriented business as opposed to like SpaceX and-	1	car companies, quite challenging.	The car business is the hardest one	0.647	0.747	
+584	[01:53:12]	Not that SpaceX because SpaceX is no walk in the park, but a car company, it's very difficult to keep a car company alive. It's very difficult. You know, there's only two companies in the history of American car companies that haven't gone bankrupt, and that's Ford and Tesla. That's it.	Yeah, Ford rode out that crazy storm, huh? They're the only one.	1	Ford	Ford rode out that crazy storm, They're the only one.	0.577	0.692	
+585	[01:53:37]	By the skin of their teeth.	Shot out to the Mustang.	0			0.323	0.16	
+586	[01:53:41]	Yeah.	Yeah, by the skin of their teeth. That is interesting, right?	0			0.202	0.493	
+587	[01:53:43]	Same with Tesla, we barely survived.	How close did you get to folding?	0			0.251	0.19	
+588	[01:53:47]	Very close. I mean, 2008 is not a good time to be a car company, especially a startup car company, and especially an electric car company. That was like stupidity squared.	And this is when you had those cool Roadsters with the T-top?	0			0.104	0.184	
+589	[01:54:03]	Yeah.	With a target top?	0			0.078	0.279	
+590	[01:54:06]	Yeah. We had like a -- It was highly modified Elise chassis. The body was completely different. By the way, that wasa super dumb strategy that we actually did because we-	What's dumb?	0	super dumb		0.695	0.407	
+591	[01:54:17]	It was based on two false premises. One false premise was that we would be able to cheaply convert the LotusElise, and use that as a car platform, and that we'll be able to use technology from this little company called AC Propulsion for the electric drive train on the battery. Premise, the AC propulsion technology did not work in production, and we ended up using none of it in long-term. None of it. We had to resign everything. And then once you add a battery pack and electric motor to the car, it got heavier. It got 30% heavier. It invalidated the entire structure, all the crash structure. Everything had to be redone. Nothing. Like, I think, it had less than 7%of the parts were common with any other device including cars or anything.	7%?	1	less 7%of	7%?	0.74	0.745	
+592	[01:55:13]	Yes.	Everything? Including tires, and wheels, bolts, brakes?	0			0.185	0.326	
+593	[01:55:20]	Yeah, even every-	Steering wheel? Seat?	0			0.094	0.266	
+594	[01:55:21]	The steering wheel was -- I think, the steering wheel was almost the same. Yes, the windscreen. The windscreen.	Different?	0	windscreen. windscreen.		0.555	0.404	
+595	[01:55:32]	No. I think, the windscreen is the same.	Same?	1	the windscreen is the same.	Same?	0.898	0.81	
+596	[01:55:33]	Yes. I think, we were able to keep the windscreen.	But the last was 7%. So, that's basically-	0			0.084	0.167	
+597	[01:55:37]	Every body panel is different. The entire structure was different. We couldn't use the, like, the HVAC system, the air conditioner. It was belt-driven air conditioner. So, now, we needed something that was electrically driven. We need a new AC compressor.	And all that takes away from the battery life as well, right?	0			0.115	0.298	
+598	[01:55:58]	Yeah. We need a small highly efficient air conditioning system that fit in a tiny car and was electrically powered,not belt-driven. It was very difficult.	How much of those weigh, those cars, the Roadster?	0			0.149	0.169	
+599	[01:56:12]	I think it was 2700 pounds.	That's still very light.	0			0.188	0.256	
+600	[01:56:15]	27. Depending on which version, 2650 to 2750 pounds, something like that.	And what was the weight distribution?	0			0.226	0.165	
+601	[01:56:23]	It was about 50 -- Well, there were different versions of the car. So, it's about 55 on the rear.	That's not bad.	0	50 55		0.61	0.152	
+602	[01:56:32]	It was rear bias.	Right, but not bad. Considering like a 911, which is like one of the most popular sports cars of all time. Heavy rear end bias.	1	It was rear bias.	Heavy rear end bias.	0.835	0.846	
+603	[01:56:41]	Well, I mean, yeah. The 911, I'm not going to joke, is like the master despite Newton not being on their side.	Yeah.	0			0.027	0.059	
+604	[01:56:51]	I guess, fighting Newton, it's very difficult.	Well-	0			0.103	0.024	
+605	[01:56:53]	It's like you've got those -- The moments of inertia on a 911 don't make any sense.	They do once you understand them. Once you understand-	0		once you understand them. you	0.304	0.625	
+606	[01:57:01]	You don't want to hang the engine off the ass. This is not a wise move.	You don't want to let up on the gas when you're in a corner.	0			0.255	0.287	
+607	[01:57:09]	The problem with something where the engine is mounted over the rear axle or off the rear axle towards the rear is that your polar moment of inertia is fundamentally screwed. You cannot solve this. It's unsolvable. You're screwed.Polar moment of inertia, you're screwed.	Right.	0	your polar moment of inertia is fundamentally screwed. You're screwed.Polar moment of inertia, you're screwed.		0.918	0.095	
+608	[01:57:27]	Like, essentially, if you spawn the car like a top, that's your polar moment of inertia. You're just -- I promise Iwouldn't swear on this show, by the way.	Really?	0			0.069	0.053	
+609	[01:57:37]	Yeah.	Says who?	0			0.064	0.156	
+610	[01:57:37]	This was for a friend.	Tell that friend to go fuck himself. Who told you not to swear?	0			0.361	0.458	
+611	[01:57:44]	A friend.	He's not a good friend.	1	A friend.	good	0.531	0.543	
+612	[01:57:46]	Yeah.	That friend need to-	0			0.084	0.18	
+613	[01:57:46]	I said I wouldn't swear.	... realize you're fucking Elon Musk. You can do whatever you want, man. If you ever get confused, call me.	0			0.214	0.121	
+614	[01:57:54]	I'll swear in private. Swear up a storm.	"Okay, just say freaking. It's a fun way. It's like old house moms. Wives and shit that have children, ""Oh, this freaking thing."""	0			0.241	0.217	
+615	[01:58:08]	Yeah. But, anyway, like the Portia, it's kind of incredible how well Porsche handles given that it's the physics-.	Yes.	0			0.097	0.045	
+616	[01:58:15]	The moments of inertia are so messed up. To actually still make it work well is incredible.	Well, if you know how to turn into the corner once you get used to the feeling of it, there's actual benefits to it. You know, there are some benefits.	0			0.234	0.235	
+617	[01:58:28]	I enjoy. The car I had before, Tesla was a 911.	Okay.	0			0.062	0.036	
+618	[01:58:34]	That was-	997 or 6?	0			0.109	0.237	
+619	[01:58:36]	Yeah.	997?	0			0.081	0.231	
+620	[01:58:37]	Yeah.	Yeah. Great car, man.	0			0.207	0.166	
+621	[01:58:41]	Yeah. I mean, particularly, the Porsche wouldn't have the variable veins on the turbo, and it didn't have the turbo lag. That was great.	Yeah.	0			0.071	0.051	
+622	[01:58:48]	That was really great. The turbo lag is, like, you know, if you flirt, like phone home, call your mom.	The older one, right?	0			0.16	0.261	
+623	[01:58:55]	It's like about an hour later-	Yeah.	0			0.102	0.045	
+624	[01:58:57]	... the car accelerates.	And super dangerous too because where it will start spinning and-	0			0.195	0.143	
+625	[01:59:03]	Yeah.	Yeah. There's something fun about it though like feeling that rear weight kicking around, you know. And again-	0			0.094	0.11	
+626	[01:59:08]	No, it's great.	... it's not efficient.	0			0.427	0.498	
+627	[01:59:09]	It had a good feel to it.	Yeah.	0			0.139	0.056	
+628	[01:59:11]	Yeah, I agree.	But that's what I was talking about earlier about that little car that I have, the '93 911. It's not fast. It's not the best handling car, but it's more satisfying than any other car I have because it's so mechanical. It's like everything about it, like crack holes, and bumps, and it gives you all this feedback. And I take it to the comic store because when Iget there, I feel like my brain is just popping, and it's on fire. It's like a strategy for me now that I really stop driving other cars there. I drive that car there just for the brain juice, just for the-	0			0.059	0.157	
+629	[01:59:47]	Yeah.	The interaction.	0			0.117	0.304	
+630	[01:59:50]	I mean, you should try Model S P100D.	I'll try it.	1	should try	I'll try it.	0.564	0.616	
+631	[01:59:53]	It will blow your mind-	Okay.	0			0.303	0.058	
+632	[01:59:55]	... and your skull.	Okay.	0			0.226	0.055	
+633	[01:59:56]	Yeah.	Tell me what to order, I'll order it.	0			0.053	0.263	
+634	[01:59:58]	Model S P100D.	Okay. Jamie, write it down.	0			0.12	0.199	
+635	[02:00:01]	That's the car that I drive.	Okay. Okay, I'll get the car you drive. Okay.	1	That's the car that I drive.	get the car you drive.	0.81	0.708	
+636	[02:00:05]	It will blow your mind-	How far can I drive?	0			0.139	0.099	
+637	[02:00:06]	... out of your skull.	I believe you.	0			0.433	0.238	
+638	[02:00:08]	Yeah.	How far can I drive? How far can I drive?	0			0.041	0.411	
+639	[02:00:10]	About 300 miles.	That's good. For LA regular days, that's good.	0			0.241	0.183	
+640	[02:00:14]	You will never notice the battery.	Never?	1	will never notice	Never?	0.745	0.631	
+641	[02:00:16]	Never.	How hard is it to get like one of them crazy plugs installed in your house? That difficult?	0			0.123	0.397	
+642	[02:00:22]	No, it's super easy. It's like, yeah.	Do you-	0			0.293	0.067	
+643	[02:00:25]	It's like a dryer plug. It's like a dryer outlet.	Didn't you come up with some crazy tiles for your roof that are solar paneled?	0	dryer plug. a dryer outlet.		0.673	0.101	
+644	[02:00:31]	Yeah, yeah. I have it on my roof right now actually. I'm just trying it out. The thing is it takes a while to test roof stuff because roofs have to last a long time.	Right.	0			0.107	0.053	
+645	[02:00:40]	So, like, you want your roof to last like 30 years.	Could you put it over a regular roof?	0			0.288	0.173	
+646	[02:00:45]	No. So, there's two versions. It's like the solar panels you put on a roof. So, like, it depends on whether your roofs new or old. So, if your roofs new, you don't want to replace the roof. You want to put like solar panels on the roof.	Right.	0			0.249	0.074	
+647	[02:00:55]	So, that's like retrofit, you know. And they were trying to make the retrofit panels look real nice. But then, the new product were coming out with it is if you have a roof that's either you're building a house or you're going to replace your roof anyway, then you make the tiles have solar cells embedded in the tiles. And then, it's quite a tricky thing because you want to not see the solar cell behind the glass tile. So, you have to really work with the glass, and the various coatings, and the layers, so that you don't see the solar cells behind the glass. Otherwise, it doesn't look right.	Right.	0			0.087	0.113	
+648	[02:01:35]	So, it's really tricky.	There it is. Jaime, put it up there.	0			0.162	0.299	
+649	[02:01:38]	Yeah.	Man, that looks good. Is there a-	0			0.09	0.18	
+650	[02:01:41]	See, like, if you look closely, you can see. If you zoom in, like, you can see the cell. But if you zoom out, you don'tsee the cell.	Right, but it looks though.	0			0.28	0.3	
+651	[02:01:50]	See?	Yeah.	0			0.114	0.109	
+652	[02:01:50]	Like that's hard.	That's invisible solar cells.	0			0.116	0.303	
+653	[02:01:52]	It's really hard because you have to get the sunlight go through.	Right.	0			0.099	0.042	
+654	[02:01:55]	But when it gets reflected back out, it doesn't -- it hides the fact that there's a cell there.	Now, are those available to the consumer right now?	0			0.105	0.178	
+655	[02:02:06]	Well, we have -- I think, that's-	Those on that roof right there?	0			0.105	0.197	
+656	[02:02:09]	Yes.	That's amazing. Oh, that looks good.	0			0.122	0.402	
+657	[02:02:13]	Yeah.	Ooh, I like that.	0			0.108	0.192	
+658	[02:02:15]	That one is hard.	Oh. So, you get that kind of fake Spanish looking thing. I like that.	0			0.189	0.217	
+659	[02:02:20]	That's French slate.	That's why people in Connecticut are smoking pipes. Look at that one.	0			0.196	0.179	
+660	[02:02:24]	Yeah.	That's bad as s, dude. So, now-	0			0.093	0.189	
+661	[02:02:28]	This will actually work.	I believe you. So, the solar panels that are on that house that we just looked at, is that sufficient to power the entire home?	0			0.38	0.294	
+662	[02:02:40]	It depends on your energy on how efficient-	Expenditure?	0			0.287	0.15	
+663	[02:02:42]	Yeah, yeah.	Right.	0			0.185	0.121	
+664	[02:02:43]	So, generally, yes. I would say it's probably for most. It's going to vary, but anywhere from more than you need to maybe half. Like call it half to 1.5 of the energy that you need, depending on how much roof you have relative to living space.	And how ridiculous you are with your TV.	0			0.112	0.207	
+665	[02:03:08]	TVs no problem. Air conditioning.	Air conditioning.	1	Air conditioning.	Air conditioning.	0.62	0.601	
+666	[02:03:10]	Air conditioning is the problem. If you have an efficient air conditioner, and you don't -- and depending on how --like, are you air conditioning rooms when they don't need to be air conditioned, which is very common-	Right.	0			0.138	0.04	
+667	[02:03:24]	... because it's a pain in the neck, you know. It's like programming a VCR. It's like-	Right.	0			0.475	0.149	
+668	[02:03:27]	"Now, it's just blinking 12:00. So, people are just like, ""The hell with that. I'm just going to make it this temperature all day long.""."	Right. You know how a smart home where if you're in the room, then it stays cool, right?	0			0.424	0.356	
+669	[02:03:37]	Yeah, it should predict when you're going to be home, and then cool the rooms that you're likely to use with a little bit of intelligence. We're not talking about like genius home here. We're talking like elementary basic stuff.	Right.	0			0.076	0.047	
+670	[02:03:54]	You know, like if you could hook that into the car, like manage you coming home. Like there's no point cooling thehome-	Right.	0			0.233	0.045	
+671	[02:04:01]	... keeping the home really cool when you're not there.	Right.	0			0.166	0.04	
+672	[02:04:03]	But it can tell that you're coming home, it's just going to cool it to the right temperature right when you get there.	Do you have an app that works with your solar panels or anything like that?	0			0.095	0.115	
+673	[02:04:12]	Yeah. Yeah, we do.	And-.	0			0.349	0.031	
+674	[02:04:14]	But we need to hook it into the air conditioning to really make the air conditioning work.	Have you thought about creating an air conditioning system? I know you have. Trick question.	0			0.393	0.41	
+675	[02:04:27]	Cannot answer questions about the future of potential products.	Okay. Let's just let it go. We'll move on to the next thing.	0			0.178	0.16	
+676	[02:04:33]	That would be an interesting idea.	Yeah, I would say radiant heating and all that, good ideas. Now, when you think about the efficiency of these homes, and you think about implementing solar power and battery power, is there anything else that people are missing? Is there any other -- Like, I just saw a smart watch that is powered by the heat of the human body, and some new technology.	0			0.243	0.215	
+677	[02:05:00]	It's able to fully power that way?	I don't know-	0			0.16	0.158	
+678	[02:05:02]	Okay.	... if it's fully or if it's -- Like this watch right here, this is a Casio.	0			0.057	0.19	
+679	[02:05:07]	Okay.	It's called a Pro Trek. And it's like an outdoors watch, and it's solar-powered.	0			0.052	0.125	
+680	[02:05:12]	Okay.	And so, it has the ability to operate for a certain amount of time on solar.	0			0.07	0.263	
+681	[02:05:16]	Yeah.	So, if you have it exposed, it could function for a certain amount of time on solar.	0			0.047	0.247	
+682	[02:05:21]	Yeah. Well, you know, like there's self-weighting watches where-	Yeah.	0			0.109	0.053	
+683	[02:05:25]	... you know, it's just got a weight in the watch. And as you move your wrist, the way it moves from one side to the other, and it winds the watch up. That's a pretty cool thing.	Yeah, yeah.	0			0.091	0.065	
+684	[02:05:32]	Yeah.	Well, it's amazing that like Rolexes that it's all done mechanically.	0			0.057	0.131	
+685	[02:05:36]	Yeah.	There's no batteries in there. There is no nothing.	0			0.049	0.398	
+686	[02:05:38]	Yeah. You could do the same thing. You create a little charger that's based on wrist movement. It really depends on how much energy your watch uses.	"You know what's fucked up about that though? We accept a certain amount of like fucker y with those watches. Like I brought my watch. I have a Rolex that my friend, Lorenzo, gave me, and I brought it to the watch store, and I said,""This thing's always fast."" I said, ""It's always like after a couple of months, it's like five minutes fast."" And they go,""Yup."" They go, ""Yeah."""	0			0.202	0.392	
+687	[02:06:06]	Really?	"""It's just what it does."""	0			0.078	0.305	
+688	[02:06:10]	Okay.	"I go, ""Hold on."" I go, ""So, you're telling me that it just is always going to be fast?"" They're like, ""Yeah. It's just like every few months, you get like reset it."""	0			0.035	0.279	
+689	[02:06:17]	It seems like they should recalibrate that thing.	They can't. They tried. They say, every few months, whether it's four months, or five months, or six months, it'sgoing to be a couple of minutes fast.	0			0.368	0.388	
+690	[02:06:26]	Okay. It seems like they should really recalibrate that because-	You should figure that shit out.	0	recalibrate		0.51	0.446	
+691	[02:06:30]	... if it's always fast, you can just-	Right.	0			0.103	0.059	
+692	[02:06:30]	... you know, delete those minutes.	"You need to fucking kick down the door at Rolex and go, ""You bitches are lazy."""	0			0.075	0.133	
+693	[02:06:39]	It's kind of amazing that you can keep time mechanically on a wristwatch with these tiny little gears.	It's amazing.	1	kind of amazing	It's amazing.	0.641	0.7	
+694	[02:07:04]	Yeah.	And they live --- Like look at this thing, how much is that when Jaime?	0			0.083	0.161	
+695	[02:07:13]	Yeah. I think that is beautiful.	"But there's some of these people that are just taking it right in the ass. They're buying these watches for like$750,000 . Like, ""Yeah, that's a Timex, son."" Nobody knows. It's not any better than some Casio that you could just buy on -- Like, look at that though. Well, here's the thing. If you're a person that doesn't just want to know the time, you want craftsmanship, you want some artisan's touch, you want innovation in terms of like a person figuring out how gears and cogs all line up perfectly, to every time it turns over, it's basically a second. I mean, that's just -- There's this art to that."	0			0.112	0.383	
+696	[02:07:56]	Yeah, I agree.	Yeah, it's not just telling time. Yeah, I like this watch a lot, but if it got hit by a rock, I wouldn't be sad.	0			0.077	0.175	
+697	[02:08:02]	Yeah.	It's just to watch. It's a mass-produced thing that runs on some quartz battery. But those things, there's art to that.	0			0.069	0.143	
+698	[02:08:10]	Yeah. No, I agree. It's beautiful.	Yeah.	0			0.207	0.126	
+699	[02:08:13]	Yeah. Love it.	Yeah. There's something amazing about it. It's-	0			0.296	0.272	
+700	[02:08:17]	Right.	Because it represents the human creativity. It's not just electronic innovation. There's something. It's a person'swork in that.	0			0.059	0.183	
+701	[02:08:29]	Yes.	You don't have a watch on.	0			0.068	0.226	
+702	[02:08:32]	No.	Ever?	0			0.206	0.187	
+703	[02:08:33]	I used to have a watch.	What happened?	0			0.231	0.109	
+704	[02:08:35]	My phone tells the time. So-	That's a good point. Well, if you lose your phone? Do you -- Wait, hold on.	0			0.296	0.327	
+705	[02:08:42]	It's true.	Let me guess, you are a no case guy.	0			0.179	0.211	
+706	[02:08:47]	That's correct. Living on the edge. Living on the edge without a case.	Neil deGrasse Tyson. Neil deGrasse Tyson was in here last week. I'm marveled at his ability to get through life without a case.	0			0.489	0.367	
+707	[02:08:59]	That's right.	You know, he takes his phone, and he flips it in between his fingers like a soldier would do with his rifle.	0			0.087	0.147	
+708	[02:09:08]	Right.	He just rolls that shit in between his fingers.	0			0.058	0.284	
+709	[02:09:10]	Okay.	It's marvelous.	0			0.148	0.283	
+710	[02:09:11]	Wow.	"He says that's the reason why they do it. He said, ""Would you look at someone who has a rifle, why would they do that? Why would they flip it around like that?"""	0			0.053	0.18	
+711	[02:09:20]	Right.	It's like, it goes to drop, they have it in their hand. They catch it quickly.	0			0.052	0.459	
+712	[02:09:26]	Yeah.	So, that's what he does with his phone. He's just flipping his phone around all the time. I got that in Mexico. I was hoping it holds joint.	0			0.062	0.287	
+713	[02:09:34]	Does it do anything? It tips to open.	No.	0			0.356	0.11	
+714	[02:09:35]	Just a hole?	It's just a hole.	1	Just a hole?	It's just a hole.	0.675	0.782	
+715	[02:09:35]	You could store things in there.	Yeah. But like try it. Put a joint in there. Close it. You put like one blunt. One, that seems pretentious. You know,that's the idea behind it. I bought it when I was in Mexico because I figured it would be a good size to hold joints, orit's not.	0			0.417	0.344	
+716	[02:09:59]	So, is that a joint or is it a cigar?	No.	0			0.164	0.062	
+717	[02:10:09]	Okay.	It's marijuana inside of a tobacco.	0			0.078	0.314	
+718	[02:10:12]	Okay. So, it's like posh, part tobacco a pot.	Yeah. You never had that?	0			0.178	0.14	
+719	[02:10:16]	Yeah. I think I tried one once.	Come on, man. You probably can't because of stockholders, right?	0			0.158	0.268	
+720	[02:10:23]	I mean, it's legal, right?	Totally legal.	1	it's legal,	Totally legal.	0.771	0.746	
+721	[02:10:25]	Okay.	How does that work? Do people get upset at you if you do certain things? It's just tobacco and marijuana in there.That's all it is. The combination of tobacco and marijuana is wonderful. First turned on to it by Charlie Murphy, and then reignited by Dave Chappelle. There you go.	0		It's just tobacco and marijuana in there.That's all it is. combination of tobacco and marijuana	0.027	0.751	
+722	[02:10:48]	Exactly.	Perfect. It balances it out.	0			0.171	0.39	
+723	[02:10:52]	Alcohol is a drug that's been grandfathered in.	Well, it's not just a drug. It's a drug that gets a bad rep because you just have a little, it's great.	0			0.471	0.46	
+724	[02:11:01]	Fine.	Yeah, little sip here and there, and your inhibitions are relaxed, and it shows your true self. And, hopefully, you'remore joyous, and friendly, and happy, and everything. The real worry is the people that can't handle it. Like the real worry about people who can't handle cars and go 016 in 1.9 seconds or anything. Have you ever considered something that -- Like, imagine if one day, everyone has a car that's on the same, at least, technological standard as one of your cars, and everyone agrees that the smart thing to do is not just to have bumpers but to perhaps have some sort of a magnetic repellent device, something, some electromagnetic field around the cars that as cars come close to each other, they automatically radically decelerate because of magnets or something.	0			0.066	0.08	
+725	[02:11:56]	Well, I mean, our cars brake automatically.	Brake?	1	our cars brake automatically.	Brake?	0.843	0.709	
+726	[02:11:58]	Yeah.	Yeah. When they see things?	0			0.213	0.188	
+727	[02:12:00]	Yes.	But like a physical barrier, like-	0			0.075	0.249	
+728	[02:12:06]	Well, the wheels work pretty well.	The wheels do.	1	the wheels work pretty well.	The wheels do.	0.858	0.835	
+729	[02:12:07]	Yeah, yeah. They work pretty well. Decelerated at, you know, 1.1 to 1.2 Gs, that kind of thing.	Is your concern that one day all your cars will be on the road, and then, there'll still be regular people with regular cars 20-30 years from now that will get in the mix and be the main problem?	0			0.088	0.1	
+730	[02:12:31]	Yeah. I think, it'd be sort of like, you know, there was a time of transition where there were horses and gasoline carson the road at the same time. It's been pretty weird.	That would be the weirdest.	1	weird.	the weirdest.	0.504	0.527	
+731	[02:12:41]	Yeah. I mean, horses were tricky. You know, back when Manhattan had like 300.000 horses, then figure out like if a horse lives 15 years, you got 20,000 horses dropping dead every day or every year, I should say. Every year, it's20,000 horses. If there's 300,000 horses in a 15-year lifespan.	Back in the Gangs of New York days, that movie.	0			0.145	0.216	
+732	[02:13:06]	Yeah.	Yeah.	0			0.448	0.346	
+733	[02:13:07]	It's a lot of dead horses. You needed a horse to move the horse.	Right.	0			0.136	0.037	
+734	[02:13:11]	They'll probably get pretty freaked out if they have to move our dead horse.	Do you think they know what's going on?	0			0.169	0.235	
+735	[02:13:16]	Yeah.	Do you think it's as hard?	0			0.071	0.125	
+736	[02:13:17]	I mean, it's got to be like pretty weird.	No, I would imagine.	0			0.417	0.406	
+737	[02:13:20]	Like, in my mind, dragging this dead, you know, horse around, and I'm a horse.	Do you-	0			0.063	0.05	
+738	[02:13:27]	They might not like it.	Do you ever stop and think about your role in civilization? Do you ever stop and think about your role in the culture? Because me, as a person, who never met you until today, when I think of you, you know, I've always thought of you as being this weirdo super inventor dude who just somehow or another keeps coming up with news hit, but there's not a lot of you out there. Like everybody else seems to be -- I mean, obviously, you make a lot of money, and there's a lot of people that make a lot of money. You like that clock?	0			0.074	0.144	
+739	[02:13:54]	Yeah.	Pretty dope, right?	0			0.117	0.181	
+740	[02:13:55]	This is a great clock.	You want one? I'll get you one.	0			0.257	0.264	
+741	[02:13:59]	Sure.	Okay, done.	0			0.304	0.392	
+742	[02:14:01]	I like weird things like this.	Oh, this is the coolest. It's TGT Promotion. What is this? TGT Studios? TGT Studios.	0			0.206	0.472	
+743	[02:14:15]	My study is filled with weird devices.	Well, get ready for another one.	0			0.145	0.166	
+744	[02:14:19]	All right.	I'm sending it your way.	0			0.09	0.259	
+745	[02:14:21]	Cool.	You want a werewolf too? I'll hook you up.	0			0.081	0.228	
+746	[02:14:24]	All right. I'll take one.	"Okay. You want a werewolf and one clock coming up. Do you think about your role in the culture? Because me, as a person, who never met you until today, I've always looked at you and like, ""Wow."" Like, ""How does this guy just keep inventing shit?"" Like, how do you how do you keep coming up with all these new devices? And do you ever consider how unusual -- Like I had a dream once that there was a million Teslas. Instead of like one Tesla, there was a million Teslas."	0			0.404	0.343	
+747	[02:14:54]	Okay.	Not just the car but Nikola.	0			0.08	0.257	
+748	[02:14:57]	Oh, yeah, sure.	And that in his day, there was a million people like him who were radically innovative.	0			0.053	0.166	
+749	[02:15:04]	Wow.	It was a weird dream, man. It was so strange. And I've had it more than once.	0			0.096	0.256	
+750	[02:15:08]	That would result in a very rapid technology innovation. That's for sure.	It's one of the only dreams of my life I've had more than one time.	0			0.084	0.1	
+751	[02:15:15]	Okay, wow.	Like where I've woken up, and it's in the same dream. I'm in the same dream. And in this dream, it's 1940s, 1950s,but everyone is severely advanced. There's flying blimps with like LCD screens in the side of them. And everything is bizarre and strange. And it stuck with me for whatever -- Obviously, this is just a stupid dream. But for whatever reason, all these years, that stuck with being. Like it takes one man, like Nikola Tesla, to have more than a hundred inventions that were patents, right. I mean, he had some-	0		it stuck with me for that stuck with	0.023	0.664	
+752	[02:15:51]	He's pretty great.	... pretty fucking amazing ideas.	1	great.	fucking amazing	0.597	0.609	
+753	[02:15:55]	Yes.	But there was-	0			0.096	0.182	
+754	[02:15:56]	Definitely.	In his day, there was very few people like him.	0			0.077	0.178	
+755	[02:15:59]	Yeah, that was true.	What if there was a million? Like what in the experience-	0			0.115	0.145	
+756	[02:16:03]	Things would advance very quickly.	Right, but there's not a million Elon Musks. There's one motherfucker. Do you think about that or you just try to not?	0			0.15	0.192	
+757	[02:16:17]	I don't think. I don't think you'd necessarily want to be me. That'd be good.	Well, what's the worst part about you?	0			0.292	0.194	
+758	[02:16:31]	I should. I never thought people would like it that much.	Well, most people would, but they can't be. So, that's like some superhero type shit. You know, we wouldn't want tobe Spiderman. I'd rather just sleep tight in Gotham City and hope he's out there doing his job.	0			0.449	0.35	
+759	[02:16:48]	It's very hard to turn it off.	Yeah. What's the hardest part?	0			0.477	0.341	
+760	[02:16:52]	It might sound great if it's turned on, but what if it doesn't turn off?	Now, I showed you the isolation tank, and you've never experienced that before.	0			0.214	0.221	
+761	[02:17:00]	No.	I think that could help you turn it off a little bit just for the night.	0			0.066	0.165	
+762	[02:17:05]	Okay.	Yeah. Just give you a little bit of sleep, a little bit of perspective. It's magnesium that you get from the water as well that makes you sleep easier because the water has Epsom salts in it. But may be some sort of strategy for sacrificing your -- or not sacrificing but enhancing your biological recovery time by figuring out a way whether it'sthrough meditation or some other ways to shut off that thing at night. Like you must have like a constant stream of ideas that's running through your head all the time. You're getting text messages from chicks.	0			0.066	0.113	
+763	[02:17:44]	"No. I'm getting text messages from a friend saying, ""What the hell are you doing smoking weed?""."	Is that bad for you? It's legal.	0			0.258	0.171	
+764	[02:17:56]	I mean-	It's government approved.	0			0.11	0.28	
+765	[02:17:57]	It's not -- You know, I'm not a regular smoker of weed.	How often do you smoke it?	0	weed.		0.519	0.338	
+766	[02:18:03]	Almost never. I mean, it's-	How does it feel?	0			0.103	0.106	
+767	[02:18:08]	I don't actually notice any effect.	Well, there you go. There was a time where I think it was Ramadan for someone gave some Buddhist monk a bunch of acid.	0			0.11	0.132	
+768	[02:18:19]	Okay.	And he ate it, and it had no effect on him.	0			0.077	0.277	
+769	[02:18:23]	I doubt that.	"I would say that too, but I've never meditated to the level that some of these people have where they're constantly meditating all day. They don't have any material possessions. And all of their energy is spent trying to achieve a certain mindset. I would like to cynically deny that. I'd like to cynically say, ""Hey, just fuck and think the same way Ido."" They're just hanging out with flip flops on and make weird noises, but maybe no."	0			0.14	0.107	
+770	[02:18:51]	You know, I know a lot of people like weed, and that's fine, but I don't find that it is very good for productivity.	For you.	0			0.148	0.209	
+771	[02:19:02]	Not for me.	Yeah. I mean, I would imagine that for someone like you, it's not. For someone like you, it would be more like a cup of coffee, right. You want to have a latte.	0	Not for		0.568	0.399	
+772	[02:19:14]	Yeah. It's more like the opposite of a cup of coffee.	What is that?	0			0.204	0.145	
+773	[02:19:16]	It's like a cup of coffee in reverse.	Weed is?	0			0.324	0.327	
+774	[02:19:17]	Yeah.	No, I'm saying you would like more. More like will be beneficial to you. It would be like coffee.	0			0.044	0.339	
+775	[02:19:24]	I like to get things done. I like to be useful. That is one of the hardest things to do is to be useful.	When you say you like to get things done-	1	I like to get things done.	you say you like to get things done-	0.892	0.899	
+776	[02:19:34]	Yes.	... like, in terms of like what-	0			0.1	0.193	
+777	[02:19:35]	I should get things done.	... gives you satisfaction? When you complete a project, when something that you invent comes to fruition, and you see people enjoying it, that feeling.	0			0.319	0.301	
+778	[02:19:45]	Yes, doing something useful for other people that I like doing.	That's interesting for other people.	1	doing something useful for other people	That's interesting for other people.	0.71	0.759	
+779	[02:19:55]	Yes.	So, that, do you think that that is maybe the way you recognize that you have this unusual position in the culture where you can uniquely influence certain things because of this? I mean, you essentially have a gift, right.	0			0.035	0.26	
+780	[02:20:12]	Sure.	I mean, you would think it was a curse, but I'm sure it's been fueled by many, many years of discipline and learning. But you, essentially, have a gift and that you have this radical sort of creativity engine when it comes to innovation and technology. It's like you're just you're going at very high RPMs.	0			0.069	0.212	
+781	[02:20:35]	All the time. That doesn't stop.	What is that like?	0			0.263	0.086	
+782	[02:20:37]	I don't know what would happen if I got into a sensory deprivation tank.	Let's try it.	0			0.272	0.295	
+783	[02:20:42]	It sounds a little concerning.	But why?	0			0.143	0.062	
+784	[02:20:47]	It's like running the engine with no resistance. That is-	Is that what it is though? Maybe it's not.	0			0.221	0.32	
+785	[02:20:53]	Maybe it's fine. I don't know.	How much-	0			0.166	0.14	
+786	[02:20:55]	I'll try it. I'll try it.	Have you ever-	0	try it. I'll try it.		0.571	0.096	
+787	[02:21:00]	It's fine.	... experimented with meditation or anything?	0			0.08	0.172	
+788	[02:21:03]	Yes.	What do you do, or what have you done rather?	0			0.047	0.131	
+789	[02:21:08]	I mean, just sort of sit there, and be quiet, and then repeat some mantra, which acts as a focal point. It does still the mind. It does still the mind, but I don't find myself drawn to it frequently.	Do you think that perhaps productivity is maybe more attractive to you than enlightenment or even the concept of whatever enlightenment means. Like, what are you trying to achieve when you're meditating all the time? With you, it seems like almost like there's a frantic ness to your creativity that comes out of this burning furnace. And in order for you to like calm that thing down, you might have to throw too much water on it.	0			0.27	0.191	
+790	[02:21:59]	It's like a never-ending explosion.	Like what is it like? Try to explain it to a dumb person like me. What's going on?	0			0.419	0.304	
+791	[02:22:10]	Never-ending explosion.	It's just constant ideas just bouncing around.	0			0.395	0.445	
+792	[02:22:15]	Yes.	Damn.	0			0.122	0.116	
+793	[02:22:18]	Yeah.	So, when everybody leaves, it's just Elon sitting at home brushing his teeth, just bunch ideas bouncing around your head.	0			0.038	0.199	
+794	[02:22:26]	Yeah, all the time.	When did you realize that that's not the case with most people?	0			0.368	0.28	
+795	[02:22:38]	I think, when I was, I don't know, five or six or something. I thought I was insane.	Why did you think you were insane?	1	I thought I was insane.	Why did you think you were insane?	0.914	0.877	
+796	[02:22:45]	Because it is clear that other people do not. Their mind wasn't exploding with ideas all the time.	"So, they weren't expressing it. They weren't talking about it all day. And you realized by the time you were five or six like, ""Oh, they're probably not even getting this thing that I'm getting."""	1	Their mind wasn't exploding with ideas all the time.	they weren't expressing it. They weren't talking about it all day.	0.816	0.756	
+797	[02:23:02]	"No. It was just strange. It was like, ""Hmm, kind of strange."" That was my conclusion, kind of strange."	But did you feel diminished by it in any way? Like knowing that this is a weird thing that you really probablycouldn't commiserate with other people, they wouldn't understand you.	0			0.254	0.254	
+798	[02:23:25]	I hope they wouldn't find out because they might like put me away or something.	You thought that?	0			0.195	0.303	
+799	[02:23:28]	For a second, yes.	When you were little?	0			0.225	0.255	
+800	[02:23:31]	Yeah. They put people away. What if they put me away?	Like when you were little, you thought this?	0			0.399	0.106	
+801	[02:23:35]	Yes.	"Wow. Well, you thought, ""This is so radically different than the people that are around me if they find out I got this stream coming in."""	0			0.044	0.11	
+802	[02:23:44]	Yeah.	Whoa.	0			0.114	0.101	
+803	[02:23:48]	But, you know, I was only like five or six probably.	Do you think this is like -- I mean, there's outliers biologically. You mean, there's people that are 7 foot 9, there'speople that have giant hands, there's people that have eyes that are 20/15 vision. There's always the outliers. Do you feel like you like caught this, like you have got some -- you're like on some weird innovation creativity sort of wave that's very unusual? Like you tapped into -- I mean, just think of the various things you may have accomplished in a very short amount of time, and you're constantly doing this. That's a weird -- You're a weird person, right.	0		That's a You're a weird person,	0.024	0.712	
+804	[02:24:36]	Right, I agree.	Yeah. Like what if there's a million Elon Musks?	0			0.048	0.275	
+805	[02:24:42]	Well, that would be very, very weird.	Whoa.	0			0.275	0.073	
+806	[02:24:45]	Yeah, it would be pretty weird. I agree.	Real weird.	1	it would be pretty weird.	Real weird.	0.821	0.789	
+807	[02:24:51]	Definitely.	Yeah.	0			0.201	0.142	
+808	[02:24:55]	What if there were a million Joe Rogans?	There probably is. There's probably two million. I mean, I think that's the case with a lot of folks.	0	there were a million		0.629	0.494	
+809	[02:25:09]	Yeah. I mean, but, like, you know, my goal is like try to do useful things, try to maximize the probability for thefuture's good, make the future exciting, something you look forward to, you know. You know, with Tesla, I want to try to make things that people love. Like, how do you think you could buy that you really love, that really give you joy? So rare, so rare. I wish there were more things. That's what we try to do. Just make things that somebody loves.	When you-	0			0.353	0.091	
+810	[02:25:49]	That's so difficult.	When you think about things that someone loves, like, do you specifically think about like what things would improve people's experience, like what would change the way people interface with life that would make them more relaxed or more happy? You really think, like, when you're thinking about things like that, is that like one of your considerations? Like what could I do that would help people-	0			0.04	0.127	
+811	[02:26:15]	Yeah.	... that maybe they wouldn't be able to figure out?	0			0.074	0.227	
+812	[02:26:18]	Yeah. Like what are the set of things that can be done to make the future better? Like, you know, like so, I think, a future where we are a space-faring civilization and out there among the stars. This is very exciting. This makes me look forward to a future. This makes me want that future. You know, the things, there need to be things that make you look forward to waking up in the morning. You wake up in the morning, you look forward to the day, you look forward to the future. And a future where we area space-faring civilization and out there among the stars, I think, that's very exciting. That is a thing we want;whereas, if we knew we would not be a space-faring civilization but forever confined to Earth, this would not be a good future. That would be very sad, I think.	It would be so sad in terms-	1	That would be very sad,	It would be so sad	0.669	0.71	
+813	[02:27:10]	Like I don't want a sad future.	... just the finite lifespan of the Earth itself-	0			0.219	0.252	
+814	[02:27:15]	Yes.	... and the solar system itself. But even though it's possibly -- You know, I mean, how long do they feel like the sun and the solar system is going to exist? How many hundreds of millions of years?	0			0.063	0.298	
+815	[02:27:27]	Well, it's probably, if you're saying when does the sun boil the oceans-	Right.	0			0.094	0.041	
+816	[02:27:35]	About 500 million years.	So, is it sad that we never leave because in 500 million years, that happens? Is that what you're saying?	1	About 500 million years.	in 500 million years,	0.77	0.685	
+817	[02:27:45]	No. I just think like if there are two futures, and one future us we're out there among the stars, and the things were ad about and see in science fiction movies, the good ones are true, and we have these starships, and we're going see what other planets are like, and we're a multi-planet species, and the scope and scale of consciousness is expanded across many civilizations, and many planets, and many star systems, this is a great future. This is a wonderful thing to me. And that's what we should strive for.	But that's biological travel. That's cells traveling physically to another location.	0			0.239	0.445	
+818	[02:28:31]	Yes.	Do you think that's definitely where we're going?	0			0.07	0.212	
+819	[02:28:37]	No.	Yeah, I don't think so either. I used to think so. And, now, I'm thinking more likely less than ever. Like almost everyday less likely.	0			0.446	0.448	
+820	[02:28:48]	We can definitely go to the moon and Mars.	Yeah. Do you think we will colonize?	0			0.304	0.204	
+821	[02:28:51]	I think we will go to the asteroid belt. And we can go to the moons of Jupiter, Saturn, even get to Pluto.	That'd be the craziest place ever if we colonize Mars, and reform it, and turn it into like a big Jamaica. Just oceansand-	0			0.181	0.182	
+822	[02:29:05]	I think, we should. I think that would be great.	I mean, imagine that there is-	0			0.264	0.155	
+823	[02:29:08]	That would be great. Amazing.	It's possible, right?	0			0.43	0.416	
+824	[02:29:12]	Yes.	We can turn the whole thing into Cancún.	0			0.074	0.204	
+825	[02:29:15]	Well-	I mean, over time.	0			0.047	0.315	
+826	[02:29:17]	It wouldn't be easy but yes.	Right.	0			0.12	0.061	
+827	[02:29:18]	You could just warm -- You could warm it up.	Yeah, you can warm it up. You could add air. You get some water there. I mean, over time, hundreds of millions of years or whatever it takes.	1	You could just warm You could warm it up.	you can warm it up.	0.849	0.822	
+828	[02:29:26]	We'll be a multi-planet species.	Yeah, that would be amazing.	0			0.319	0.384	
+829	[02:29:29]	We're a multi-planet species.	If we could-	0			0.355	0.16	
+830	[02:29:30]	That's what we want to be-	... legitimately like air-condition-	0			0.266	0.249	
+831	[02:29:33]	Great.	... Saturn.	0			0.099	0.115	
+832	[02:29:34]	I'm pro-human.	Me too. Yeah, me too.	0		Me too. me too.	0.208	0.697	
+833	[02:29:37]	I love humanity. I think it's great.	We're glad as a robot that you love humans because we love you too, and we don't want you to kill us and eat us.And-	1	I love humanity.	you love humans	0.805	0.676	
+834	[02:29:48]	I mean, you know, strangely, I think a lot of people don't like humanity and see it as a blight, but I do not.	Well, I think one of those -- I think, part of that is just they've been -- you know, they've been struggling. When people struggle, they associate their struggle with other people. They never internalize their problems. They look to other people as holding them back, and people suck, and fuck people, and it's just -- You know, it's a never ending cycle. But not always. Again, most people are really good. Most people, the vast majority.	0			0.211	0.18	
+835	[02:30:22]	This may sound corny.	It does sound corny.	1	This may sound corny.	It does sound corny.	0.821	0.839	
+836	[02:30:24]	But love is the answer.	It is you answer.	1	love is the answer.	It is you answer.	0.812	0.821	
+837	[02:30:27]	Yup.	Yeah, it is. It sounds corny because we're all scared. You know, we're all scared of trying to love people, being rejected, or someone taking advantage of you because you're trying to be loving.	0			0.138	0.216	
+838	[02:30:40]	Sure.	What if we all could just relax and love each other?	0			0.055	0.151	
+839	[02:30:46]	It wouldn't hurt to have more love in the world.	It definitely wouldn't hurt.	1	It wouldn't hurt	It definitely wouldn't hurt.	0.769	0.744	
+840	[02:30:50]	Yeah.	It would be great.	0			0.158	0.31	
+841	[02:30:51]	Yeah, we should do that.	Yeah, I agree, man.	0			0.24	0.16	
+842	[02:30:54]	Like really.	How are you going to fix that? Do you have a love machine you're working on?	0			0.057	0.087	
+843	[02:30:59]	No, but probably spend more time with your friends and less time on social media.	Now, deleting social media from your applications, from your phones, will that give you a 10% boost to happiness?What do you think the percentage is?	1	less time on social media.	deleting social media	0.639	0.641	
+844	[02:31:18]	I think probably something like that, yeah.	Yeah, a good 10%.	0			0.313	0.303	
+845	[02:31:21]	Yeah, I mean, the only thing I've kept is Twitter because I kind of like meet some means of getting a message out,you know.	Right.	0			0.08	0.055	
+846	[02:31:33]	Well, that's about it. So far so good.	Well, what's interesting with you, you actually occasionally engage with people on Twitter.	0			0.081	0.198	
+847	[02:31:45]	Yeah, that's-	What percentage of that is a good idea?	0			0.082	0.289	
+848	[02:31:48]	Good question.	Probably 10%, right? It's hard.	0			0.113	0.208	
+849	[02:32:00]	It's mostly -- I think, it's on balance, more good than bad, but there's definitely some bad. So-.	Do you ever-	0			0.085	0.078	
+850	[02:32:08]	Hopefully, the good outweighs the bad.	"Do you ever think about how odd it is, the weird feeling that you get when someone says something shitty to you on Twitter, and you read it? That weird feeling. This weird little negative jolt. It's like a subjective negative jolt of energy that you don't really need to absorb, but you do anyway. Like, ""I want to fuck this guy. Fuck him."""	0			0.1	0.126	
+851	[02:32:29]	I mean, there's a lot of negativity on Twitter.	"It is, but it's a weird in it's form. Like the way, if you ingest it as if you're like -- you try to be like a little scientist asyou're ingesting it, you're like, ""How weird is this?"" And I'm even getting upset at some strange person saying something mean to me. It's not even accurate."	0			0.184	0.129	
+852	[02:32:51]	I mean, the vast number of negative comments, for the vast majority, I just ignore them, the vast majority.	Yeah.	0			0.063	0.061	
+853	[02:32:59]	Every now and again, you have draw in, something not good.	It's not good.	1	something not good.	It's not good.	0.763	0.777	
+854	[02:33:04]	You make mistakes.	Yes, you can make mistakes.	1	You make mistakes.	you can make mistakes.	0.901	0.883	
+855	[02:33:07]	We can make some mistakes.	"We're all human. We can make mistakes. Yeah, it's hard. And people love it when you say something, and you take it back, and they're like, ""Fuck you. We saved it forever. I'll fucking screenshot that shit, bitch. You had that thought. You had that thought."" I'm like, ""Well, I deleted it."" ""Not good enough. You had the thought. I'm better than you. I never had that thought. You had that thought, you piece of shit. Look, I saved it. I put it on my blog. Bad thought."""	1	We can make some mistakes.	make mistakes.	0.622	0.602	
+856	[02:33:36]	"Yeah. I'm not sure why people think that anyone would think that deleting a tweet makes them go away. It's like,""Hello, been on the internet for a while."""	Yeah. Well it's even like-	0			0.425	0.408	
+857	[02:33:47]	Anything is forever.	"And the thing is they don't want you to be able to delete it because the problem is if you don't delete it, and youdon't believe it anymore, it's really hard to say, ""Hey, that thing above, I don't really believe that anymore. I changed the way I view things."""	0			0.297	0.157	
+858	[02:34:00]	Yes.	"Because people would go, ""Well, fuck you. I have that over there. I'm going to just take that. I'm not going to pay attention to that shit you wrote underneath it."""	0			0.042	0.108	
+859	[02:34:05]	It's on your permanent record.	Yeah. It's forever like a tattoo.	1	It's on your permanent record.	It's forever like a tattoo.	0.843	0.818	
+860	[02:34:09]	"Like high school, ""We'll put this on your permanent record."""	Yeah. It's like a tattoo. You keep it.	1	"permanent record."""	like a tattoo.	0.533	0.596	
+861	[02:34:14]	Yeah.	Yeah. Well, it's this thing where there's a lack of compassion. It's a lack of compassion issue. People are just like intentionally shitty to each other all the time online, and trying to catch-	0			0.125	0.207	
+862	[02:34:27]	Yeah.	They're more trying to catch people doing something that's arrestable, like a cop trying to, like, get, you know,arrests on his record. It's like they're trying to catch you for something, more than they're logically looking at it thinking it's a bad thing that you've done, or that it's an idea they don't agree with so much, they needed to insult you. They're trying to catch you.	0		they're trying to catch you for They're trying to catch you.	0.09	0.717	
+863	[02:34:48]	Yeah, yeah. I mean, it's way easier to be mean on social media than it is to be mean in person.	Yes.	0			0.134	0.072	
+864	[02:34:54]	Way easier.	Yeah.	0			0.273	0.072	
+865	[02:34:56]	Yeah.	It's weird. It's not a normal way of human interacting. It's cheating.	0			0.085	0.205	
+866	[02:35:02]	True.	You're not supposed to be able to interact so easily when the people are not looking at.	0			0.054	0.156	
+867	[02:35:06]	Yes.	You would never do that. Don't be so mean when somebody looking in their eyes. If you did, you'd feel like shit.	0			0.048	0.163	
+868	[02:35:11]	Most people.	Yeah, unless you're a sociopath, you'd feel terrible.	0			0.281	0.19	
+869	[02:35:16]	Yes.	Elon Musk, this has been a pleasure.	0			0.057	0.09	
+870	[02:35:21]	Yeah, likewise.	It really has been.	0			0.114	0.341	
+871	[02:35:23]	It's been an honor. Thank you for having me.	Thanks for doing this because I know you don't do a lot of long form stuff like this. I hope I didn't weird you out, andI hope you don't get mad that you smoked weed.	0			0.156	0.096	
+872	[02:35:34]	I mean-	It's not bad. It's legal. We're in California. This is just as legal as this whiskey we've been drinking.	0			0.058	0.187	
+873	[02:35:41]	Exactly.	This is all good, right?	0			0.093	0.221	
+874	[02:35:43]	Cheers.	Cheers. Thank you. Is there any message you would like to put out other than love is the answer, because I think you really nailed it with that.	0			0.389	0.213	
+875	[02:35:53]	No. I think, you know, I think people should be nicer to each other, and give more credit to others, and don'tassume that they're mean until you know they're actually mean. You know, just, it's easy to demonize people.You're usually wrong about it. People are nicer than you think. Give people more credit.	I couldn't agree more. And I want to thank you not just for all the crazy innovations you've come up with and your constant flow of ideas but that you choose to spread that idea, which is very vulnerable, but it's very honest, and it resonates with me.	0	are nicer than Give people credit.		0.594	0.079	
+876	[02:36:40]	It's true.	And I believe it.	1	It's true.	believe it.	0.619	0.511	
+877	[02:36:41]	It's true.	I believe it's true too. So, thank you.	1	It's true.	believe it's true	0.769	0.793	
+878	[02:36:43]	You're welcome.	All you assholes out there, be nice. Be nice, bitch. All right. Thank you, everybody. Thank you, Elon.	0			0.101	0.236	
+879	[02:36:50]	All right, thank you.	Good night, everybody.	0			0.141	0.178	

@@ -1,0 +1,202 @@
+SCORE PRINTOUTS - LLM-as-judge experiments (all on the 79 hand-labelled pairs; labels as originally annotated)
+Model used for the judge: gpt-4o
+
+================================================================================
+A. LLM as an independent classifier, my own prompt (llm_judge.py)
+   Produced by: python score_judge.py   (input: judge_outputs.tsv; re-run on the saved output file)
+================================================================================
+
+==== Rogan / Musk (stratified sample - recall is inflated, trust precision more) ====
+  pairs: 40 | judge replies that could not be parsed: 0 | pairs used below: 40
+ Label scores (positive class = paraphrase):
+  DeBERTa vs human             n=40  TP=16 FP=4 FN=5 TN=15  P=0.80 R=0.76 F1=0.78  acc=0.78  kappa=0.55
+  LLM judge vs human           n=40  TP=6 FP=0 FN=15 TN=19  P=1.00 R=0.29 F1=0.44  acc=0.62  kappa=0.28
+  LLM judge vs DeBERTa         n=40  TP=4 FP=2 FN=16 TN=18  P=0.67 R=0.20 F1=0.31  acc=0.55  kappa=0.10
+  Jaccard DeBERTa vs human, guest side: 0.54  (on 18 pairs where both highlight)
+  Jaccard DeBERTa vs human, host side: 0.73  (on 17 pairs where both highlight)
+  Jaccard LLM judge vs human, guest side: 0.73  (on 6 pairs where both highlight)
+  Jaccard LLM judge vs human, host side: 0.87  (on 6 pairs where both highlight)
+
+==== Obama / Conan (all pairs) ====
+  pairs: 39 | judge replies that could not be parsed: 0 | pairs used below: 39
+ Label scores (positive class = paraphrase):
+  DeBERTa vs human             n=39  TP=10 FP=0 FN=9 TN=20  P=1.00 R=0.53 F1=0.69  acc=0.77  kappa=0.53
+  LLM judge vs human           n=39  TP=8 FP=0 FN=11 TN=20  P=1.00 R=0.42 F1=0.59  acc=0.72  kappa=0.43
+  LLM judge vs DeBERTa         n=39  TP=5 FP=3 FN=5 TN=26  P=0.62 R=0.50 F1=0.56  acc=0.79  kappa=0.42
+  Jaccard DeBERTa vs human, guest side: 0.57  (on 12 pairs where both highlight)
+  Jaccard DeBERTa vs human, host side: 0.74  (on 12 pairs where both highlight)
+  Jaccard LLM judge vs human, guest side: 0.83  (on 8 pairs where both highlight)
+  Jaccard LLM judge vs human, host side: 0.89  (on 8 pairs where both highlight)
+
+==== Both datasets pooled ====
+  pairs: 79 | judge replies that could not be parsed: 0 | pairs used below: 79
+ Label scores (positive class = paraphrase):
+  DeBERTa vs human             n=79  TP=26 FP=4 FN=14 TN=35  P=0.87 R=0.65 F1=0.74  acc=0.77  kappa=0.55
+  LLM judge vs human           n=79  TP=14 FP=0 FN=26 TN=39  P=1.00 R=0.35 F1=0.52  acc=0.67  kappa=0.35
+  LLM judge vs DeBERTa         n=79  TP=9 FP=5 FN=21 TN=44  P=0.64 R=0.30 F1=0.41  acc=0.67  kappa=0.22
+  Jaccard DeBERTa vs human, guest side: 0.55  (on 30 pairs where both highlight)
+  Jaccard DeBERTa vs human, host side: 0.74  (on 29 pairs where both highlight)
+  Jaccard LLM judge vs human, guest side: 0.79  (on 14 pairs where both highlight)
+  Jaccard LLM judge vs human, host side: 0.88  (on 14 pairs where both highlight)
+
+================================================================================
+B. LLM-as-judge of DeBERTa's predictions, FIRST prompt (llm_judge_predictions.py)
+   Produced by: python score_judge_predictions.py   (terminal output as printed)
+================================================================================
+==== Rogan / Musk (stratified sample) ====
+  judged DeBERTa predictions: 40 | unparseable judge replies: 0
+ Label decision:
+  strict agreement with human label       : 31/40 (78%)
+  judge accepts DeBERTa's label (overall) : 34/40 (85%)
+  -- where DeBERTa MATCHES the human     : 30/31 (97%)  (should be high; low = judge stricter than humans)
+  -- where DeBERTa DIFFERS from the human: 4/9 (44%)  (these are the 'plausible disagreement' cases)
+       false positives accepted: 2/4 (50%) | false negatives accepted: 2/5 (40%)
+ F1 (positive class):  strict  P=0.80 R=0.76 F1=0.78   |   judge-lenient  P=0.90 R=0.86 F1=0.88
+ Highlights (pairs where DeBERTa said paraphrase):
+  judge accepts the highlighted words: 15/20 (75%)
+ CONTROL (deliberately wrong 'not a paraphrase' shown for clear paraphrases):
+  judge correctly REJECTS them: 4/6 (67%)  (should be close to 100%)
+ Examples where DeBERTa differs from me but the judge accepts it:
+  [rogan 771] DeBERTa=0 human=1 | The host does not reword the guest's 'Not for me'; they conjecture about what it might be like for the guest (and say more, unconnected content). No paraphrase
+  [rogan 40] DeBERTa=1 human=0 | The host restates the guest’s request to change the Wikipedia page, so the label is correct. However, the highlights do not precisely correspond to this restate
+  [rogan 176] DeBERTa=1 human=0 | The host directly repeats and then slightly modifies the guest's statement, which is a clear instance of paraphrasing.
+  [rogan 828] DeBERTa=0 human=1 | The host reacts to the guest's statement rather than rephrasing or repeating it, so there is no paraphrase.
+
+==== Obama / Conan ====
+  judged DeBERTa predictions: 39 | unparseable judge replies: 0
+ Label decision:
+  strict agreement with human label       : 30/39 (77%)
+  judge accepts DeBERTa's label (overall) : 35/39 (90%)
+  -- where DeBERTa MATCHES the human     : 28/30 (93%)  (should be high; low = judge stricter than humans)
+  -- where DeBERTa DIFFERS from the human: 7/9 (78%)  (these are the 'plausible disagreement' cases)
+       false positives accepted: 0/0 | false negatives accepted: 7/9 (78%)
+ F1 (positive class):  strict  P=1.00 R=0.53 F1=0.69   |   judge-lenient  P=1.00 R=0.83 F1=0.91
+ Highlights (pairs where DeBERTa said paraphrase):
+  judge accepts the highlighted words: 8/10 (80%)
+ CONTROL (deliberately wrong 'not a paraphrase' shown for clear paraphrases):
+  judge correctly REJECTS them: 3/4 (75%)  (should be close to 100%)
+ Examples where DeBERTa differs from me but the judge accepts it:
+  [obama 7] DeBERTa=0 human=1 | The host's statement is a direct negation of the guest's statement, not a paraphrase. They are addressing the same content, but the host is disagreeing with the
+  [obama 11] DeBERTa=0 human=1 | The host reacts and adds their own impression without rewording or repeating content about the guest's clarification about the place being 'more shop than salon
+  [obama 30] DeBERTa=0 human=1 | The host does not reword or repeat any specific content from the guest's statement about Bama or Rock. Instead, the host expresses their opinion.
+  [obama 37] DeBERTa=0 human=1 | The host does not rephrase or repeat the guest's statement about 'Me and Conan.' Instead, the host expands on the topic, making the no paraphrase label proper.
+  [obama 8] DeBERTa=0 human=1 | The host does not rephrase or repeat the guest's words. He shifts to personal commentary and a question about the barbershop, so no paraphrase is correct.
+  [obama 17] DeBERTa=0 human=1 | The host makes a humorous suggestion about using the guest's public speaking skill with his children, but he does not paraphrase any specific content from the g
+  [obama 24] DeBERTa=0 human=1 | The host does not paraphrase the guest's statement about being long-winded; instead, they respond by asking a new question.
+
+==== Both datasets pooled ====
+  judged DeBERTa predictions: 79 | unparseable judge replies: 0
+ Label decision:
+  strict agreement with human label       : 61/79 (77%)
+  judge accepts DeBERTa's label (overall) : 69/79 (87%)
+  -- where DeBERTa MATCHES the human     : 58/61 (95%)  (should be high; low = judge stricter than humans)
+  -- where DeBERTa DIFFERS from the human: 11/18 (61%)  (these are the 'plausible disagreement' cases)
+       false positives accepted: 2/4 (50%) | false negatives accepted: 9/14 (64%)
+ F1 (positive class):  strict  P=0.87 R=0.65 F1=0.74   |   judge-lenient  P=0.93 R=0.85 F1=0.89
+ Highlights (pairs where DeBERTa said paraphrase):
+  judge accepts the highlighted words: 23/30 (77%)
+ CONTROL (deliberately wrong 'not a paraphrase' shown for clear paraphrases):
+  judge correctly REJECTS them: 7/10 (70%)  (should be close to 100%)
+ Examples where DeBERTa differs from me but the judge accepts it:
+  [obama 7] DeBERTa=0 human=1 | The host's statement is a direct negation of the guest's statement, not a paraphrase. They are addressing the same content, but the host is disagreeing with the
+  [obama 11] DeBERTa=0 human=1 | The host reacts and adds their own impression without rewording or repeating content about the guest's clarification about the place being 'more shop than salon
+  [rogan 771] DeBERTa=0 human=1 | The host does not reword the guest's 'Not for me'; they conjecture about what it might be like for the guest (and say more, unconnected content). No paraphrase
+  [obama 30] DeBERTa=0 human=1 | The host does not reword or repeat any specific content from the guest's statement about Bama or Rock. Instead, the host expresses their opinion.
+  [rogan 40] DeBERTa=1 human=0 | The host restates the guest’s request to change the Wikipedia page, so the label is correct. However, the highlights do not precisely correspond to this restate
+  [rogan 176] DeBERTa=1 human=0 | The host directly repeats and then slightly modifies the guest's statement, which is a clear instance of paraphrasing.
+  [obama 37] DeBERTa=0 human=1 | The host does not rephrase or repeat the guest's statement about 'Me and Conan.' Instead, the host expands on the topic, making the no paraphrase label proper.
+  [rogan 828] DeBERTa=0 human=1 | The host reacts to the guest's statement rather than rephrasing or repeating it, so there is no paraphrase.
+================================================================================
+C. Controls only, FIRST prompt, all 26 pairs (run_controls_only.py)
+   Summary recomputed from the saved judge_controls_outputs.tsv
+================================================================================
+Found 26 pairs where DeBERTa and I both said paraphrase.
+
+CONTROL RESULT (should be close to 100% rejected):
+  rogan    judge correctly rejects 9 of 16  (56%, 95% interval 33%-77%)
+  obama    judge correctly rejects 5 of 10  (50%, 95% interval 24%-76%)
+  pooled   judge correctly rejects 14 of 26  (54%, 95% interval 35%-71%)
+
+================================================================================
+D. Controls only, EVIDENCE-FIRST prompt, all 26 pairs (judge_v2.py, MODE = controls)
+   Terminal output as printed
+================================================================================
+CONTROL RESULT (should be close to 100% rejected):
+  rogan    judge correctly rejects 12 of 16  (75%, 95% interval 51%-90%)
+  obama    judge correctly rejects 9 of 10  (90%, 95% interval 60%-98%)
+  pooled   judge correctly rejects 21 of 26  (81%, 95% interval 62%-91%)
+
+Wrong 'No' predictions the judge ACCEPTED:
+ [rogan 833] The host conversationally refers to the guest's statement about loving humanity, but does not repeat or rephrase it specifically, so 'no paraphrase' is correct.
+ [rogan 82] The host captures the timeframe urgency from the guest's statement, which suggests waiting is unacceptable.
+ [rogan 424] The host's question about efficiency adds new ideas and doesn't repeat or reword the guest, so 'no paraphrase' is right.
+ [rogan 83] The host's 'out of control countdown' is not a rewording or repetition of 'not necessarily a doomsday countdown'; it represents a different concept.
+ [obama 3] The host makes a new inference about the ancient connection but does not repeat or rephrase the guest's point about the name.
+
+================================================================================
+E. LLM-as-judge of DeBERTa's predictions, EVIDENCE-FIRST prompt (judge_v2.py, MODE = all)
+   Produced by: python score_judge_predictions.py judge_v2_pred_outputs.tsv   (terminal output as printed)
+================================================================================
+==== Rogan / Musk (stratified sample) ====
+  judged DeBERTa predictions: 40 | unparseable judge replies: 0
+ Label decision:
+  strict agreement with human label       : 31/40 (78%)
+  judge accepts DeBERTa's label (overall) : 34/40 (85%)
+  -- where DeBERTa MATCHES the human     : 30/31 (97%)  (should be high; low = judge stricter than humans)
+  -- where DeBERTa DIFFERS from the human: 4/9 (44%)  (these are the 'plausible disagreement' cases)
+       false positives accepted: 2/4 (50%) | false negatives accepted: 2/5 (40%)
+ F1 (positive class):  strict  P=0.80 R=0.76 F1=0.78   |   judge-lenient  P=0.90 R=0.86 F1=0.88
+ Highlights (pairs where DeBERTa said paraphrase):
+  judge accepts the highlighted words: 15/20 (75%)
+ CONTROL (deliberately wrong 'not a paraphrase' shown for clear paraphrases):
+  judge correctly REJECTS them: 6/6 (100%)  (should be close to 100%)
+ Examples where DeBERTa differs from me but the judge accepts it:
+  [rogan 771] DeBERTa=0 human=1 | The host repeats the guest's idea that something is not for them, paraphrasing it slightly. Therefore, the 'no paraphrase' prediction is incorrect.
+  [rogan 40] DeBERTa=1 human=0 | The host acknowledges the guest's request to change the Wikipedia page, so 'paraphrase' is correct.
+  [rogan 176] DeBERTa=1 human=0 | The host repeats the guest's words with a modification ('not just'), which rewords the guest's statement.
+  [rogan 828] DeBERTa=0 human=1 | The host agrees with the guest's vision but does not repeat or reword it. The response is a reaction, not a paraphrase.
+
+==== Obama / Conan ====
+  judged DeBERTa predictions: 39 | unparseable judge replies: 0
+ Label decision:
+  strict agreement with human label       : 30/39 (77%)
+  judge accepts DeBERTa's label (overall) : 35/39 (90%)
+  -- where DeBERTa MATCHES the human     : 28/30 (93%)  (should be high; low = judge stricter than humans)
+  -- where DeBERTa DIFFERS from the human: 7/9 (78%)  (these are the 'plausible disagreement' cases)
+       false positives accepted: 0/0 | false negatives accepted: 7/9 (78%)
+ F1 (positive class):  strict  P=1.00 R=0.53 F1=0.69   |   judge-lenient  P=1.00 R=0.83 F1=0.91
+ Highlights (pairs where DeBERTa said paraphrase):
+  judge accepts the highlighted words: 9/10 (90%)
+ CONTROL (deliberately wrong 'not a paraphrase' shown for clear paraphrases):
+  judge correctly REJECTS them: 4/4 (100%)  (should be close to 100%)
+ Examples where DeBERTa differs from me but the judge accepts it:
+  [obama 7] DeBERTa=0 human=1 | The host denies the guest's statement, but does not paraphrase it, so 'no paraphrase' is correct.
+  [obama 11] DeBERTa=0 human=1 | The host gives an impression of the place but does not reword or repeat the guest's statement about it being more shop than salon, so 'no paraphrase' is correct
+  [obama 30] DeBERTa=0 human=1 | The host expresses agreement, but does not repeat or reword any specific content from the guest.
+  [obama 37] DeBERTa=0 human=1 | The host does not repeat or reword the phrase 'Me and Conan'; he expresses a humorous reaction and gratitude instead, so 'no paraphrase' is right.
+  [obama 8] DeBERTa=0 human=1 | The host does not repeat or reword any specific content from the guest. They make a new comment about wanting soul food and ask a new question about a barbersho
+  [obama 17] DeBERTa=0 human=1 | The host adds humor and a new hypothetical but doesn't repeat or reword the guest's story, so 'no paraphrase' is correct.
+  [obama 24] DeBERTa=0 human=1 | The host reacts with humor and a related new question but does not repeat or reword any guest content about being long-winded or trying to make it work, so 'no
+
+==== Both datasets pooled ====
+  judged DeBERTa predictions: 79 | unparseable judge replies: 0
+ Label decision:
+  strict agreement with human label       : 61/79 (77%)
+  judge accepts DeBERTa's label (overall) : 69/79 (87%)
+  -- where DeBERTa MATCHES the human     : 58/61 (95%)  (should be high; low = judge stricter than humans)
+  -- where DeBERTa DIFFERS from the human: 11/18 (61%)  (these are the 'plausible disagreement' cases)
+       false positives accepted: 2/4 (50%) | false negatives accepted: 9/14 (64%)
+ F1 (positive class):  strict  P=0.87 R=0.65 F1=0.74   |   judge-lenient  P=0.93 R=0.85 F1=0.89
+ Highlights (pairs where DeBERTa said paraphrase):
+  judge accepts the highlighted words: 24/30 (80%)
+ CONTROL (deliberately wrong 'not a paraphrase' shown for clear paraphrases):
+  judge correctly REJECTS them: 10/10 (100%)  (should be close to 100%)
+ Examples where DeBERTa differs from me but the judge accepts it:
+  [obama 7] DeBERTa=0 human=1 | The host denies the guest's statement, but does not paraphrase it, so 'no paraphrase' is correct.
+  [obama 11] DeBERTa=0 human=1 | The host gives an impression of the place but does not reword or repeat the guest's statement about it being more shop than salon, so 'no paraphrase' is correct
+  [rogan 771] DeBERTa=0 human=1 | The host repeats the guest's idea that something is not for them, paraphrasing it slightly. Therefore, the 'no paraphrase' prediction is incorrect.
+  [obama 30] DeBERTa=0 human=1 | The host expresses agreement, but does not repeat or reword any specific content from the guest.
+  [rogan 40] DeBERTa=1 human=0 | The host acknowledges the guest's request to change the Wikipedia page, so 'paraphrase' is correct.
+  [rogan 176] DeBERTa=1 human=0 | The host repeats the guest's words with a modification ('not just'), which rewords the guest's statement.
+  [obama 37] DeBERTa=0 human=1 | The host does not repeat or reword the phrase 'Me and Conan'; he expresses a humorous reaction and gratitude instead, so 'no paraphrase' is right.
+  [rogan 828] DeBERTa=0 human=1 | The host agrees with the guest's vision but does not repeat or reword it. The response is a reaction, not a paraphrase.
