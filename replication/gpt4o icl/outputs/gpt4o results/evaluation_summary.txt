@@ -1,0 +1,43 @@
+
+GPT-4o In-Context Learning Evaluation
+====================================
+
+Original dataset: ContextDeP
+Evaluation split: Test (92 examples)
+Model: GPT-4o
+Prompting: 8-shot in-context learning
+Responses per prompt: 1
+
+CLASSIFICATION RESULTS
+----------------------
+Accuracy:          0.706522
+Macro Precision:   0.712475
+Macro Recall:      0.698861
+Macro F1:          0.698507
+
+Class 0 F1:        0.75
+Class 1 F1:        0.65
+
+HIGHLIGHTING RESULTS
+--------------------
+Guest Jaccard:     0.575744
+Host Jaccard:      0.809013
+
+Guest eligible comparisons: 19
+Host eligible comparisons: 25
+
+ERRORS
+------
+Classification parsing errors: 2
+Highlight extraction errors: 16
+
+NOTES
+-----
+The original paper evaluated GPT-4 using three
+responses per question and self-consistency.
+
+This replication used GPT-4o with one response
+per question.
+
+Results are therefore not directly comparable
+under identical experimental conditions.

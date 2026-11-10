@@ -1,0 +1,177 @@
+|██████████████████████████████████████████████████████████| 1.74G/1.74G [04:09<00:00, 6.97MB/s]
+tokenizer_config.json: 1.28kB [00:00, ?B/s]
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2026-10-06 04:05:13,221 : WARNING : Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+spm.model: 100%|██████████████████████████████████████████████████████████████████| 2.46M/2.46M [00:00<00:00, 51.3MB/s]
+tokenizer.json: 8.66MB [00:00, 33.0MB/s]
+added_tokens.json: 100%|████████████████████████████████████████████████████████████████████| 23.0/23.0 [00:00<?, ?B/s]
+special_tokens_map.json: 100%|████████████████████████████████████████████████████████████████| 286/286 [00:00<?, ?B/s]
+2026-10-06 04:05:18,446 : INFO : Model successfully loaded.
+        id  ...                                            speaker
+0   NPR-58  ...  [RACHEL MARTIN, HOST, MARA LIASSON, BYLINE, RA...
+1  NPR-217  ...  [ALEX CHADWICK, host, ALEX CHADWICK, host, RON...
+2  NPR-252  ...  [RACHEL MARTIN, HOST, RACHEL MARTIN, HOST, DAN...
+3  NPR-425  ...  [ELISE HU, HOST, ELISE HU, HOST, JOHN MCLAUGHL...
+4  NPR-441  ...  [RACHEL MARTIN, HOST, RACHEL MARTIN, HOST, BRU...
+
+[5 rows x 8 columns]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+CLASSIFICATION RESULTS:
+         Accuracy at 0.75.
+         MACRO F1 Score at 0.7492593909230951 with 0.7636452241715399 precision and 0.7567631703844329 recall.
+              precision    recall  f1-score   support
+
+           0       0.84      0.65      0.74        49
+           1       0.69      0.86      0.76        43
+
+    accuracy                           0.75        92
+   macro avg       0.76      0.76      0.75        92
+weighted avg       0.77      0.75      0.75        92
+
+         AVG human dist from 0.5 for correct predictions: 0.3407894038328821 support 69.
+         AVG human entropy for correct predictions: 0.45132503436073546 support 69.
+         AVG human dist from 0.5 for incorrect predictions: 0.27898550724637683 support 23.
+         AVG human entropy for incorrect predictions: 0.5938905903982984 support 23.
+         13.225352112676056 avg human guest hl length, 6.629032258064516 avg _model guest hl length.
+         9.5 avg human host hl length, 6.230769230769231 avg _model host hl length.
+         0.5524979087858247 avg MV jaccard for guest, calculated for 55 / 92 questions, where both human and models have mv highlights on the  utterance.
+         0.6417616525948371 avg MV jaccard for host, calculated for 59 / 92 questions, where both human and models have mv highlights on the  utterance.
+Question ID: NPR-41743-13, correct label: [3, 3]
+Prompt:
+ Guest: Oh, absolutely. And that's another thing in St. Louis's favor. You know, you often see unexpected heroics from little known players. You often see sudden swings, literally, of fortune. I think most immediately of that incredible Game 7 between the Mets and the Cardinals on Thursday night, when Mets left-fielder Endy Chavez made that amazing grab and robbed Scott Rolen of a homerun, one of the greatest plays in post-season baseball ever. And all of Shea Stadium was just out of its mind and people were so thrilled, and it looked as if that was it. Mets are going to win. They're going to get to the World Series.
+Of course, a couple of innings later, St. Louis hits the game-winning homerun and there's this violent momentum swing. And there you have it. The entire Shea Stadium was then silenced.
+Host: Brokenhearted. Well, it's been such a colorful week for baseball. Do you think that this series is going get a lot of national attention?
+Human Highlights Guest: The entire Shea Stadium was then silenced.
+Model Highlights Guest:
+Human Highlights Host: Brokenhearted.
+Model Highlights Host:
+Question ID: CNN-276969-5, correct label: [1, 5]
+Prompt:
+ Guest: I think that it says something about where Trey Gowdy stands. You know, that's up to him. I just think we have to produce a credible report. There will come a time when I will make an endorsement, Wolf, but, you know, I just want to get through a few more interviews. They've now spent $6 million on this Benghazi investigation. They keep coming up with more and more interviews. At some point, with our election right here in Maryland coming up at the end of April, I've got to make an endorsement. So I will -- it may come as soon as next week.
+Host: On Benghazi, Trey Gowdy now says your committee has interviewed 75 witnesses. Most recently, Susan Rice, the president's national security advisor; Ben Rhodes, the deputy national security adviser. Without going into details, because I know these are all private interviews, except Hillary Clinton, when she testified in a public session, are you learning new information that's going to be useful to the American public?
+Human Highlights Guest: They've now spent $6 million on this Benghazi investigation. They keep coming up with more and more interviews.
+Model Highlights Guest: Benghazi
+Human Highlights Host: On Benghazi, Trey Gowdy now says your committee has interviewed 75 witnesses.
+Model Highlights Host: your committee has interviewed 75 witnesses.
+Question ID: CNN-87376-7, correct label: [7, 15]
+Prompt:
+ Guest: That's -- that's a great question. "Stick it" is a fantastic one, which normally, you know...
+Host: Yes. Shove it or whatever.
+Human Highlights Guest: "Stick it" is a fantastic one,
+Model Highlights Guest: "Stick it"
+Human Highlights Host: Shove it or whatever.
+Model Highlights Host: Shove it or whatever.
+Question ID: CNN-214354-5, correct label: [5, 15]
+Prompt:
+ Guest: It could be. But I think the police here want to make sure that they are absolutely certain that they have sufficient evidence to go forward. Because if you have family members who do not want to participate in a prosecution, who don't want to testify, who say, look, "I don't want to press charge, it's a personal issue," then although they can do it, it makes it a lot more difficult.
+Host: So is this unusual that police are taking this amount of time on this particular case?
+Human Highlights Guest: police want to make sure that they are absolutely certain that they have sufficient evidence
+Model Highlights Guest: police here want to make sure that
+Human Highlights Host: unusual that police are taking this amount of time
+Model Highlights Host: police are taking this amount of time on this particular case?
+Question ID: NPR-15848-3, correct label: [7, 15]
+Prompt:
+ Guest: In Harrison County.
+Host: In Harrison County.  Are you still finding survivors?  Are the      rescue people still finding survivors?
+Human Highlights Guest: In Harrison County.
+Model Highlights Guest: In Harrison County.
+Human Highlights Host: In Harrison County.
+Model Highlights Host: In Harrison County.
+Question ID: NPR-636-7, correct label: [3, 3]
+Prompt:
+ Guest: Well, that was a mystery, and certainly was counterintuitive to me. And the answer isn't entirely clear, but it's pretty likely.  It was discovered in a Norwegian study of about 3,000 women who were aged 50 to 70. And they looked which ones took cod liver oil in childhood, and which ones didn't.  What they found, to their surprise, is that the ones who didn't take additional cod liver oil had more calcium in their bones.  They were less of at risk for osteoporosis later in life.  Now, cod liver oil has reasonable amounts of vitamin D, but it probably has too much vitamin A for most people. And it turns out that if you're up at the high levels of vitamin A, at the sort of almost toxic levels of vitamin A, it decreases instead of increases the incorporation of calcium into bones.
+Host: So, it was actually the vitamin A that was the culprit?
+Human Highlights Guest: high levels of vitamin A, almost toxic levels of vitamin A, decreases instead of increases the incorporation of calcium into bones.
+Model Highlights Guest:
+Human Highlights Host: vitamin A that was the culprit?
+Model Highlights Host:
+Question ID: CNN-395861-6, correct label: [1, 5]
+Prompt:
+ Guest: Julia, I am going to knock you off a little bit about the word stimulus. Because normally when you're talking about a recession, you'd say, well, what we want to do is bring production into the quarter, that's going to be the down quarter. But we don't want to do that here. You don't want to force people back onto airplanes. You don't want to force people back into the bars and restaurants. The whole idea is to throttle back U.S. production. So we want to throttle back U.S. production, but keep people whole during this process so that we can come on to the other side with the economy intact and then we'll be fine. We will turn on the factory and we'll go back to work. But we don't really want to bring production into the second quarter as you normally would when we talk about stimulus. So I think the better word here is insurance or income maintenance during this shutdown period, this very special shutdown period. That's how you want to think about this.
+Host: Investment in survival. That's what we're doing at this stage. You know, if I take a quarter at the output of this economy, we're talking $4 trillion or $5 trillion. It's a $22 trillion economy. Sir, is $2 trillion of investment in survival enough? Or do they need to do more? Does Congress need to agree more here?
+Human Highlights Guest: insurance or income maintenance during this shutdown period,
+Model Highlights Guest: income maintenance
+Human Highlights Host: Investment in survival.
+Model Highlights Host: Investment in survival. of investment survival
+Question ID: CNN-341938-3, correct label: [1, 5]
+Prompt:
+ Guest: Yes, but I think what's changed now is you've went ahead and really upset the allies. You had all four of the five country heads come out over the weekend and state what are -- literally, what are you talking about that there's national security issues with Canada and us? And I think there is no answer, even from France when they called to Trump. There is no answer to them. All it is them kind of buying some time because we know like you said, consumers at the end of the day will be hit hard. And I think we have known this tactic for a while, but because we've been talking about for months and months, the American people and the consumers know that overall this is not a good thing for their pocket at the end of the day if this goes forward.
+Host: It seems like they are not interested, though. There's a total lack of interest now because it has been going on for so long, they've been on and off, and no one is taking it seriously.
+Human Highlights Guest: we've been talking about for months and months,
+Model Highlights Guest: for months
+Human Highlights Host: because it has been going on for so long, they've been on and off,
+Model Highlights Host: been
+Question ID: CNN-10486-11, correct label: [5, 15]
+Prompt:
+ Guest: Well, definitely, the facts are leading in one direction, but I'm not prepared at this point in time to say I have made up my mind, no sir.
+Host: Can you say which direction that is?
+Human Highlights Guest: are leading in one direction,
+Model Highlights Guest: are leading in one direction,
+Human Highlights Host: which direction that is?
+Model Highlights Host: you say which direction that is?
+Question ID: NPR-2622-10, correct label: [1, 5]
+Prompt:
+ Guest: The statement - not in front of me, but you know I know it - As a patriotic American proud to serve the country in uniform, I respectfully asked my member of Congress to withdraw all troops and bases out of Iraq. What's currently taking place in Iraq is not working. It's time for American troops to come home.
+Host: That's pretty close to what we have on paper. I mean, at least in spirit it's identical. But let me just break down a couple of things with you. Patriotic American, what does that mean to you?
+Human Highlights Guest: As a patriotic American proud to serve the country in uniform, respectfully asked my member of Congress to withdraw all troops and bases out of Iraq.
+Model Highlights Guest: a patriotic American proud to serve the
+Human Highlights Host: That's pretty close to what we have on paper. Patriotic American, what does that mean to you?
+Model Highlights Host: Patriotic American,
+Question ID: NPR-20855-6, correct label: [4, 5]
+Prompt:
+ Guest: Basically, federal law says that U.S. boats should be crewed by U.S. fishermen. And it has been carved out that non-citizens can be used only to catch, quote, unquote, "highly migratory species" and only outside the exclusive economic zone. And this ends up being Hawaiian vessels that are catching swordfish and tuna.
+Host: Basically through this loophole that says if you do this very specific thing in this very specific place with this very specific type of fish, then you don't have to comply with law.
+Human Highlights Guest: federal law says that U.S. boats it has been carved out that non-citizens can be used only to catch, quote, unquote, "highly migratory species" and only outside the exclusive economic zone.
+Model Highlights Guest:
+Human Highlights Host: this loophole that says if you do this very specific thing in this very specific place with this very specific type of fish, then you don't have to comply with law.
+Model Highlights Host: loophole you do very in very place with very specific type of fish, you don't comply with
+Question ID: NPR-22848-7, correct label: [5, 20]
+Prompt:
+ Guest: Extremely poorly. I mean, they should be on the show "Scandal" right now for the way they've handled this - these crises. Clearly, they've come up with a way now going forward to try and deal with personal conduct matters. They've got to come up with some sort of evenhanded policy and not the situation they've had this year, which is seemingly - send a trial balloon into the air and see how the public reacts and then decide to mete out punishment that way.
+You know, the only good thing that has come out of this, certainly on the domestic violence front, is that once again sports has provided a light on a very serious societal issue unlike any other corner of what we do. And because of that, there's been a great national conversation about how to deal with this problem, no matter if it's in athletics or just in your community, and that's probably a positive thing.
+Host: You know, it's interesting you bring that up because there was one other story in the NFL that kind of led to a national conversation in a way, and that was the story of one young NFL draft pick Michael Sam, who came out as gay...
+Human Highlights Guest: a great national conversation
+Model Highlights Guest: there's been a great national conversation
+Human Highlights Host: one that led to a national conversation in a way,
+Model Highlights Host: to a national conversation
+Question ID: NPR-32322-11, correct label: [3, 3]
+Prompt:
+ Guest: Yeah, and people all over Michigan and all over the United States made that pact, and that work was hard. Around Michigan also we have paper companies and those people in those factories worked hard and they knew they were doing it for their families, and they were willing to do - they were willing to do it, hard and maybe a little degrading even, but they were willing to do it. And when those people had given up so much in order to accept a lifestyle that could feed their families, I think then it made even harder when they were left behind.
+Host: Which is why you call the book "American Salvage." These are people who have been scrapped in some way.
+Human Highlights Guest: those people had given up so much it made even harder when they were left behind.
+Model Highlights Guest:
+Human Highlights Host: people who have been scrapped in some way.
+Model Highlights Host: These are people who have been scrapped some
+Question ID: NPR-18917-8, correct label: [7, 15]
+Prompt:
+ Guest: Russia has been an ally of the Assad family for decades. It has treated Syria as its principal foothold in the region. And for Putin, the military intervention in Syria over the past year and a half has been maybe his - the biggest foreign policy success outside of the annexation of Crimea. It has been an assertion of Russian power unlike anything that we've seen in decades.
+Host: Russia has a view of its long game in Syria. I assume the United States has a view of what its long game in Syria is. Do our interests really conflict in that country? Is there something geo-strategically vital about it?
+Human Highlights Guest: Russia has been an ally of the Assad family for decades.
+Model Highlights Guest: Russia has an ally the Assad Syria principal foothold
+Human Highlights Host: Russia has a view of its long game in Syria.
+Model Highlights Host: Russia has a view of its long game in Syria.
+Question ID: CNN-62525-9, correct label: [0, 3]
+Prompt:
+ Guest: You know, there really are. I like the emotional races, and by that I mean there is so much at stake in Texas. The Senate race there, which looks to be fairly close. That, of course, is George Bush's home state. You know the Democrats would absolutely love for Ron Kirk to win, and Ron Kirk, former mayor of Houston, dynamic candidate. John Cornyn is a friend of George Bush's. Cornyn's been ahead in the polls, but you know what? Turnout, turnout, turnout -- so we will see. Other races -- I love South Dakota. Why do I love that? Well, gee, it's Tom Daschle's home state. He has a candidate, Tim Johnson, that he's backing, and the president has John Thune, who he really hand-picked and said, run against Tim Johnson, who is the sitting senator. A toss-up race. A great race.
+Host: Great proxy race, isn't it?
+Human Highlights Guest:
+Model Highlights Guest: great race.
+Human Highlights Host:
+Model Highlights Host: Great proxy race, it?
+Question ID: NPR-21694-3, correct label: [0, 3]
+Prompt:
+ Guest: So the U.N. did a commission of inquiry into crimes happening in Syria, and they determined that the government forces deliberately target medical personnel to gain a military advantage. Specifically, denying treatment to wounded fighters and civilians. And they determined that this was a matter of policy. Essentially, by making it impossible for people to seek treatment when they were injured - even civilians and children and women who had nothing to do with the anti-government uprising but happened to live in areas that were under the control of opposition groups - they were being collectively punished. And, you know, it was a strategy to make life completely unbearable.
+Host: A way to win the war.
+Human Highlights Guest:
+Model Highlights Guest: strategy
+Human Highlights Host:
+Model Highlights Host: A way to win the war.
+Question ID: CNN-395083-3, correct label: [7, 15]
+Prompt:
+ Guest: Right. Right now, and this is -- that's a very good question. Even in the neighborhood where I work, where I live here in Washington D.C., there are people that have underlying medical conditions. There are people that are in that age range where we know they're high risk, why are they going -- why are they going to the supermarket to buy their own groceries? Get the community, the neighborhood to go and help them. Talk to people, my mom and dad, I'm talking to them on FaceTime. Use the technology we have. But don't make them feel isolated. The problem with social distancing is there is a negative there where people feel isolated. But we have means of ensuring that we -- and, you know, actually help them, protect them, and really -- decrease that anxiety.
+Host: Somewhat related question, if you're going to help somebody by helping them maybe get their groceries, how long does the coronavirus live on surfaces? Should people be disinfecting the packaging of groceries for example?
+Human Highlights Guest: Get the community, the neighborhood to go and help them.
+Model Highlights Guest: supermarket buy their own groceries? to go and help them.
+Human Highlights Host: going to help somebody by helping them maybe get their groceries,
+Model Highlights Host: you're going to help somebody by helping them maybe get their groceries,
+0.20652173913043478 = 19 / 92 inconsistent classifications, i.e., highligth in one but not the other sentence

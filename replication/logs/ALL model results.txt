@@ -1,0 +1,169 @@
+2026-10-06 03:41:51,990 : INFO : Model successfully loaded.
+        id  ...                                            speaker
+0   NPR-58  ...  [RACHEL MARTIN, HOST, MARA LIASSON, BYLINE, RA...
+1  NPR-217  ...  [ALEX CHADWICK, host, ALEX CHADWICK, host, RON...
+2  NPR-252  ...  [RACHEL MARTIN, HOST, RACHEL MARTIN, HOST, DAN...
+3  NPR-425  ...  [ELISE HU, HOST, ELISE HU, HOST, JOHN MCLAUGHL...
+4  NPR-441  ...  [RACHEL MARTIN, HOST, RACHEL MARTIN, HOST, BRU...
+
+[5 rows x 8 columns]
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+CLASSIFICATION RESULTS:
+         Accuracy at 0.7717391304347826.
+         MACRO F1 Score at 0.7636697247706422 with 0.7885416666666667 precision and 0.7629330802088277 recall.
+              precision    recall  f1-score   support
+
+           0       0.73      0.90      0.81        49
+           1       0.84      0.63      0.72        43
+
+    accuracy                           0.77        92
+   macro avg       0.79      0.76      0.76        92
+weighted avg       0.78      0.77      0.77        92
+
+         AVG human dist from 0.5 for correct predictions: 0.34879533611927976 support 71.
+         AVG human entropy for correct predictions: 0.45797335134398925 support 71.
+         AVG human dist from 0.5 for incorrect predictions: 0.24603174603174602 support 21.
+         AVG human entropy for incorrect predictions: 0.5849906192680177 support 21.
+         13.225352112676056 avg human guest hl length, 6.242424242424242 avg _model guest hl length.
+         9.5 avg human host hl length, 6.314285714285714 avg _model host hl length.
+         0.48691589639942334 avg MV jaccard for guest, calculated for 33 / 92 questions, where both human and models have mv highlights on the  utterance.
+         0.674284704287283 avg MV jaccard for host, calculated for 34 / 92 questions, where both human and models have mv highlights on the  utterance.
+Question ID: CNN-22088-3, correct label: [8, 15]
+Prompt:
+ Guest: Well, we are coming back, Daryn, to a normal winter. We haven't seen a normal winter for the past three years because of the El Nino and the La Nina. But now, those conditions have disappeared, and we are going back to what we have seen more normally in the past 10 or 20 years.
+Host: Is there a name for this, or this is just called winter?
+Human Highlights Guest:
+Model Highlights Guest:
+Human Highlights Host: or this is just called winter?
+Model Highlights Host:
+Question ID: NPR-15848-3, correct label: [7, 15]
+Prompt:
+ Guest: In Harrison County.
+Host: In Harrison County.  Are you still finding survivors?  Are the      rescue people still finding survivors?
+Human Highlights Guest: In Harrison County.
+Model Highlights Guest: In Harrison County.
+Human Highlights Host: In Harrison County.
+Model Highlights Host: In Harrison County.
+Question ID: CNN-11451-13, correct label: [8, 15]
+Prompt:
+ Guest: And obviously you need their natural ability, as well.
+Host: Absolutely. A lot of talent there. David Sparrow, I imagine you'd rather be watching the match right now, so we'll let you go.
+Human Highlights Guest: their natural ability,
+Model Highlights Guest:
+Human Highlights Host: lot of talent there.
+Model Highlights Host:
+Question ID: CNN-192500-5, correct label: [3, 3]
+Prompt:
+ Guest: What they're ruling on, it's very interesting, what they're ruling on is there's going to be a big bailout fund for the entire European Union, for the eurozone, the countries that use the euro. It's the called the ESM, the European Stability Mechanism. Now the important part of why Germany is important is all that is that Germany is the largest paymaster in this ESM. And if the German constitutional court votes that this ESM is not constitutional, according to Germany's fundamental law, the constitution then this thing can indeed not go forward and that could mean highly detrimental effects to the euro. It could even mean the breakup of the eurozone. It could mean that some European countries like for instance Spain could get into a lot of trouble. So a lot of this hinges on Germany. A lot of this hinges on the decision that this constitutional court will make tomorrow -- Martin.
+Host: So let me see if I get this right. There were all of these governments that were working on the bailout plan say for Greece and for other nations. Then we had the European Central Bank that also stepping has been stepping in here. But now I find out it's actually the German Supreme Court that will have the final say on whether all of that really works?
+Human Highlights Guest: a big bailout fund for the entire European Union, if the German constitutional court votes that this ESM is not constitutional, according to Germany's fundamental law, the constitution then this thing can indeed not go forward
+Model Highlights Guest:
+Human Highlights Host: the bailout plan the German Supreme Court that will have the final say on whether all of that really works?
+Model Highlights Host:
+Question ID: NPR-32322-11, correct label: [3, 3]
+Prompt:
+ Guest: Yeah, and people all over Michigan and all over the United States made that pact, and that work was hard. Around Michigan also we have paper companies and those people in those factories worked hard and they knew they were doing it for their families, and they were willing to do - they were willing to do it, hard and maybe a little degrading even, but they were willing to do it. And when those people had given up so much in order to accept a lifestyle that could feed their families, I think then it made even harder when they were left behind.
+Host: Which is why you call the book "American Salvage." These are people who have been scrapped in some way.
+Human Highlights Guest: those people had given up so much it made even harder when they were left behind.
+Model Highlights Guest:
+Human Highlights Host: people who have been scrapped in some way.
+Model Highlights Host:
+Question ID: NPR-20855-6, correct label: [4, 5]
+Prompt:
+ Guest: Basically, federal law says that U.S. boats should be crewed by U.S. fishermen. And it has been carved out that non-citizens can be used only to catch, quote, unquote, "highly migratory species" and only outside the exclusive economic zone. And this ends up being Hawaiian vessels that are catching swordfish and tuna.
+Host: Basically through this loophole that says if you do this very specific thing in this very specific place with this very specific type of fish, then you don't have to comply with law.
+Human Highlights Guest: federal law says that U.S. boats it has been carved out that non-citizens can be used only to catch, quote, unquote, "highly migratory species" and only outside the exclusive economic zone.
+Model Highlights Guest:
+Human Highlights Host: this loophole that says if you do this very specific thing in this very specific place with this very specific type of fish, then you don't have to comply with law.
+Model Highlights Host: comply
+Question ID: CNN-339958-3, correct label: [3, 3]
+Prompt:
+ Guest: That's right Michael. Again, you alluded to this before. It's also worth remembering what they are getting is for decades to come. Some of these things that Trump has done if you don't like them, hopefully Democrats will take back the White House, take back the Congress. They'll be able to undo this. But the judges, they are there forever. He is appointing very young judges on average they're eight years younger than the people President Obama put on the appellate courts. That means some of the judges Donald Trump is naming today will be sitting on the bench in 2030, 2040, 2050 deciding cases, adjudicating our rights for decades to come. That's what makes this a powerful long-term issue.
+Host: In other words, when they are making these selections, not only do they need to be vetted ideologically, but if you're 50- plus, you're probably too old for the Trump Administration to be seriously considered for a district court judgeship.
+Human Highlights Guest: He is appointing very young judges on average they're eight years younger than the people President Obama put on the appellate courts.
+Model Highlights Guest:
+Human Highlights Host: if you're 50- plus, you're probably too old for the Trump Administration to be seriously considered for a district court judgeship.
+Model Highlights Host:
+Question ID: CNN-226205-5, correct label: [3, 3]
+Prompt:
+ Guest: Well, for example with Saddam Hussein, the former Iraqi dictator, people measured whether he scratched his left eyelid with his left hand when he was saying certain things. You know, you match people's movements with what they are saying. You get an idea that some analysts say is just like a person's DNA. It is unique to them. When they say certain things, you can tell, hey he is lying or he's telling the truth.
+Host: So that's what they are looking for in a way -- it's kind of the tells -- right? They're are studying a person overall, trying to see if there is a pattern that maybe gives something away, shows they're being dishonest, maybe not quite honest, something might be true. Is it really -- I mean is it as simple as that.
+Human Highlights Guest: you can tell, hey he is lying or he's telling the truth.
+Model Highlights Guest:
+Human Highlights Host: they are looking for kind of the tells
+Model Highlights Host:
+Question ID: NPR-733-15, correct label: [10, 20]
+Prompt:
+ Guest: Generationally speaking, that is - that was the whole basis of this movement. This is the youth of America speaking out. My collaborators have worked hand-and-hand with me with the understanding that this is the youth's voice and this is the social consciousness of us. And - I mean, we built upon that.
+Host: Morehouse is known as a place where young men flourish and have a social consciousness. There's also an idea or a stereotype that most people your age are apathetic. How do you reconcile those two views of your life specifically and also your generation?
+Human Highlights Guest: this is the youth's voice and this is the social consciousness of us.
+Model Highlights Guest:
+Human Highlights Host: young men flourish and have a social consciousness.
+Model Highlights Host:
+Question ID: CNN-395083-3, correct label: [7, 15]
+Prompt:
+ Guest: Right. Right now, and this is -- that's a very good question. Even in the neighborhood where I work, where I live here in Washington D.C., there are people that have underlying medical conditions. There are people that are in that age range where we know they're high risk, why are they going -- why are they going to the supermarket to buy their own groceries? Get the community, the neighborhood to go and help them. Talk to people, my mom and dad, I'm talking to them on FaceTime. Use the technology we have. But don't make them feel isolated. The problem with social distancing is there is a negative there where people feel isolated. But we have means of ensuring that we -- and, you know, actually help them, protect them, and really -- decrease that anxiety.
+Host: Somewhat related question, if you're going to help somebody by helping them maybe get their groceries, how long does the coronavirus live on surfaces? Should people be disinfecting the packaging of groceries for example?
+Human Highlights Guest: Get the community, the neighborhood to go and help them.
+Model Highlights Guest: buy own groceries?
+Human Highlights Host: going to help somebody by helping them maybe get their groceries,
+Model Highlights Host: helping them maybe get their groceries,
+Question ID: NPR-42649-11, correct label: [8, 15]
+Prompt:
+ Guest: That is the question. And police do not have a definitive answer. They are pursuing a line of investigation, however, that does have the Americans gathering these people into one room and executing them. They do believe -- that is their path of investigation right now.
+Host: I gather there are often reports like this, of Iraqis saying that U.S. forces have committed atrocities. The difference here is that this report is actually coming from the Iraqi police themselves.
+Human Highlights Guest: Americans gathering these people into one room and executing them.
+Model Highlights Guest:
+Human Highlights Host: U.S. forces have committed atrocities.
+Model Highlights Host:
+Question ID: CNN-41861-3, correct label: [3, 3]
+Prompt:
+ Guest: Well, it's an awesome weapon system. The aircraft has really grown through the years. We have a favorite saying in the B-52 community, much like you saw -- it's no longer your father's Oldsmobile, if you will.
+Host: It's been updated.
+Human Highlights Guest: it's no longer your father's Oldsmobile,
+Model Highlights Guest:
+Human Highlights Host: It's been updated.
+Model Highlights Host:
+Question ID: CNN-350238-7, correct label: [10, 20]
+Prompt:
+ Guest: I want to applaud the work of the Texas Rangers and the sheriff's office and DPS in bringing this man into custody.
+Host: Do you think -- last quick question -- no, it's been extraordinary work for you guys in Texas. Had this most recent woman not escaped, what are her chances that she could have been next?
+Human Highlights Guest: applaud the work of the Texas Rangers and the sheriff's office and DPS
+Model Highlights Guest:
+Human Highlights Host: it's been extraordinary work for you guys in Texas.
+Model Highlights Host:
+Question ID: NPR-41743-13, correct label: [3, 3]
+Prompt:
+ Guest: Oh, absolutely. And that's another thing in St. Louis's favor. You know, you often see unexpected heroics from little known players. You often see sudden swings, literally, of fortune. I think most immediately of that incredible Game 7 between the Mets and the Cardinals on Thursday night, when Mets left-fielder Endy Chavez made that amazing grab and robbed Scott Rolen of a homerun, one of the greatest plays in post-season baseball ever. And all of Shea Stadium was just out of its mind and people were so thrilled, and it looked as if that was it. Mets are going to win. They're going to get to the World Series.
+Of course, a couple of innings later, St. Louis hits the game-winning homerun and there's this violent momentum swing. And there you have it. The entire Shea Stadium was then silenced.
+Host: Brokenhearted. Well, it's been such a colorful week for baseball. Do you think that this series is going get a lot of national attention?
+Human Highlights Guest: The entire Shea Stadium was then silenced.
+Model Highlights Guest:
+Human Highlights Host: Brokenhearted.
+Model Highlights Host:
+Question ID: NPR-23629-3, correct label: [3, 3]
+Prompt:
+ Guest: I think it is. ISIS wants to be a country. It is in the midst of a transition to establishing what it calls a caliphate. And I think since they are acting like a state and have launched an attack on France, it's entirely plausible for France to call it an act of war.
+Host: So just so that I'm clear, your view now is this threat needs to be challenged army to army, as states opposing a state, which has committed an act of war against an ally, as opposed to as a law enforcement approach, which identifies illegal behavior by individual actors acting under their own authority. Is that about right?
+Human Highlights Guest: France to call it an act of war.
+Model Highlights Guest:
+Human Highlights Host: committed an act of war
+Model Highlights Host:
+Question ID: NPR-19127-3, correct label: [9, 15]
+Prompt:
+ Guest: Well, they haven't gone that far yet, Renee. They say they're checking their legal options, apparently to find out whether they have the authority to ban an entire team. And that'll defend, in part, on the International Court of Arbitration for Sport. That court is considering an appeal by more than 60 Russian track-and-field athletes who've already been banned, and it's expected to make a decision on Thursday.
+Those athletes say they haven't used performance-enhancing drugs, so they should be allowed to compete. And the IOC recognized that. In the statement, it said it'll consider this as a case of putting a collective ban on all Russian athletes versus the right to individual justice.
+Host: Well, the head of the IOC says, if the allegations are confirmed that Russia really did operate at a state-sponsored doping program for its athletes, the IOC will take the strictest possible measures against Russia. So, I mean, you know, what would be the next step here?
+Human Highlights Guest: putting a collective ban on all Russian athletes
+Model Highlights Guest:
+Human Highlights Host: IOC will take the strictest possible measures against Russia.
+Model Highlights Host:
+Question ID: CNN-134633-5, correct label: [1, 5]
+Prompt:
+ Guest: Well, the prosecutor believes that -- that all three suspects participated in a game where, I guess, they were all in the house together, and they tried to initiate Meredith into the sex game. She resisted, and so they killed her (ph).
+Host: What kind of sex game?
+Human Highlights Guest: they tried to initiate Meredith into the sex game.
+Model Highlights Guest: the sex game.
+Human Highlights Host: kind of sex game?
+Model Highlights Host: kind of sex game?
+0.043478260869565216 = 4 / 92 inconsistent classifications, i.e., highligth in one but not the other sentence
